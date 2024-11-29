@@ -89,7 +89,7 @@ nodes:
         repo: apps-maria-2
     width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 489.7144801895578
       'y': 295.506091604639
@@ -149,78 +149,82 @@ nodes:
     positionAbsolute:
       x: 316.7219574667562
       'y': -92.17835812272921
-  - id: tvtQHO2Y3n31cHAAH4xWR
+  - id: PQS-U-crJs3QKheqHa7xs
     type: llm
     position:
-      x: 955.8754987547886
-      'y': 496.43682282279275
+      x: 446.5311370642844
+      'y': 827.0499039751767
     data:
-      id: tvtQHO2Y3n31cHAAH4xWR
+      id: PQS-U-crJs3QKheqHa7xs
       title: New Model
       input: ''
-      slashgptManifest: ie_item_generator.model
+      slashgptManifest: bullets_to_prose.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       flowState: &ref_2
         backend: git
-        repo: apps-maria-2
+        repo: apps-maria-2-eli
         content:
-          name: Section_1
-          path: Experts/Section_1
-          sha: 274f0319c11df96c3fc3529d9c7385a9f83d0c5d
-          size: 5315
+          name: Section_1_testdocx
+          path: Experts/Section_1_testdocx
+          sha: b285c934a3a0aa5e44fc048457278f973ff23994
+          size: 7066
           url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
-          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testdocx?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testdocx
           git_url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/274f0319c11df96c3fc3529d9c7385a9f83d0c5d
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
           download_url: >-
-            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_testdocx
           type: file
           _links:
             self: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testdocx?ref=main
             git: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/274f0319c11df96c3fc3529d9c7385a9f83d0c5d
-            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
+            html: >-
+              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testdocx
     width: 212
     height: 490
     selected: false
     positionAbsolute:
-      x: 955.8754987547886
-      'y': 496.43682282279275
+      x: 446.5311370642844
+      'y': 827.0499039751767
     dragging: false
-  - id: ETIOgBs7QcmdmE9o4Buuy
-    type: file
+  - id: 2Fjl8ZJFScQ4nIlXIjmZc
+    type: python_code
     position:
-      x: 1115.3315877791772
-      'y': 214.73021846168433
+      x: 757.8849472354422
+      'y': 1155.8776524722666
     data:
-      id: ETIOgBs7QcmdmE9o4Buuy
-      title: Data
-      fileName: ie_item_template.txt
+      id: 2Fjl8ZJFScQ4nIlXIjmZc
+      title: New Code
+      module: maria_docx.py
+      outputType: overwrite
+      outputToCanvas: false
       flowState: *ref_2
     width: 212
-    height: 226
-    selected: false
+    height: 348
+    selected: true
     positionAbsolute:
-      x: 1115.3315877791772
-      'y': 214.73021846168433
+      x: 757.8849472354422
+      'y': 1155.8776524722666
     dragging: false
 edges:
-  - source: ETIOgBs7QcmdmE9o4Buuy
-    sourceHandle: b
-    target: tvtQHO2Y3n31cHAAH4xWR
-    targetHandle: t
-    id: B38JWp
-  - source: 6HRLbEep5aYPmBacd7A6H
+  - source: PQS-U-crJs3QKheqHa7xs
     sourceHandle: r
-    target: tvtQHO2Y3n31cHAAH4xWR
-    targetHandle: l
-    id: iwz8zF
+    target: 2Fjl8ZJFScQ4nIlXIjmZc
+    targetHandle: t
+    id: aHFz8H
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: PQS-U-crJs3QKheqHa7xs
+    targetHandle: t
+    id: kQMjuD
   - source: ZLZEYryKwTxJu3gDO3JVD
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H
