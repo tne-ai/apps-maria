@@ -68,6 +68,9 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     # Insert chart image into the document
     doc.add_picture(chart_stream, width=Inches(5.5))
     chart_stream.close()
+
+    doc.save(output_file)
+
     '''
     # Save the document
     # Save the document to a memory buffer
@@ -76,7 +79,7 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     doc_buffer.seek(0)  # Reset the buffer pointer to the beginning
 
     # Upload the document from the memory buffer
-    session.upload_object(upload_path, doc_buffer.getvalue())
+    session.upload_object(output_file, doc_buffer.getvalue())
     return upload_path
 
 # Example input
