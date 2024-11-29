@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from docx import Document
 from docx.shared import Inches
+from tne.TNE import TNE
+
+# Initialize the TNE object
+session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
+
+# Load CSV content from the input
+raw_text = PROCESS_INPUT
 
 def convert_to_docx(raw_text, table_data, chart_data, output_file):
     # Create a Word document
@@ -13,6 +20,7 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     doc.add_paragraph(raw_text)
 
     # Parse and add table data
+    '''
     doc.add_heading('Table Data', level=2)
     lines = table_data.strip().split("\n")
     headers = lines[0].split("|")[1:-1]  # Extract headers
@@ -60,13 +68,19 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     # Insert chart image into the document
     doc.add_picture(chart_stream, width=Inches(5.5))
     chart_stream.close()
-
+    '''
     # Save the document
-    doc.save(output_file)
-    print(f"Document saved as {output_file}")
+    # Save the document to a memory buffer
+    doc_buffer = BytesIO()
+    doc.save(doc_buffer)
+    doc_buffer.seek(0)  # Reset the buffer pointer to the beginning
+
+    # Upload the document from the memory buffer
+    session.upload_object(upload_path, doc_buffer.getvalue())
+    return upload_path
 
 # Example input
-raw_text = "This report provides an overview of San Diego County's GRP from 2019 to 2023."
+# raw_text = "This report provides an overview of San Diego County's GRP from 2019 to 2023."
 table_data = """| Year | GRP (Billion $) | Per Capita GRP ($) |
 |------|----------------|--------------------|
 | 2019 | 244.28 | 73,347 |
@@ -100,4 +114,4 @@ chart_data = """{
 output_file = "SanDiego_GRP_Report.docx"
 
 # Generate the docx file
-convert_to_docx(raw_text, table_data, chart_data, output_file)
+result = convert_to_docx(raw_text, table_data, chart_data, output_file)
