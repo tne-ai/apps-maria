@@ -11,8 +11,8 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 190
-    height: 249
+    width: 212
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -28,8 +28,8 @@ nodes:
       title: Data
       fileName: sec1-2_San Diego County_per_capita_grp_data.csv
       flowState: *ref_0
-    width: 190
-    height: 273
+    width: 212
+    height: 274
     selected: false
     positionAbsolute:
       x: 717.3151196524861
@@ -45,8 +45,8 @@ nodes:
       title: Data
       fileName: sec1-3_San Diego_grp_data.csv
       flowState: *ref_0
-    width: 190
-    height: 249
+    width: 212
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -62,8 +62,8 @@ nodes:
       title: Data
       fileName: sec1-4_San Diego_per_capita_grp_data.csv
       flowState: *ref_0
-    width: 190
-    height: 273
+    width: 212
+    height: 274
     selected: false
     positionAbsolute:
       x: 1127.705227867265
@@ -82,13 +82,13 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 205
-    height: 465
+    width: 212
+    height: 466
     selected: true
     positionAbsolute:
       x: 489.7144801895578
@@ -125,8 +125,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 190
-    height: 249
+    width: 212
+    height: 250
     selected: false
     positionAbsolute:
       x: 106.16891329989005
@@ -142,8 +142,8 @@ nodes:
       title: Section 1 Prompt TXT
       fileName: Section 1 Gross Regional Product.txt
       flowState: *ref_1
-    width: 190
-    height: 273
+    width: 212
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -186,8 +186,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/274f0319c11df96c3fc3529d9c7385a9f83d0c5d
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 205
-    height: 489
+    width: 212
+    height: 490
     selected: false
     positionAbsolute:
       x: 955.8754987547886
@@ -203,8 +203,8 @@ nodes:
       title: Data
       fileName: ie_item_template.txt
       flowState: *ref_2
-    width: 190
-    height: 225
+    width: 212
+    height: 226
     selected: false
     positionAbsolute:
       x: 1115.3315877791772
