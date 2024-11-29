@@ -1,0 +1,76 @@
+nodes:
+  - id: LCH7WgX5ZoiDzU1KJNj6Z
+    type: proc
+    position:
+      x: 560.5
+      'y': 248.88254431100245
+    data:
+      id: LCH7WgX5ZoiDzU1KJNj6Z
+      title: New Expert
+      proc: ''
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: &ref_0
+        backend: git
+        repo: apps-maria-2-eli
+    width: 241
+    height: 346
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 560.5
+      'y': 248.88254431100245
+  - id: FU0o_euUr7drohsijkYd0
+    type: llm
+    position:
+      x: 659.466139575882
+      'y': 643.9654020253429
+    data:
+      id: FU0o_euUr7drohsijkYd0
+      title: New Model
+      input: ''
+      slashgptManifest: bullets_to_prose.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 212
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 659.466139575882
+      'y': 643.9654020253429
+    dragging: false
+  - id: xW9X49TFpRcoE1YuNvuT0
+    type: python_code
+    position:
+      x: 1038.354755809256
+      'y': 857.6120673816997
+    data:
+      id: xW9X49TFpRcoE1YuNvuT0
+      title: New Code
+      module: maria_docx.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_0
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 1038.354755809256
+      'y': 857.6120673816997
+    dragging: false
+edges:
+  - source: FU0o_euUr7drohsijkYd0
+    sourceHandle: r
+    target: xW9X49TFpRcoE1YuNvuT0
+    targetHandle: t
+    id: Yk87U4
+  - source: LCH7WgX5ZoiDzU1KJNj6Z
+    sourceHandle: b
+    target: FU0o_euUr7drohsijkYd0
+    targetHandle: t
+    id: l043Xu
+description: null
