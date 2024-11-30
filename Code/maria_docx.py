@@ -74,7 +74,7 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     
     # Upload the document from the memory buffer
     session.upload_object(output_file, doc)
-    return upload_path
+    return output_file
 
 # Example input
 # raw_text = "This report provides an overview of San Diego County's GRP from 2019 to 2023."
