@@ -70,16 +70,10 @@ def convert_to_docx(raw_text, table_data, chart_data, output_file):
     chart_stream.close()
 
     doc.save(output_file)
-
     '''
-    # Save the document
-    # Save the document to a memory buffer
-    doc_buffer = BytesIO()
-    doc.save(doc_buffer)
-    doc_buffer.seek(0)  # Reset the buffer pointer to the beginning
-
+    
     # Upload the document from the memory buffer
-    session.upload_object(output_file, doc_buffer.getvalue())
+    session.upload_object(output_file, doc)
     return upload_path
 
 # Example input
