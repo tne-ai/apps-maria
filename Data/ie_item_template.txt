@@ -5,5 +5,6 @@
  'subhead': '<A concise summary of the content the of response. 100-250 characters long. The subhead should summarize the body text and table data. It should not describe the request. >', 
  'details': '<A complete set of supporting data for the response, including specific references to the source data used(including column names, filters, etc.), and the definitions, algorithms and formulas used in any calculations performed to prepare the response. In this section, you should summarize any mathematical formulas implemented in the provided code.>', 
  'recommendations': '<One or more specific options for actions the user should consider to correct, optimize, or otherwise react to situations identified in this response>', 
- 'request_and_response_issues': '<Describe any ambiguities in the request, insufficiencies, uncertainties or inconsistencies in the data, or lack of algorithms or formulas that prevent the response from being reliable or call it into doubt.>'
+ 'request_and_response_issues': '<Describe any ambiguities in the request, insufficiencies, uncertainties or inconsistencies in the data, or lack of algorithms or formulas that prevent the response from being reliable or call it into doubt.>', 
+ 'document_link_text': <If a .docx filename has been passed as input, place it here>
 }
