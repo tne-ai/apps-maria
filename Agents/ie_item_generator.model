@@ -30,3 +30,4 @@ prompt: |-
   - The JSON dictionary with those elements should be your only response.
   - Work step by step.
   - Check your math.
+  - You may receive a filename as input, as well as the question. If so, use this to fill out the the 'wordFilePath' component of the JSON template.
