@@ -184,7 +184,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1069.1227112779425
       'y': 387.8386500004262
@@ -203,7 +203,7 @@ nodes:
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: false
+      useUserQuery: true
       flowState: &ref_3
         backend: git
         repo: apps-maria-2-eli
@@ -230,7 +230,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testword
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 2000.8724372539848
       'y': 345.37248000325724
