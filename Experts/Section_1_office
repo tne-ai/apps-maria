@@ -211,7 +211,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testword
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 2000.8724372539848
       'y': 345.37248000325724
@@ -338,8 +338,8 @@ nodes:
   - id: M6x8BbLAIpIBMa4lD5GeR
     type: python_code
     position:
-      x: 1243.1431343411132
-      'y': 672.8541202319316
+      x: 1241.1431343411132
+      'y': 670.8541202319316
     data:
       id: M6x8BbLAIpIBMa4lD5GeR
       title: New Code
@@ -372,10 +372,10 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 1243.1431343411132
-      'y': 672.8541202319316
+      x: 1241.1431343411132
+      'y': 670.8541202319316
     dragging: false
 edges:
   - source: uEt5fg5VnCU1CGzT5JME5
