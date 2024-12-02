@@ -74,7 +74,7 @@ def convert_to_docx(content, output_file):
                 chart_stream.close()
                 
             except json.JSONDecodeError as e:
-                raise ValueError(f"Invalid chart JSON: {e}")
+                continue
 
     # Save the document
     doc.save(output_file)
