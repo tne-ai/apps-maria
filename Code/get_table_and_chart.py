@@ -16,4 +16,4 @@ elif type(PROCESS_INPUT) is str:
 else:
     result = "<ERROR>" 
 '''
-result = type(PROCESS_INPUT)
+result = "hello"
