@@ -162,7 +162,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: &ref_2
         backend: git
@@ -188,7 +188,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 955.8754987547886
       'y': 496.43682282279275
@@ -263,7 +263,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 372
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1310.7902999137443
       'y': 586.7224126594429
