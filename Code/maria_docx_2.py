@@ -9,7 +9,7 @@ from tne.TNE import TNE
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 
 # Load CSV content from the input
-raw_text = PROCESS_INPUT
+# raw_text = PROCESS_INPUT
 
 def convert_to_docx(raw_text, table_data, chart_data, output_file):
     # Create a Word document
@@ -114,5 +114,5 @@ output_file = "SanDiego_GRP_Report.docx"
 # result = convert_to_docx(raw_text, table_data, chart_data, output_file)
 raw_text = ""
 for f in INPUT_FILES:
-    raw_text += str(f) + "\n \n \n"
+    raw_text += str(f) + "\n BREAK HERE \n \n"
 result = raw_text
