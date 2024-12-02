@@ -337,7 +337,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_3
     width: 212
@@ -401,12 +401,33 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1999.3242599533537
       'y': 1187.6182184225345
     dragging: false
+  - id: MPso3TZ9kaIzpR4YkfC_U
+    type: out
+    position:
+      x: 1587.3242599533537
+      'y': 1379.6182184225345
+    data:
+      id: MPso3TZ9kaIzpR4YkfC_U
+      title: Save File
+      outputName: formatted_docx.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 1587.3242599533537
+      'y': 1379.6182184225345
+    dragging: false
 edges:
+  - source: fgNSfwGog-y6fgdrDgysM
+    sourceHandle: b
+    target: MPso3TZ9kaIzpR4YkfC_U
+    targetHandle: t
+    id: IHxRpe
   - source: fgNSfwGog-y6fgdrDgysM
     sourceHandle: b
     target: fFhoZOyybpuZabghMUWAO
