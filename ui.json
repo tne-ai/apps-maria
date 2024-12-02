@@ -1,5 +1,5 @@
 {
-  "version": "maria2eli--81aec8de-20241202145134",
+  "version": "Maria2Eli--LATEST@main",
   "data": [
     {
       "id": "687eae7e-2ff1-49cf-aea3-c91af4af9fd9",
@@ -56,6 +56,13 @@
       "item_expert_name": "Section_8",
       "chat_expert_name": "Section_8_Chat",
       "title": "Section 8 - Industry Impact"
+    },
+    {
+      "id": "6e01218e-2c6d-4061-bf9a-6962054b8d63",
+      "data_source": "",
+      "item_expert_name": "Section_1_office",
+      "chat_expert_name": "Section_1_Chat",
+      "title": "DOC EXPORT"
     }
   ]
 }
