@@ -1,0 +1,21 @@
+title: docx_formatter
+model:
+  engine_name: openai-gpt
+  model_name: gpt-4o
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |-
+  # *Your assignment*
+  You will be passed in raw text and a json containing table and chart data. You must format this raw text with the chart and table data, inserting the chart and table into the relevant sections of the text. The chart and table data should immediately follow the sections of the text that discuss the contents of the chart and table.  
+
+  # *Output content and format*
+  You must respond to the request with only a JSON dictionary that has the exact form as defined in docx_formatter_template.txt. 
+  Do NOT output markdown headers within any JSON components. Also, ensure that the content of your output exactly reproduces the inputs. Do not change the raw text, the chart table, or the table data. Only format the output as specified, properly inserting the chart and table data into the raw text.
+
+  # *Things you must keep in mind*
+  - The JSON dictionary with those elements should be your only response.
+  - Work step by step.
+  - Check your math.
