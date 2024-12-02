@@ -2,6 +2,7 @@ import pandas as pd
 
 from tne.TNE import TNE
 from tabulate import tabulate
+import json
 '''
 if type(PROCESS_INPUT) is pd.DataFrame:
     if PROCESS_INPUT.empty:
