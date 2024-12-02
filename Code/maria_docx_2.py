@@ -8,9 +8,6 @@ from tne.TNE import TNE
 # Initialize the TNE object
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 
-# Load JSON content from the input
-content_json = json.loads(PROCESS_INPUT)
-
 def convert_to_docx(content, output_file):
     # Create a Word document
     doc = Document()
@@ -46,32 +43,38 @@ def convert_to_docx(content, output_file):
         elif content_type == "chart":
             # Generate and add chart
             doc.add_heading('Chart Data', level=2)
-            chart_info = content_data
+            
+            # Parse chart_data string into a dictionary
+            try:
+                chart_info = json.loads(content_data)
 
-            plt.figure(figsize=(6, 4))
-            for dataset in chart_info["data"]["datasets"]:
-                plt.plot(chart_info["data"]["labels"],
-                         dataset["data"],
-                         label=dataset["label"],
-                         color=dataset.get("borderColor", "#000"),
-                         marker="o")
-
-            plt.title(chart_info["options"]["title"]["text"])
-            plt.xlabel('Year')
-            plt.ylabel('Value')
-            plt.grid(True)
-            if chart_info["options"]["legend"]["display"]:
-                plt.legend()
-
-            # Save chart to a BytesIO buffer
-            chart_stream = BytesIO()
-            plt.savefig(chart_stream, format='png')
-            plt.close()
-            chart_stream.seek(0)
-
-            # Insert chart image into the document
-            doc.add_picture(chart_stream, width=Inches(5.5))
-            chart_stream.close()
+                plt.figure(figsize=(6, 4))
+                for dataset in chart_info["data"]["datasets"]:
+                    plt.plot(chart_info["data"]["labels"],
+                             dataset["data"],
+                             label=dataset["label"],
+                             color=dataset.get("borderColor", "#000"),
+                             marker="o")
+    
+                plt.title(chart_info["options"]["title"]["text"])
+                plt.xlabel('Year')
+                plt.ylabel('Value')
+                plt.grid(True)
+                if chart_info["options"]["legend"]["display"]:
+                    plt.legend()
+    
+                # Save chart to a BytesIO buffer
+                chart_stream = BytesIO()
+                plt.savefig(chart_stream, format='png')
+                plt.close()
+                chart_stream.seek(0)
+    
+                # Insert chart image into the document
+                doc.add_picture(chart_stream, width=Inches(5.5))
+                chart_stream.close()
+                
+            except json.JSONDecodeError as e:
+                raise ValueError(f"Invalid chart JSON: {e}")
 
     # Save the document
     doc.save(output_file)
@@ -80,9 +83,14 @@ def convert_to_docx(content, output_file):
     session.upload_object(output_file, doc)
     return output_file
 
-# Extract document filename and content
-output_file = content_json["document_filename"]
-content_sections = content_json
-
-# Generate the docx file
-result = convert_to_docx(content_sections, output_file)
+# Load JSON content from the input
+try:
+    content_json = json.loads(PROCESS_INPUT)  # Parse PROCESS_INPUT string into a dictionary
+    # Extract document filename and content
+    output_file = content_json["document_filename"]
+    content_sections = content_json
+    
+    # Generate the docx file
+    result = convert_to_docx(content_sections, output_file)
+except json.JSONDecodeError as e:
+    result = f"Invalid JSON input: {e}"
