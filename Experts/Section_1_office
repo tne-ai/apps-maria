@@ -226,7 +226,58 @@ nodes:
       x: 937.3899500382016
       'y': 1097.1016781032215
     dragging: false
+  - id: ix-HHvION67Lq4mZq3s-P
+    type: llm
+    position:
+      x: 390.9322423908634
+      'y': 831.8155235186126
+    data:
+      id: ix-HHvION67Lq4mZq3s-P
+      title: New Model
+      input: ''
+      slashgptManifest: bullets_to_prose.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: apps-maria-2-eli
+        content:
+          name: Section_1_office
+          path: Experts/Section_1_office
+          sha: b285c934a3a0aa5e44fc048457278f973ff23994
+          size: 7066
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_office
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
+            html: >-
+              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
+    width: 212
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 390.9322423908634
+      'y': 831.8155235186126
+    dragging: false
 edges:
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: ix-HHvION67Lq4mZq3s-P
+    targetHandle: t
+    id: xRYuVr
   - source: tvtQHO2Y3n31cHAAH4xWR
     sourceHandle: b
     target: mh6o1-iSwofYg6DkwvWsk
