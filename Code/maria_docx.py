@@ -1,5 +1,5 @@
 import json
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from io import BytesIO
 from docx import Document
 from docx.shared import Inches
