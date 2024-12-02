@@ -127,7 +127,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 212
     height: 250
-    selected: false
+    selected: true
     positionAbsolute:
       x: 106.16891329989005
       'y': -94.66423953939409
