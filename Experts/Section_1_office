@@ -299,7 +299,7 @@ nodes:
       outputType: overwrite
       outputToCanvas: false
       useUserQuery: false
-      flowState:
+      flowState: &ref_3
         backend: git
         repo: apps-maria-2-eli
         content:
@@ -330,7 +330,29 @@ nodes:
     positionAbsolute:
       x: 1746.479606606817
       'y': 939.9006763844628
+  - id: 2JqrVIJiTa1eoIbENI3s8
+    type: file
+    position:
+      x: 1944.479606606817
+      'y': 517.9006763844628
+    data:
+      id: 2JqrVIJiTa1eoIbENI3s8
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_3
+    width: 212
+    height: 250
+    selected: true
+    positionAbsolute:
+      x: 1944.479606606817
+      'y': 517.9006763844628
+    dragging: false
 edges:
+  - source: 2JqrVIJiTa1eoIbENI3s8
+    sourceHandle: b
+    target: _HI0iIHiH4UIacw2_C2t-
+    targetHandle: t
+    id: BlpIaB
   - source: UnBdXkdge9pdKbxgdWpr6
     sourceHandle: r
     target: _HI0iIHiH4UIacw2_C2t-
