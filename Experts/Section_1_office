@@ -342,7 +342,7 @@ nodes:
       flowState: *ref_3
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1700.479606606817
       'y': 857.9006763844628
@@ -359,7 +359,7 @@ nodes:
       flowState: *ref_3
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1666.479606606817
       'y': 351.9006763844628
