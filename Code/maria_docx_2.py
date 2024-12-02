@@ -12,6 +12,8 @@ def convert_to_docx(content, output_file):
     # Create a Word document
     doc = Document()
 
+    doc.add_heading('Report', level=1)
+
     # Process each section in the content
     for section in content["sections"]:
         content_type = section["type"]
@@ -22,7 +24,7 @@ def convert_to_docx(content, output_file):
             doc.add_paragraph(content_data)
         elif content_type == "table":
             # Parse and add table data
-            doc.add_heading('Table Data', level=2)
+            # doc.add_heading('Table Data', level=2)
             lines = content_data.strip().split("\n")
             headers = lines[0].split("|") # Extract headers
             rows = [line.split("|") for line in lines[1:]]  # Extract rows
@@ -42,7 +44,7 @@ def convert_to_docx(content, output_file):
                     row_cells[i].text = cell.strip()
         elif content_type == "chart":
             # Generate and add chart
-            doc.add_heading('Chart Data', level=2)
+            # doc.add_heading('Chart Data', level=2)
             try:
                 chart_info = json.loads(content_data)
 
