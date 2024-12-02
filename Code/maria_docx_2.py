@@ -43,32 +43,35 @@ def convert_to_docx(content, output_file):
         elif content_type == "chart":
             # Generate and add chart
             doc.add_heading('Chart Data', level=2)
-            chart_info = content_data
+            try:
+                chart_info = json.loads(content_data)
 
-            plt.figure(figsize=(6, 4))
-            for dataset in chart_info["data"]["datasets"]:
-                plt.plot(chart_info["data"]["labels"],
-                         dataset["data"],
-                         label=dataset["label"],
-                         color=dataset.get("borderColor", "#000"),
-                         marker="o")
-
-            plt.title(chart_info["options"]["title"]["text"])
-            plt.xlabel('Year')
-            plt.ylabel('Value')
-            plt.grid(True)
-            if chart_info["options"]["legend"]["display"]:
-                plt.legend()
-
-            # Save chart to a BytesIO buffer
-            chart_stream = BytesIO()
-            plt.savefig(chart_stream, format='png')
-            plt.close()
-            chart_stream.seek(0)
-
-            # Insert chart image into the document
-            doc.add_picture(chart_stream, width=Inches(5.5))
-            chart_stream.close()
+                plt.figure(figsize=(6, 4))
+                for dataset in chart_info["data"]["datasets"]:
+                    plt.plot(chart_info["data"]["labels"],
+                             dataset["data"],
+                             label=dataset["label"],
+                             color=dataset.get("borderColor", "#000"),
+                             marker="o")
+    
+                plt.title(chart_info["options"]["title"]["text"])
+                plt.xlabel('Year')
+                plt.ylabel('Value')
+                plt.grid(True)
+                if chart_info["options"]["legend"]["display"]:
+                    plt.legend()
+    
+                # Save chart to a BytesIO buffer
+                chart_stream = BytesIO()
+                plt.savefig(chart_stream, format='png')
+                plt.close()
+                chart_stream.seek(0)
+    
+                # Insert chart image into the document
+                doc.add_picture(chart_stream, width=Inches(5.5))
+                chart_stream.close()
+            except:
+                continue
 
     # Save the document
     doc.save(output_file)
