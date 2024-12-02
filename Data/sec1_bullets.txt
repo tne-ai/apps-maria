@@ -1,28 +1,28 @@
-The Gross Regional Product (GRP) analysis for San Diego County from 2019 to 2023 provides insights into the economic performance of the region over these years. Here's a detailed breakdown:
+The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, indicating economic growth over the period. Here's a detailed analysis:
 
 1. **Overall GRP Growth**:
-   - In 2019, the GRP for San Diego County was approximately $244.28 billion.
+   - In 2019, the GRP was approximately $244.28 billion.
    - By 2023, the GRP increased to approximately $308.71 billion.
-   - This represents a growth of approximately $64.43 billion over the five-year period.
+   - This represents a total growth of approximately $64.43 billion over the five-year period.
 
 2. **Annual GRP Growth**:
-   - **2019 to 2020**: The GRP increased slightly from $244.28 billion to $244.82 billion, indicating a modest growth despite the challenges posed by the COVID-19 pandemic.
-   - **2020 to 2021**: The GRP saw a significant increase to $268.87 billion, reflecting a recovery phase as the economy began to rebound.
-   - **2021 to 2022**: The GRP continued to grow, reaching $296.68 billion, showing strong economic performance.
-   - **2022 to 2023**: The GRP further increased to $308.71 billion, maintaining the growth trajectory.
+   - From 2019 to 2020, the GRP increased slightly by approximately $0.54 billion, reaching $244.82 billion.
+   - From 2020 to 2021, there was a more significant increase of approximately $24.05 billion, reaching $268.87 billion.
+   - From 2021 to 2022, the GRP grew by approximately $27.81 billion, reaching $296.68 billion.
+   - From 2022 to 2023, the GRP increased by approximately $12.03 billion, reaching $308.71 billion.
 
 3. **Per Capita GRP**:
    - In 2019, the per capita GRP was approximately $73,347.
-   - By 2023, the per capita GRP rose to approximately $94,916.
-   - This indicates an increase in economic productivity per person in the region.
+   - By 2023, the per capita GRP increased to approximately $94,916.
+   - This indicates an increase in economic productivity per person over the period.
 
-4. **Industry Contributions**:
-   - The Government sector consistently contributed the most to the GRP, with its share increasing from approximately $45.19 billion in 2019 to $52.92 billion in 2023.
-   - The Professional, Scientific, and Technical Services sector also showed significant growth, contributing approximately $28.13 billion in 2019 and increasing to $37.04 billion in 2023.
-   - The Manufacturing sector remained a strong contributor, with its GRP rising from approximately $28.26 billion in 2019 to $31.67 billion in 2023.
+4. **Comparison with State and National Levels**:
+   - San Diego County's per capita GRP consistently remained above the national average throughout the period.
+   - In 2023, San Diego County's per capita GRP ($94,916) was higher than both the state average ($93,800) and the national average ($77,366).
 
-5. **Economic Resilience**:
-   - Despite the economic disruptions caused by the COVID-19 pandemic, San Diego County demonstrated resilience with a steady recovery and growth in GRP from 2020 onwards.
-   - The diversification of industries, including strong performances in government, professional services, and manufacturing, contributed to the region's economic stability and growth.
+5. **Industry Contributions**:
+   - Key industries contributing to the GRP include Government, Professional, Scientific, and Technical Services, and Manufacturing.
+   - The Government sector consistently had the highest contribution, with approximately $52.92 billion in 2023.
+   - The Professional, Scientific, and Technical Services sector also showed significant growth, reaching approximately $37.04 billion in 2023.
 
-In summary, San Diego County's GRP analysis from 2019 to 2023 highlights a period of economic growth and resilience, with significant contributions from key industries and an increase in per capita productivity.
+Overall, San Diego County's economy demonstrated resilience and growth from 2019 to 2023, with significant contributions from key industries and a strong per capita GRP performance compared to state and national levels.
