@@ -188,7 +188,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 955.8754987547886
       'y': 496.43682282279275
@@ -284,21 +284,15 @@ nodes:
       x: 950.6919623740573
       'y': 1058.4655923083196
     dragging: false
-  - id: _HI0iIHiH4UIacw2_C2t-
-    type: llm
+  - id: 2JqrVIJiTa1eoIbENI3s8
+    type: file
     position:
-      x: 1746.479606606817
-      'y': 939.9006763844628
+      x: 1944.479606606817
+      'y': 433.9006763844628
     data:
-      id: _HI0iIHiH4UIacw2_C2t-
-      title: New Model
-      input: ''
-      slashgptManifest: docx_formatter.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
+      id: 2JqrVIJiTa1eoIbENI3s8
+      title: Data
+      fileName: docx_formatter_template.txt
       flowState: &ref_3
         backend: git
         repo: apps-maria-2-eli
@@ -324,45 +318,68 @@ nodes:
             html: >-
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
-    height: 466
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1746.479606606817
-      'y': 939.9006763844628
-  - id: 2JqrVIJiTa1eoIbENI3s8
-    type: file
-    position:
-      x: 1944.479606606817
-      'y': 517.9006763844628
-    data:
-      id: 2JqrVIJiTa1eoIbENI3s8
-      title: Data
-      fileName: docx_formatter_template.txt
-      flowState: *ref_3
-    width: 212
     height: 250
     selected: false
     positionAbsolute:
       x: 1944.479606606817
-      'y': 517.9006763844628
+      'y': 433.9006763844628
+    dragging: false
+  - id: fgNSfwGog-y6fgdrDgysM
+    type: llm
+    position:
+      x: 1700.479606606817
+      'y': 857.9006763844628
+    data:
+      id: fgNSfwGog-y6fgdrDgysM
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1700.479606606817
+      'y': 857.9006763844628
+    dragging: false
+  - id: e1g4F6gz-N0LSZ3_dnhOY
+    type: file
+    position:
+      x: 1666.479606606817
+      'y': 351.9006763844628
+    data:
+      id: e1g4F6gz-N0LSZ3_dnhOY
+      title: Data
+      fileName: sec1_bullets.txt
+      flowState: *ref_3
+    width: 212
+    height: 226
+    selected: true
+    positionAbsolute:
+      x: 1666.479606606817
+      'y': 351.9006763844628
     dragging: false
 edges:
-  - source: 6HRLbEep5aYPmBacd7A6H
+  - source: e1g4F6gz-N0LSZ3_dnhOY
     sourceHandle: b
-    target: _HI0iIHiH4UIacw2_C2t-
+    target: fgNSfwGog-y6fgdrDgysM
     targetHandle: t
-    id: 6q--4w
+    id: iA-wcY
   - source: 2JqrVIJiTa1eoIbENI3s8
     sourceHandle: b
-    target: _HI0iIHiH4UIacw2_C2t-
+    target: fgNSfwGog-y6fgdrDgysM
     targetHandle: t
-    id: BlpIaB
+    id: aObr7I
   - source: UnBdXkdge9pdKbxgdWpr6
     sourceHandle: r
-    target: _HI0iIHiH4UIacw2_C2t-
+    target: fgNSfwGog-y6fgdrDgysM
     targetHandle: t
-    id: ZBZZJn
+    id: 6BbHFR
   - source: tvtQHO2Y3n31cHAAH4xWR
     sourceHandle: b
     target: Ip-n84wQ2AnnP-n1ez6V1
