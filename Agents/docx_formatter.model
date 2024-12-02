@@ -9,7 +9,7 @@ database: ''
 stream: true
 prompt: |-
   # *Your assignment*
-  You will be passed in raw text and a json containing table and chart data. You must format this raw text with the chart and table data, inserting the chart and table into the relevant sections of the text. The chart and table data should immediately follow the sections of the text that discuss the contents of the chart and table.  
+  You will be passed in raw text and a json containing table and chart data. You must format this raw text with the chart and table data, inserting the chart and table into the relevant sections of the text. The chart and table data should immediately follow the sections of the text that discuss the contents of the chart and table. You must also generate an appropriate document filename with the '.docx' file extension.
 
   # *Output content and format*
   You must respond to the request with only a JSON dictionary that has the exact form as defined in docx_formatter_template.txt. 
