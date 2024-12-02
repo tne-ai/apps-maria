@@ -24,8 +24,8 @@ def convert_to_docx(content, output_file):
             # Parse and add table data
             doc.add_heading('Table Data', level=2)
             lines = content_data.strip().split("\n")
-            headers = lines[0].split("|")[1:-1]  # Extract headers
-            rows = [line.split("|")[1:-1] for line in lines[2:]]  # Extract rows
+            headers = lines[0].split("|") # Extract headers
+            rows = [line.split("|") for line in lines[1:]]  # Extract rows
 
             table = doc.add_table(rows=1, cols=len(headers))
             table.style = 'Table Grid'
