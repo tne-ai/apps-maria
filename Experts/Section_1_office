@@ -210,22 +210,6 @@ nodes:
       x: 1115.3315877791772
       'y': 214.73021846168433
     dragging: false
-  - id: mh6o1-iSwofYg6DkwvWsk
-    type: out
-    position:
-      x: 937.3899500382016
-      'y': 1097.1016781032215
-    data:
-      id: mh6o1-iSwofYg6DkwvWsk
-      title: Save File
-      outputName: sec1_json.txt
-    width: 212
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 937.3899500382016
-      'y': 1097.1016781032215
-    dragging: false
   - id: mnGU7YNZPXds0lD2grF38
     type: out
     position:
@@ -279,7 +263,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 372
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1308.9370705835777
       'y': 588.5756419896094
@@ -295,11 +279,6 @@ edges:
     target: mnGU7YNZPXds0lD2grF38
     targetHandle: t
     id: aYHz9E
-  - source: tvtQHO2Y3n31cHAAH4xWR
-    sourceHandle: b
-    target: mh6o1-iSwofYg6DkwvWsk
-    targetHandle: t
-    id: 8ezC0H
   - source: ETIOgBs7QcmdmE9o4Buuy
     sourceHandle: b
     target: tvtQHO2Y3n31cHAAH4xWR
