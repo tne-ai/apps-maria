@@ -112,4 +112,7 @@ output_file = "SanDiego_GRP_Report.docx"
 
 # Generate the docx file
 # result = convert_to_docx(raw_text, table_data, chart_data, output_file)
+raw_text = ""
+for f in INPUT_FILES:
+    raw_text += str(f) + "\n \n \n"
 result = raw_text
