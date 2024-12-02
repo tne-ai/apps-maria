@@ -31,5 +31,6 @@ try:
     
     # Convert the result to a JSON string
     result = json.dumps(output, indent=4)
-except:
-    result = "no json passed in"
+except Exception as e:
+    # Capture the exception message in the result
+    result = f"Error: {str(e)}"
