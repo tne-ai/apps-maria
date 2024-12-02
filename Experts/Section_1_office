@@ -127,7 +127,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 212
     height: 250
-    selected: true
+    selected: false
     positionAbsolute:
       x: 106.16891329989005
       'y': -94.66423953939409
@@ -284,7 +284,130 @@ nodes:
       x: 950.6919623740573
       'y': 1058.4655923083196
     dragging: false
+  - id: 78xvemp-t8MBTraRD71Kp
+    type: file
+    position:
+      x: 1626.479606606817
+      'y': 71.90067638446283
+    data:
+      id: 78xvemp-t8MBTraRD71Kp
+      title: Data
+      fileName: sec1_bullets.txt
+      flowState: &ref_3
+        backend: git
+        repo: apps-maria-2-eli
+        content:
+          name: Section_1_office
+          path: Experts/Section_1_office
+          sha: 3dfbb9bc5b2bb883615a4eeecfc5502c24f9f023
+          size: 9752
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/3dfbb9bc5b2bb883615a4eeecfc5502c24f9f023
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_office
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/3dfbb9bc5b2bb883615a4eeecfc5502c24f9f023
+            html: >-
+              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1626.479606606817
+      'y': 71.90067638446283
+    dragging: false
+  - id: B3dCMILPTa5qlnrPwpnoB
+    type: file
+    position:
+      x: 2118.479606606817
+      'y': 413.9006763844628
+    data:
+      id: B3dCMILPTa5qlnrPwpnoB
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_3
+    width: 212
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 2118.479606606817
+      'y': 413.9006763844628
+    dragging: false
+  - id: 9evBRCiBhk1LDqZr8Ndst
+    type: llm
+    position:
+      x: 1748.479606606817
+      'y': 329.9006763844628
+    data:
+      id: 9evBRCiBhk1LDqZr8Ndst
+      title: New Model
+      input: ''
+      slashgptManifest: bullets_to_prose.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 490
+    selected: true
+    positionAbsolute:
+      x: 1748.479606606817
+      'y': 329.9006763844628
+    dragging: false
+  - id: _HI0iIHiH4UIacw2_C2t-
+    type: llm
+    position:
+      x: 1746.479606606817
+      'y': 939.9006763844628
+    data:
+      id: _HI0iIHiH4UIacw2_C2t-
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 466
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1746.479606606817
+      'y': 939.9006763844628
 edges:
+  - source: UnBdXkdge9pdKbxgdWpr6
+    sourceHandle: r
+    target: _HI0iIHiH4UIacw2_C2t-
+    targetHandle: t
+    id: ZBZZJn
+  - source: B3dCMILPTa5qlnrPwpnoB
+    sourceHandle: b
+    target: _HI0iIHiH4UIacw2_C2t-
+    targetHandle: t
+    id: ndczD_
+  - source: 9evBRCiBhk1LDqZr8Ndst
+    sourceHandle: b
+    target: _HI0iIHiH4UIacw2_C2t-
+    targetHandle: t
+    id: q3HKeU
+  - source: 78xvemp-t8MBTraRD71Kp
+    sourceHandle: b
+    target: 9evBRCiBhk1LDqZr8Ndst
+    targetHandle: t
+    id: b3HLLO
   - source: tvtQHO2Y3n31cHAAH4xWR
     sourceHandle: b
     target: Ip-n84wQ2AnnP-n1ez6V1
