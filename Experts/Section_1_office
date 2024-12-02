@@ -236,7 +236,7 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState:
         backend: git
         repo: apps-maria-2-eli
@@ -263,7 +263,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 372
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1310.7902999137443
       'y': 586.7224126594429
@@ -342,12 +342,17 @@ nodes:
       flowState: *ref_3
     width: 212
     height: 250
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1944.479606606817
       'y': 517.9006763844628
     dragging: false
 edges:
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: _HI0iIHiH4UIacw2_C2t-
+    targetHandle: t
+    id: 6q--4w
   - source: 2JqrVIJiTa1eoIbENI3s8
     sourceHandle: b
     target: _HI0iIHiH4UIacw2_C2t-
