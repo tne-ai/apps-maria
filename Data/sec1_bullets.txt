@@ -1,29 +1,35 @@
-The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, indicating economic growth over the period. Here's a detailed analysis:
+The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, indicating economic growth over the years. Here's a detailed analysis:
 
-1. **Overall GRP Growth**:
-   - In 2019, the GRP was approximately $244.28 billion.
-   - By 2023, the GRP increased to approximately $308.71 billion.
-   - This represents a total growth of approximately $64.43 billion over the five-year period.
+1. **2019**:
+   - Total GRP: $244.28 billion
+   - Population: 3,330,458
+   - GRP per Capita: $73,346.92
 
-2. **Annual GRP Growth**:
-   - From 2019 to 2020, the GRP increased slightly by approximately $0.54 billion, reaching $244.82 billion.
-   - From 2020 to 2021, there was a more significant increase of approximately $24.05 billion, reaching $268.87 billion.
-   - From 2021 to 2022, the GRP grew by approximately $27.81 billion, reaching $296.68 billion.
-   - From 2022 to 2023, the GRP increased by approximately $12.03 billion, reaching $308.71 billion.
+2. **2020**:
+   - Total GRP: $244.82 billion
+   - Population: 3,296,045
+   - GRP per Capita: $74,277.60
+   - Analysis: Despite the challenges posed by the COVID-19 pandemic, San Diego County's GRP saw a slight increase. The GRP per capita also increased, which can be attributed to a decrease in population.
 
-3. **Per Capita GRP**:
-   - In 2019, the per capita GRP was approximately $73,347.
-   - By 2023, the per capita GRP increased to approximately $94,916.
-   - This indicates an increase in economic productivity per person over the period.
+3. **2021**:
+   - Total GRP: $268.87 billion
+   - Population: 3,274,954
+   - GRP per Capita: $82,099.95
+   - Analysis: The economy rebounded significantly in 2021, with a notable increase in GRP and GRP per capita. This reflects a recovery from the pandemic's economic impact.
 
-4. **Comparison with State and National Levels**:
-   - San Diego County's per capita GRP in 2023 ($94,916) is higher than the state average of California ($93,800) and significantly higher than the national average ($77,366).
-   - This suggests that San Diego County is performing well economically compared to both the state and national levels.
+4. **2022**:
+   - Total GRP: $296.68 billion
+   - Population: 3,276,208
+   - GRP per Capita: $90,557.10
+   - Analysis: The growth trend continued in 2022, with both total GRP and GRP per capita showing substantial increases. This suggests strong economic performance and possibly increased productivity or higher value-added activities.
 
-5. **Industry Contributions**:
-   - Key industries contributing to the GRP include Government, Professional, Scientific, and Technical Services, and Manufacturing.
-   - The Government sector consistently had the highest contribution, with approximately $52.92 billion in 2023.
-   - The Professional, Scientific, and Technical Services sector also showed strong performance, contributing approximately $37.04 billion in 2023.
-   - Manufacturing remained a significant contributor, with approximately $31.67 billion in 2023.
+5. **2023**:
+   - Total GRP: $308.71 billion
+   - Population: 3,252,468
+   - GRP per Capita: $94,915.87
+   - Analysis: The GRP reached its highest point in 2023, with a continued increase in GRP per capita. The slight decrease in population alongside the increase in GRP suggests improved economic conditions and possibly higher efficiency or investment in high-value sectors.
 
-Overall, San Diego County's economy has shown resilience and growth from 2019 to 2023, with significant contributions from key industries and a per capita GRP that outpaces both state and national averages.
+**Overall Analysis**:
+- San Diego County's economy has shown resilience and growth from 2019 to 2023, with a consistent increase in both total GRP and GRP per capita.
+- The economic recovery post-2020 pandemic is evident, with significant growth in 2021 and beyond.
+- The increase in GRP per capita over the years indicates that the economic growth has outpaced population growth, suggesting improvements in productivity or shifts towards higher-value economic activities.
