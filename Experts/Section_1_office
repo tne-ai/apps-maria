@@ -69,6 +69,31 @@ nodes:
       x: 1127.705227867265
       'y': -89.1171896530476
     dragging: false
+  - id: 6HRLbEep5aYPmBacd7A6H
+    type: llm
+    position:
+      x: 489.7144801895578
+      'y': 295.506091604639
+    data:
+      id: 6HRLbEep5aYPmBacd7A6H
+      title: Section 1
+      input: ''
+      slashgptManifest: Section_1.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: apps-maria-2
+    width: 212
+    height: 466
+    selected: true
+    positionAbsolute:
+      x: 489.7144801895578
+      'y': 295.506091604639
+    dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
     position:
@@ -124,105 +149,57 @@ nodes:
     positionAbsolute:
       x: 316.7219574667562
       'y': -92.17835812272921
-  - id: PQS-U-crJs3QKheqHa7xs
+  - id: tvtQHO2Y3n31cHAAH4xWR
     type: llm
     position:
-      x: 476.89236418062046
-      'y': 323.63812266021404
+      x: 955.8754987547886
+      'y': 496.43682282279275
     data:
-      id: PQS-U-crJs3QKheqHa7xs
-      title: Generate Document
-      input: ''
-      slashgptManifest: bullets_to_prose.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: true
-      useUserQuery: false
-      flowState:
-        backend: git
-        repo: apps-maria-2-eli
-        content:
-          name: Section_1_testdocx
-          path: Experts/Section_1_testdocx
-          sha: b285c934a3a0aa5e44fc048457278f973ff23994
-          size: 7066
-          url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testdocx?ref=main
-          html_url: >-
-            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testdocx
-          git_url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_testdocx
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testdocx?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/b285c934a3a0aa5e44fc048457278f973ff23994
-            html: >-
-              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testdocx
-    width: 212
-    height: 490
-    selected: false
-    positionAbsolute:
-      x: 476.89236418062046
-      'y': 323.63812266021404
-    dragging: false
-  - id: uEt5fg5VnCU1CGzT5JME5
-    type: llm
-    position:
-      x: 2000.8724372539848
-      'y': 345.37248000325724
-    data:
-      id: uEt5fg5VnCU1CGzT5JME5
+      id: tvtQHO2Y3n31cHAAH4xWR
       title: New Model
       input: ''
       slashgptManifest: ie_item_generator.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: true
       flowState: &ref_2
         backend: git
-        repo: apps-maria-2-eli
+        repo: apps-maria-2
         content:
-          name: Section_1_testword
-          path: Experts/Section_1_testword
-          sha: 232542d094c1181a222a3630f5119c83efe48506
-          size: 7246
+          name: Section_1
+          path: Experts/Section_1
+          sha: 274f0319c11df96c3fc3529d9c7385a9f83d0c5d
+          size: 5315
           url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testword?ref=main
-          html_url: >-
-            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testword
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
           git_url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/232542d094c1181a222a3630f5119c83efe48506
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/274f0319c11df96c3fc3529d9c7385a9f83d0c5d
           download_url: >-
-            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_testword
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
           type: file
           _links:
             self: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_testword?ref=main
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
             git: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/232542d094c1181a222a3630f5119c83efe48506
-            html: >-
-              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_testword
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/274f0319c11df96c3fc3529d9c7385a9f83d0c5d
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 212
     height: 490
     selected: false
     positionAbsolute:
-      x: 2000.8724372539848
-      'y': 345.37248000325724
+      x: 955.8754987547886
+      'y': 496.43682282279275
     dragging: false
-  - id: S74B24FukqjqY4NGvyQh9
+  - id: ETIOgBs7QcmdmE9o4Buuy
     type: file
     position:
-      x: 2716.1173553823364
-      'y': -79.63869241626911
+      x: 1115.3315877791772
+      'y': 214.73021846168433
     data:
-      id: S74B24FukqjqY4NGvyQh9
+      id: ETIOgBs7QcmdmE9o4Buuy
       title: Data
       fileName: ie_item_template.txt
       flowState: *ref_2
@@ -230,227 +207,48 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 2716.1173553823364
-      'y': -79.63869241626911
-    dragging: false
-  - id: ZqtzrOv19ZqxfbeCjsMbO
-    type: file
-    position:
-      x: 1863.237689328481
-      'y': -79.6386924162691
-    data:
-      id: ZqtzrOv19ZqxfbeCjsMbO
-      title: Data
-      fileName: sec1-1_San Diego County_grp_data.csv
-      flowState: *ref_2
-    width: 212
-    height: 250
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1863.237689328481
-      'y': -79.6386924162691
-  - id: R3uTyOQGz6fLra242nuZY
-    type: file
-    position:
-      x: 1435.8687934845016
-      'y': -83.35494368447766
-    data:
-      id: R3uTyOQGz6fLra242nuZY
-      title: Data
-      fileName: Economic Scan Overview.txt
-      flowState: *ref_2
-    width: 212
-    height: 250
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1435.8687934845016
-      'y': -83.35494368447766
-  - id: 588_Eb-mp3gExhO--XiGr
-    type: file
-    position:
-      x: 1651.411367040596
-      'y': -83.3549436844776
-    data:
-      id: 588_Eb-mp3gExhO--XiGr
-      title: Data
-      fileName: Section 1 Gross Regional Product.txt
-      flowState: *ref_2
-    width: 212
-    height: 250
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1651.411367040596
-      'y': -83.3549436844776
-  - id: tfduSX55b3nSb12crguO1
-    type: file
-    position:
-      x: 2504.2910330944505
-      'y': -83.35494368447765
-    data:
-      id: tfduSX55b3nSb12crguO1
-      title: Data
-      fileName: sec1-4_San Diego_per_capita_grp_data.csv
-      flowState: *ref_2
-    width: 212
-    height: 274
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 2504.2910330944505
-      'y': -83.35494368447765
-  - id: kIJfo0ngPXMUAL131ayUv
-    type: file
-    position:
-      x: 2286.8903339042527
-      'y': -81.49681805037339
-    data:
-      id: kIJfo0ngPXMUAL131ayUv
-      title: Data
-      fileName: sec1-3_San Diego_grp_data.csv
-      flowState: *ref_2
-    width: 212
-    height: 250
-    selected: false
-    positionAbsolute:
-      x: 2286.8903339042527
-      'y': -81.49681805037339
-    dragging: false
-  - id: a-8VLnhBoYpqZun_MLQcF
-    type: file
-    position:
-      x: 2075.064011616367
-      'y': -81.4968180503734
-    data:
-      id: a-8VLnhBoYpqZun_MLQcF
-      title: Data
-      fileName: sec1-2_San Diego County_per_capita_grp_data.csv
-      flowState: *ref_2
-    width: 212
-    height: 274
-    selected: false
-    positionAbsolute:
-      x: 2075.064011616367
-      'y': -81.4968180503734
-    dragging: false
-  - id: M6x8BbLAIpIBMa4lD5GeR
-    type: python_code
-    position:
-      x: 1241.1431343411132
-      'y': 670.8541202319316
-    data:
-      id: M6x8BbLAIpIBMa4lD5GeR
-      title: New Code
-      module: maria_docx_2.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState:
-        backend: git
-        repo: apps-maria-2-eli
-        content:
-          name: Section_1_office
-          path: Experts/Section_1_office
-          sha: 964286f380c8396de6769efe7c828e53b3e48d91
-          size: 12060
-          url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
-          html_url: >-
-            https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
-          git_url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/964286f380c8396de6769efe7c828e53b3e48d91
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/apps-maria-2-eli/main/Experts/Section_1_office
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/contents/Experts/Section_1_office?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2-eli/git/blobs/964286f380c8396de6769efe7c828e53b3e48d91
-            html: >-
-              https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
-    width: 212
-    height: 348
-    selected: true
-    positionAbsolute:
-      x: 1241.1431343411132
-      'y': 670.8541202319316
+      x: 1115.3315877791772
+      'y': 214.73021846168433
     dragging: false
 edges:
-  - source: uEt5fg5VnCU1CGzT5JME5
+  - source: ETIOgBs7QcmdmE9o4Buuy
     sourceHandle: b
-    target: M6x8BbLAIpIBMa4lD5GeR
+    target: tvtQHO2Y3n31cHAAH4xWR
     targetHandle: t
-    id: detoxS
-  - source: PQS-U-crJs3QKheqHa7xs
+    id: B38JWp
+  - source: 6HRLbEep5aYPmBacd7A6H
     sourceHandle: r
-    target: M6x8BbLAIpIBMa4lD5GeR
-    targetHandle: t
-    id: ded7jZ
-  - source: tfduSX55b3nSb12crguO1
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: XsFZ7j
-  - source: kIJfo0ngPXMUAL131ayUv
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: upi0I5
-  - source: a-8VLnhBoYpqZun_MLQcF
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: 0NRqN_
-  - source: ZqtzrOv19ZqxfbeCjsMbO
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: 6f-scq
-  - source: 588_Eb-mp3gExhO--XiGr
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: 5u-gM4
-  - source: R3uTyOQGz6fLra242nuZY
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: mZIffE
-  - source: S74B24FukqjqY4NGvyQh9
-    sourceHandle: b
-    target: uEt5fg5VnCU1CGzT5JME5
-    targetHandle: t
-    id: cyAXSJ
-  - source: W_y2BrbeKeueWAf30Syqn
-    sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
-    targetHandle: t
-    id: c0CJ2f
-  - source: 057rYnS3aw3cWeyNPKpUh
-    sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
-    targetHandle: t
-    id: oaDtGi
-  - source: 1wAv6eoSFk1HVep3TqF92
-    sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
-    targetHandle: t
-    id: jRDDsq
-  - source: BIznahQrh3X5Hlp0ZXVRp
-    sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
-    targetHandle: t
-    id: YRFeMk
+    target: tvtQHO2Y3n31cHAAH4xWR
+    targetHandle: l
+    id: iwz8zF
   - source: ZLZEYryKwTxJu3gDO3JVD
     sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
+    target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
-    id: f4ELhf
+    id: 4uMDOy
   - source: 31gU9a3-n1Fb95LvHCP3-
     sourceHandle: b
-    target: PQS-U-crJs3QKheqHa7xs
+    target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
-    id: 8sWPY1
+    id: r50ZnG
+  - source: W_y2BrbeKeueWAf30Syqn
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: FAk-3C
+  - source: 057rYnS3aw3cWeyNPKpUh
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: N3Ujx4
+  - source: 1wAv6eoSFk1HVep3TqF92
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: AxRUkX
+  - source: BIznahQrh3X5Hlp0ZXVRp
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 0jIem_
 description: null
