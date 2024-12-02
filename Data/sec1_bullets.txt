@@ -1,34 +1,37 @@
-The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, indicating economic growth over the period. Here's a detailed analysis:
+The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, indicating economic growth over the years. Here's a detailed analysis:
 
 1. **2019**:
    - Total GRP: $244.28 billion
-   - Per Capita GRP: $73,346.92
-   - Key Industries: Government ($45.19 billion), Manufacturing ($28.26 billion), and Professional, Scientific, and Technical Services ($28.13 billion) were the top contributors.
+   - Population: 3,330,458
+   - GRP per Capita: $73,346.92
 
 2. **2020**:
    - Total GRP: $244.82 billion
-   - Per Capita GRP: $74,277.60
-   - Impact of COVID-19: The Accommodation and Food Services industry saw a significant decline from $9.02 billion in 2019 to $6.53 billion in 2020, reflecting the pandemic's impact.
+   - Population: 3,296,045
+   - GRP per Capita: $74,277.60
+   - Despite the challenges posed by the COVID-19 pandemic, San Diego County's GRP saw a slight increase. The GRP per capita also increased, indicating that the economic output per person improved even as the population decreased slightly.
 
 3. **2021**:
    - Total GRP: $268.87 billion
-   - Per Capita GRP: $82,099.95
-   - Recovery Phase: Industries like Accommodation and Food Services rebounded to $8.80 billion, and Manufacturing increased to $31.28 billion, indicating recovery from the pandemic.
+   - Population: 3,274,954
+   - GRP per Capita: $82,099.95
+   - The GRP saw a significant increase, reflecting a strong economic recovery post-pandemic. The GRP per capita also rose substantially, suggesting enhanced productivity and economic output per individual.
 
 4. **2022**:
    - Total GRP: $296.68 billion
-   - Per Capita GRP: $90,557.10
-   - Continued Growth: The Government sector remained the largest contributor at $50.56 billion, while Professional, Scientific, and Technical Services grew to $35.74 billion.
+   - Population: 3,276,208
+   - GRP per Capita: $90,557.10
+   - The growth trend continued with a notable increase in both total GRP and GRP per capita, indicating sustained economic expansion and increased economic activity in the region.
 
 5. **2023**:
    - Total GRP: $308.71 billion
-   - Per Capita GRP: $94,915.87
-   - Sustained Growth: The Information sector saw significant growth, reaching $14.90 billion, and the Government sector continued to lead at $52.92 billion.
+   - Population: 3,252,468
+   - GRP per Capita: $94,915.87
+   - The GRP reached its highest point in this period, with a continued rise in GRP per capita. This suggests that the county's economy has been growing robustly, with increased efficiency and productivity.
 
-**Overall Trends**:
-- The GRP of San Diego County has shown a steady increase from 2019 to 2023, with a compound annual growth rate (CAGR) of approximately 6.0%.
-- The per capita GRP also increased, reflecting both population stability and economic growth.
-- Key sectors such as Government, Manufacturing, and Professional, Scientific, and Technical Services have consistently been major contributors to the GRP.
-- The impact of the COVID-19 pandemic was evident in 2020, but the economy showed resilience and recovery in subsequent years.
+**Key Observations**:
+- Over the five-year period, San Diego County's GRP increased by approximately 26.4%, from $244.28 billion in 2019 to $308.71 billion in 2023.
+- The GRP per capita rose by about 29.4%, from $73,346.92 in 2019 to $94,915.87 in 2023, indicating that the economic output per person has improved significantly.
+- The population showed a slight decline from 2019 to 2023, which, combined with the rising GRP, suggests increased economic productivity and efficiency.
 
-This analysis highlights the economic resilience and growth of San Diego County over the past five years, driven by diverse and robust industry sectors.
+Overall, San Diego County has demonstrated strong economic growth and resilience, with significant improvements in both total GRP and GRP per capita over the analyzed period.
