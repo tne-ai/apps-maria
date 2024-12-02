@@ -16,4 +16,20 @@ elif type(PROCESS_INPUT) is str:
 else:
     result = "<ERROR>" 
 '''
-result = str(type(PROCESS_INPUT))
+
+
+try:
+    # Parse the input string as JSON
+    data = json.loads(PROCESS_INPUT)
+    
+    # Extract chartData and tableData if they are present
+    output = {}
+    if "chartData" in data:
+        output["chartData"] = data["chartData"]
+    if "tableData" in data:
+        output["tableData"] = data["tableData"]
+    
+    # Convert the result to a JSON string
+    result = json.dumps(output, indent=4)
+except:
+    result = "no json passed in"
