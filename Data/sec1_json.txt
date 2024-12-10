@@ -1,38 +1,10 @@
 {
-    "title": "San Diego County GRP Analysis 2019-2023",
-    "bodyText": "The analysis of San Diego County's Gross Regional Product (GRP) from 2019 to 2023 shows a positive growth trend. The total GRP increased from $244.28 billion in 2019 to $308.71 billion in 2023. Per capita GRP also rose from $73,347 to $94,916 over the same period. Various industries contributed to this growth, with notable performances from sectors such as Government, Professional, Scientific, and Technical Services, and Manufacturing. The data indicates a recovery from the pandemic, particularly evident in the growth observed in 2021 and beyond.",
-    "tableData": "| Year | Total GRP (Billion $) | Per Capita GRP ($) |\n|------|----------------------|-------------------|\n| 2019 | 244.28               | 73,347            |\n| 2020 | 244.82               | 74,278            |\n| 2021 | 268.87               | 82,100            |\n| 2022 | 296.68               | 90,557            |\n| 2023 | 308.71               | 94,916            |",
-    "chartData": {
-        "type": "line",
-        "data": {
-            "labels": ["2019", "2020", "2021", "2022", "2023"],
-            "datasets": [
-                {
-                    "label": "Total GRP",
-                    "data": [244.28, 244.82, 268.87, 296.68, 308.71],
-                    "borderColor": "blue",
-                    "fill": false
-                },
-                {
-                    "label": "Per Capita GRP",
-                    "data": [73347, 74278, 82100, 90557, 94916],
-                    "borderColor": "green",
-                    "fill": false
-                }
-            ]
-        },
-        "options": {
-            "title": {
-                "display": true,
-                "text": "San Diego County GRP and Per Capita GRP (2019-2023)"
-            },
-            "legend": {
-                "display": false
-            }
-        }
-    },
-    "subhead": "San Diego County's GRP grew from $244.28B in 2019 to $308.71B in 2023, with per capita GRP rising from $73,347 to $94,916. Key sectors like Government and Manufacturing drove this growth.",
-    "details": "The analysis uses data from 2019 to 2023, focusing on total and per capita GRP. The total GRP increased annually, with significant growth in 2021 and 2022. Per capita GRP followed a similar trend. Industry performance was assessed, highlighting sectors like Government, Professional, Scientific, and Technical Services, and Manufacturing as major contributors. The data reflects recovery from the pandemic, particularly in 2021.",
-    "recommendations": "Consider investing in high-performing sectors such as Professional, Scientific, and Technical Services, and Manufacturing to capitalize on growth trends. Monitor the recovery of industries impacted by the pandemic for potential opportunities.",
-    "request_and_response_issues": "The request was clear, but the data lacks specific industry breakdowns for each year, which could provide deeper insights into sector-specific growth patterns."
+    "title": "Unavailable Data on Canucks' 2023-2024 Playoff Goals",
+    "bodyText": "The current input indicates a lack of access to real-time sports data beyond October 2023, making it impossible to provide specific details about the Vancouver Canucks' performance in the 2023-2024 playoffs. For up-to-date information, it is recommended to consult sports news websites or official league sources.",
+    "tableData": "",
+    "chartData": "",
+    "subhead": "No real-time data available for Canucks' 2023-2024 playoff performance; check sports news for updates.",
+    "details": "The response is based on the limitation of data access up to October 2023, which does not include the 2023-2024 NHL playoffs. No specific data or algorithms were used due to the absence of relevant information.",
+    "recommendations": "Consult sports news websites or official NHL sources for the latest updates on the Vancouver Canucks' playoff performance.",
+    "request_and_response_issues": "The request for specific playoff performance data cannot be fulfilled due to the lack of real-time data access beyond October 2023."
 }
