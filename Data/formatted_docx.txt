@@ -1,4 +1,21 @@
 {
-    "document_filename": "formatted_document.docx",
-    "sections": []
+    "document_filename": "San_Diego_County_GRP_Analysis_2019_2023.docx",
+    "sections": [
+        {
+            "content": "The Gross Regional Product (GRP) of San Diego County has shown a remarkable trajectory of growth from 2019 to 2023. In 2019, the total GRP was approximately $244.28 billion. Despite the economic challenges posed by the COVID-19 pandemic, the GRP slightly increased to $244.82 billion in 2020. This resilience set the stage for a significant recovery and growth phase in 2021, with the GRP rising to $268.87 billion. The upward trend continued in 2022, reaching $296.68 billion, and further increased to $308.71 billion in 2023. This consistent growth reflects the region's robust economic recovery and expansion over the five-year period. Alongside the total GRP, the per capita GRP also demonstrated a positive trend. Starting at approximately $73,347 in 2019, it saw a slight increase to $74,278 in 2020. The following years marked notable growth, with per capita GRP climbing to $82,100 in 2021, $90,557 in 2022, and reaching $94,916 in 2023. This increase in per capita GRP indicates not only economic growth but also improved productivity and prosperity for the residents of San Diego County.",
+            "type": "raw text"
+        },
+        {
+            "content": "{\n    \"type\": \"line\",\n    \"data\": {\n        \"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"],\n        \"datasets\": [\n            {\n                \"label\": \"Total GRP\",\n                \"data\": [244.28, 244.82, 268.87, 296.68, 308.71],\n                \"borderColor\": \"#3e95cd\",\n                \"fill\": false\n            },\n            {\n                \"label\": \"Per Capita GRP\",\n                \"data\": [73347, 74278, 82100, 90557, 94916],\n                \"borderColor\": \"#8e5ea2\",\n                \"fill\": false\n            }\n        ]\n    },\n    \"options\": {\n        \"title\": {\n            \"display\": true,\n            \"text\": \"San Diego County GRP and Per Capita GRP (2019-2023)\"\n        },\n        \"legend\": {\n            \"display\": true\n        }\n    }\n}",
+            "type": "chart"
+        },
+        {
+            "content": "Year | Total GRP (Billion $) | Per Capita GRP ($)\n2019 | 244.28 | 73,347\n2020 | 244.82 | 74,278\n2021 | 268.87 | 82,100\n2022 | 296.68 | 90,557\n2023 | 308.71 | 94,916",
+            "type": "table"
+        },
+        {
+            "content": "The performance of various industries within San Diego County also played a crucial role in the region's economic landscape. The accommodation and food services industry experienced fluctuations, with a decline in 2020 due to the pandemic, but showed recovery in subsequent years. Administrative and support services, along with waste management and remediation services, demonstrated consistent growth over the years. The agriculture, forestry, fishing, and hunting sector maintained a steady increase in its GRP contribution. Arts, entertainment, and recreation were heavily impacted in 2020 but managed to recover in the following years. The construction industry showed consistent growth throughout the period, while the finance and insurance sector experienced significant growth, particularly in 2020 and 2021. The government sector remained the largest contributor to the GRP, with steady growth each year. Health care and social assistance reflected its importance in the region with consistent growth. The information sector saw growth, especially in 2022 and 2023, and manufacturing remained a strong contributor with growth observed in 2021 and 2022. Professional, scientific, and technical services showed robust growth, particularly in 2022 and 2023. Real estate and rental and leasing, retail trade, transportation and warehousing, and wholesale trade all experienced growth, especially in the latter years of the period. Overall, San Diego County's GRP demonstrated resilience and growth from 2019 to 2023, with significant recovery post-2020. The increase in per capita GRP further indicates economic growth and improved productivity. Key contributors to this growth included the government, professional services, and manufacturing sectors, while industries like accommodation and food services and arts and entertainment showed recovery after the initial pandemic impact.",
+            "type": "raw text"
+        }
+    ]
 }
