@@ -2,60 +2,32 @@
   "version": "maria--70af02c5-20241217234006",
   "data": [
     {
-      "id": "dc9c21c8-fd54-49bd-bf5c-d404f935b9f3",
+      "id": "759474e0-b911-434b-8501-5fc96f7d935a",
+      "data_source": "",
+      "item_expert_name": "Section_1_office",
+      "chat_expert_name": "Section_1",
+      "title": "Section 1 - Gross Regional Product"
+    },
+    {
+      "id": "4a2974cb-0402-41b2-b0f8-3646e708ddf0",
       "data_source": "",
       "item_expert_name": "Section_2",
       "chat_expert_name": "Section_2_Chat",
-      "title": "Section 2 - Jobs Reports"
+      "title": "Section 2 - Jobs Report"
     },
     {
-      "id": "d4fed9b7-22d4-4a6e-8a9c-f333302c4b8d",
+      "id": "1c019ee4-7525-49c0-8659-00696ab5d17f",
       "data_source": "",
       "item_expert_name": "Section_3",
       "chat_expert_name": "Section_3_Chat",
       "title": "Section 3 - Talent and Workforce"
     },
     {
-      "id": "9da6d0c4-9ee8-4b42-b924-325449cd1ed9",
+      "id": "fff3ae4b-ab2f-4284-a84f-d9883cd9349a",
       "data_source": "",
       "item_expert_name": "Section_4",
       "chat_expert_name": "Section_4_Chat",
       "title": "Section 4 - Capital"
-    },
-    {
-      "id": "0f677270-9643-4df2-b164-e3f51d1f1edc",
-      "data_source": "",
-      "item_expert_name": "Section_5",
-      "chat_expert_name": "Section_5_Chat",
-      "title": "Section 5 - Income and Housing"
-    },
-    {
-      "id": "7b225ac3-4bfd-4bf9-bcf5-3f5c2e90e4a1",
-      "data_source": "",
-      "item_expert_name": "Section_6",
-      "chat_expert_name": "Section_6_Chat",
-      "title": "Section 6 - Business Activity"
-    },
-    {
-      "id": "62a7a9d1-1b09-4dd6-a427-9f8c55d69a56",
-      "data_source": "",
-      "item_expert_name": "Section_7",
-      "chat_expert_name": "Section_7_Chat",
-      "title": "Section 7 - Industry Clusters"
-    },
-    {
-      "id": "4b163811-2a1a-440f-acca-29fbc49aa480",
-      "data_source": "",
-      "item_expert_name": "Section_8",
-      "chat_expert_name": "Section_8_Chat",
-      "title": "Section 8 - Industry Impact"
-    },
-    {
-      "id": "759474e0-b911-434b-8501-5fc96f7d935a",
-      "data_source": "",
-      "item_expert_name": "Section_1_office",
-      "chat_expert_name": "Section_1",
-      "title": "Section 1 - Gross Regional Product"
     }
   ]
 }
