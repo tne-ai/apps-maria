@@ -232,7 +232,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -263,7 +263,7 @@ nodes:
     type: llm
     position:
       x: 1527.746586626622
-      'y': 582.9063749510883
+      'y': 580.9063749510883
     data:
       id: ncNA12AaNmBqakVSZfBNp
       title: New Model
@@ -272,7 +272,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -280,7 +280,7 @@ nodes:
     selected: false
     positionAbsolute:
       x: 1527.746586626622
-      'y': 582.9063749510883
+      'y': 580.9063749510883
     dragging: false
   - id: Yg50-8cdPl3ZNBpXkvWtH
     type: file
@@ -312,7 +312,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -391,12 +391,12 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1903.746586626622
       'y': 639.7063749510883
@@ -445,7 +445,7 @@ nodes:
       title: New Code
       module: get_table_data.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
@@ -484,7 +484,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 2273.746586626622
       'y': 763.7063749510883
