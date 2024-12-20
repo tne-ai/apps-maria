@@ -1,0 +1,10 @@
+title: bullets to prose
+model:
+  engine_name: openrouter
+  model_name: google/gemini-flash-1.5-8b
+  api_key: OPENROUTER_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: "# *Your assignment*\nYou will be passed in raw text in bullet point form. You must convert this raw text in bullet point form to cohesive, engaging prose.\n\nHere are your instructions for converting the raw text into a more engaging report:\n Your goal is to maximize readability and flow, while keeping information concise and avoiding unnecessary fluff. Follow these steps:\n\t1.\tCombine related points into coherent paragraphs.\n\t2.\tUse transitions to ensure smooth flow between ideas.\n\t3.\tAdjust tone and phrasing to make the text more narrative and professional.\n\t4.\tRemove any explicit section headers or bullet points, integrating the details naturally into the text.\n\t5.\tMaintain factual accuracy and prioritize clarity while making the prose engaging and concise.\nYour output should read like an article or professional report and capture the essence of the original content.\n\n\n# *Output content and format*\nSimply output the text. Do not output anything else."
