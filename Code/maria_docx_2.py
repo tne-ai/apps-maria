@@ -13,10 +13,46 @@ def currency_formatter(value, pos):
     # Format the number with commas and prepend a dollar sign
     return '${:,.2f}'.format(value)
 
+def comma_formatter(value, pos):
+    # Format the number with commas only
+    return '{:,.0f}'.format(value)
+
+def parse_chart_data(content_data):
+    """
+    Attempt to parse the chart data which may sometimes be double-encoded or contain additional formatting.
+    We try multiple attempts to decode JSON content.
+    """
+    try:
+        # First try to load as is
+        return json.loads(content_data)
+    except json.JSONDecodeError:
+        # If that fails, sometimes the data might be JSON within a string
+        # Try loading twice
+        try:
+            return json.loads(json.loads(content_data))
+        except:
+            # If still failing, return None or raise
+            return None
+
+def format_axis_ticks(ax, callback):
+    """
+    Apply formatting to the axis ticks based on the callback string.
+    We look for patterns in the callback function. For example:
+    - "return '$' + value.toLocaleString();" means currency formatting
+    - "return value.toLocaleString();" means comma formatting
+    """
+    if callback and "toLocaleString" in callback:
+        if "$" in callback:
+            ax.yaxis.set_major_formatter(FuncFormatter(currency_formatter))
+        else:
+            ax.yaxis.set_major_formatter(FuncFormatter(comma_formatter))
+    else:
+        # Default formatting if no recognizable callback
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f"{x:,.0f}"))
+
 def convert_to_docx(content, output_file):
     # Create a Word document
     doc = Document()
-
     doc.add_heading('Report', level=1)
 
     # Process each section in the content
@@ -49,11 +85,15 @@ def convert_to_docx(content, output_file):
                     row_cells[i].text = cell.strip()
 
         elif content_type == "chart":
-            # Enhanced chart rendering with support for multiple y-axes and formatting
+            # Enhanced chart rendering with flexibility and multiple attempts to parse data
+            chart_info = parse_chart_data(content_data)
+            if chart_info is None:
+                # If we still can't parse, skip this chart
+                continue
+
             try:
-                chart_info = json.loads(content_data)
                 chart_type = chart_info.get("type", "line")
-                data = chart_info["data"]
+                data = chart_info.get("data", {})
                 options = chart_info.get("options", {})
 
                 labels = data.get("labels", [])
@@ -73,7 +113,7 @@ def convert_to_docx(content, output_file):
                     # Additional Y-axes
                     for extra_yaxis_conf in y_axes_config[1:]:
                         twin_ax = ax.twinx()
-                        # For more than two y-axes, more complex positioning is needed.
+                        # For multiple secondary y-axes, more complex positioning may be needed.
                         axis_map[extra_yaxis_conf.get("id", "y-axis-1")] = twin_ax
                 else:
                     # No yAxes config, single default axis
@@ -92,11 +132,7 @@ def convert_to_docx(content, output_file):
                     # Tick formatting
                     ticks_conf = yaxis_conf.get("ticks", {})
                     callback = ticks_conf.get("callback", "")
-                    if "return '$' + value.toLocaleString('en-US');" in callback:
-                        current_ax.yaxis.set_major_formatter(FuncFormatter(currency_formatter))
-                    else:
-                        # Default format
-                        current_ax.yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f"{x:,.0f}"))
+                    format_axis_ticks(current_ax, callback)
 
                 # If no yAxes config at all, set a default formatter
                 if not y_axes_config:
@@ -140,6 +176,7 @@ def convert_to_docx(content, output_file):
 
                 # Legend
                 legend_conf = options.get("legend", {})
+                # Default True if not specified
                 if legend_conf.get("display", True):
                     # Combine legends from all axes
                     handles, labels_legend = [], []
