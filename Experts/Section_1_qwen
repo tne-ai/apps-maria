@@ -69,31 +69,6 @@ nodes:
       x: 1127.705227867265
       'y': -89.1171896530476
     dragging: false
-  - id: 6HRLbEep5aYPmBacd7A6H
-    type: llm
-    position:
-      x: 489.7144801895578
-      'y': 295.506091604639
-    data:
-      id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 1
-      input: ''
-      slashgptManifest: Section_1.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: true
-      useUserQuery: false
-      flowState:
-        backend: git
-        repo: apps-maria-2
-    width: 212
-    height: 466
-    selected: false
-    positionAbsolute:
-      x: 489.7144801895578
-      'y': 295.506091604639
-    dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
     position:
@@ -152,7 +127,7 @@ nodes:
   - id: mnGU7YNZPXds0lD2grF38
     type: out
     position:
-      x: 434.93707058357757
+      x: 318.93707058357757
       'y': 948.5756419896094
     data:
       id: mnGU7YNZPXds0lD2grF38
@@ -162,7 +137,7 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 434.93707058357757
+      x: 318.93707058357757
       'y': 948.5756419896094
     dragging: false
   - id: URrA3DT62xlwYXhQJEFzu
@@ -287,8 +262,8 @@ nodes:
   - id: ncNA12AaNmBqakVSZfBNp
     type: llm
     position:
-      x: 1493.746586626622
-      'y': 584.9063749510883
+      x: 1527.746586626622
+      'y': 582.9063749510883
     data:
       id: ncNA12AaNmBqakVSZfBNp
       title: New Model
@@ -304,8 +279,8 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1493.746586626622
-      'y': 584.9063749510883
+      x: 1527.746586626622
+      'y': 582.9063749510883
     dragging: false
   - id: Yg50-8cdPl3ZNBpXkvWtH
     type: file
@@ -324,7 +299,282 @@ nodes:
       x: 1649.746586626622
       'y': 226.9063749510883
     dragging: false
+  - id: MMrnd9u1_Uq3d22S4sxWH
+    type: llm
+    position:
+      x: 577.746586626622
+      'y': 294.9063749510883
+    data:
+      id: MMrnd9u1_Uq3d22S4sxWH
+      title: New Model
+      input: ''
+      slashgptManifest: bullets_to_prose_geminiflash8b.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 577.746586626622
+      'y': 294.9063749510883
+    dragging: false
+  - id: Jc1RVNHKGx1klaTxIgIYk
+    type: llm
+    position:
+      x: 319.74658662662205
+      'y': 300.9063749510883
+    data:
+      id: Jc1RVNHKGx1klaTxIgIYk
+      title: New Model
+      input: ''
+      slashgptManifest: Section_1.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 319.74658662662205
+      'y': 300.9063749510883
+    dragging: false
+  - id: VsBVHJg5P8bkUxxlUIAA_
+    type: out
+    position:
+      x: 573.746586626622
+      'y': 970.9063749510883
+    data:
+      id: VsBVHJg5P8bkUxxlUIAA_
+      title: Save File
+      outputName: sec1_prose.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 573.746586626622
+      'y': 970.9063749510883
+    dragging: false
+  - id: J7vx_yfPl1Wo2zxRD5V7B
+    type: file
+    position:
+      x: 1363.746586626622
+      'y': -44.29362504891171
+    data:
+      id: J7vx_yfPl1Wo2zxRD5V7B
+      title: Data
+      fileName: sec1_bullets.txt
+      flowState: *ref_2
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1363.746586626622
+      'y': -44.29362504891171
+    dragging: false
+  - id: Vbnw2x87FVjn_oawOhk0X
+    type: llm
+    position:
+      x: 1903.746586626622
+      'y': 639.7063749510883
+    data:
+      id: Vbnw2x87FVjn_oawOhk0X
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter_qwen.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 1903.746586626622
+      'y': 639.7063749510883
+    dragging: false
+  - id: Jz7iBc9CFHMxLz6OJCAgw
+    type: file
+    position:
+      x: 1907.746586626622
+      'y': 223.70637495108826
+    data:
+      id: Jz7iBc9CFHMxLz6OJCAgw
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_2
+    width: 212
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1907.746586626622
+      'y': 223.70637495108826
+    dragging: false
+  - id: iBm1wI8BKBOmQuUfLNQtS
+    type: file
+    position:
+      x: 2201.746586626622
+      'y': -8.293625048911736
+    data:
+      id: iBm1wI8BKBOmQuUfLNQtS
+      title: Data
+      fileName: final_json_no_chart.txt
+      flowState: *ref_2
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 2201.746586626622
+      'y': -8.293625048911736
+    dragging: false
+  - id: 4b2nYKLg6uti4ylVKf2RF
+    type: python_code
+    position:
+      x: 2173.746586626622
+      'y': 247.70637495108826
+    data:
+      id: 4b2nYKLg6uti4ylVKf2RF
+      title: New Code
+      module: get_table_data.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_2
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 2173.746586626622
+      'y': 247.70637495108826
+    dragging: false
+  - id: YLEuXIxul87LXvbqUpx7L
+    type: out
+    position:
+      x: 1921.746586626622
+      'y': 1183.7063749510883
+    data:
+      id: YLEuXIxul87LXvbqUpx7L
+      title: Save File
+      outputName: formatted_docx.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1921.746586626622
+      'y': 1183.7063749510883
+    dragging: false
+  - id: ZKVs7P70l5vf4WZQMvKjQ
+    type: python_code
+    position:
+      x: 2273.746586626622
+      'y': 763.7063749510883
+    data:
+      id: ZKVs7P70l5vf4WZQMvKjQ
+      title: New Code
+      module: maria_docx_2.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_2
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 2273.746586626622
+      'y': 763.7063749510883
+    dragging: false
 edges:
+  - source: Vbnw2x87FVjn_oawOhk0X
+    sourceHandle: r
+    target: ZKVs7P70l5vf4WZQMvKjQ
+    targetHandle: l
+    id: 4LvF_j
+  - source: Vbnw2x87FVjn_oawOhk0X
+    sourceHandle: b
+    target: YLEuXIxul87LXvbqUpx7L
+    targetHandle: t
+    id: 41f72v
+  - source: 4b2nYKLg6uti4ylVKf2RF
+    sourceHandle: b
+    target: Vbnw2x87FVjn_oawOhk0X
+    targetHandle: t
+    id: 72c6UM
+  - source: iBm1wI8BKBOmQuUfLNQtS
+    sourceHandle: b
+    target: 4b2nYKLg6uti4ylVKf2RF
+    targetHandle: t
+    id: uv0LGk
+  - source: Jz7iBc9CFHMxLz6OJCAgw
+    sourceHandle: b
+    target: Vbnw2x87FVjn_oawOhk0X
+    targetHandle: t
+    id: qjs7QN
+  - source: ncNA12AaNmBqakVSZfBNp
+    sourceHandle: r
+    target: Vbnw2x87FVjn_oawOhk0X
+    targetHandle: l
+    id: BmsYlc
+  - source: J7vx_yfPl1Wo2zxRD5V7B
+    sourceHandle: b
+    target: URrA3DT62xlwYXhQJEFzu
+    targetHandle: t
+    id: YHN9mp
+  - source: MMrnd9u1_Uq3d22S4sxWH
+    sourceHandle: b
+    target: VsBVHJg5P8bkUxxlUIAA_
+    targetHandle: t
+    id: 6IliNR
+  - source: W_y2BrbeKeueWAf30Syqn
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: K0awSl
+  - source: 057rYnS3aw3cWeyNPKpUh
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: lJa6NT
+  - source: 1wAv6eoSFk1HVep3TqF92
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: ayA4fS
+  - source: BIznahQrh3X5Hlp0ZXVRp
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: ZxasUz
+  - source: ZLZEYryKwTxJu3gDO3JVD
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: 6uaJAe
+  - source: 31gU9a3-n1Fb95LvHCP3-
+    sourceHandle: b
+    target: Jc1RVNHKGx1klaTxIgIYk
+    targetHandle: t
+    id: E5JI7k
+  - source: Jc1RVNHKGx1klaTxIgIYk
+    sourceHandle: b
+    target: mnGU7YNZPXds0lD2grF38
+    targetHandle: t
+    id: gbt3PY
+  - source: Jc1RVNHKGx1klaTxIgIYk
+    sourceHandle: r
+    target: MMrnd9u1_Uq3d22S4sxWH
+    targetHandle: l
+    id: PtOyZq
+  - source: MMrnd9u1_Uq3d22S4sxWH
+    sourceHandle: r
+    target: URrA3DT62xlwYXhQJEFzu
+    targetHandle: l
+    id: WuDdGH
   - source: Yg50-8cdPl3ZNBpXkvWtH
     sourceHandle: b
     target: ncNA12AaNmBqakVSZfBNp
@@ -355,44 +605,4 @@ edges:
     target: URrA3DT62xlwYXhQJEFzu
     targetHandle: t
     id: JDKIzM
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: r
-    target: URrA3DT62xlwYXhQJEFzu
-    targetHandle: l
-    id: tvMoxG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: mnGU7YNZPXds0lD2grF38
-    targetHandle: t
-    id: aYHz9E
-  - source: ZLZEYryKwTxJu3gDO3JVD
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: 4uMDOy
-  - source: 31gU9a3-n1Fb95LvHCP3-
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: r50ZnG
-  - source: W_y2BrbeKeueWAf30Syqn
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: FAk-3C
-  - source: 057rYnS3aw3cWeyNPKpUh
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: N3Ujx4
-  - source: 1wAv6eoSFk1HVep3TqF92
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: AxRUkX
-  - source: BIznahQrh3X5Hlp0ZXVRp
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: 0jIem_
 description: null
