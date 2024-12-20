@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["title", "bodyText", "tableData", "chartData", "subhead", "details", "recommendations", "request_and_response_issues"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "A 20-60 character summary of the content of the response",
+      "minLength": 20,
+      "maxLength": 60
+    },
+    "bodyText": {
+      "type": "string",
+      "description": "The text body of the response. The complete response to the request, including relevant context and any significant cautions about data sufficiency or methodology. Should be organized and formatted using Markdown."
+    },
+    "tableData": {
+      "type": "string",
+      "description": "The given Markdown table without any extra formatting like code blocks"
+    },
+    "subhead": {
+      "type": "string",
+      "description": "A concise 100-250 character summary of the response content. Should summarize the body text and table data, not describe the request.",
+      "minLength": 100,
+      "maxLength": 250
+    },
+    "details": {
+      "type": "string",
+      "description": "Complete supporting data including source data references (column names, filters, etc.), definitions, algorithms and formulas used in calculations. Should summarize mathematical formulas implemented in the code."
+    },
+    "recommendations": {
+      "type": "string",
+      "description": "One or more specific options for actions the user should consider to correct, optimize, or react to situations identified in the response"
+    },
+    "request_and_response_issues": {
+      "type": "string", 
+      "description": "Description of request ambiguities, data insufficiencies/uncertainties/inconsistencies, or missing algorithms/formulas that affect response reliability"
+    }
+  }
+}
