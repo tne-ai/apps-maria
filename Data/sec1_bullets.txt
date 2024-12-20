@@ -1,44 +1,40 @@
-San Diego County's Gross Regional Product (GRP) provides a comprehensive view of the economic output of the region. Here's a breakdown of the GRP for San Diego County over the years 2019 to 2023, based on the provided data:
+To provide a breakdown of San Diego County's Gross Regional Product (GRP), we will analyze the data from the provided CSV files, focusing on the GRP figures for San Diego County over the years 2019 to 2023. The data includes the total GRP in dollars, population, and GRP per capita.
 
-1. **Total GRP (in dollars):**
-   - 2019: $244,278,846,457.50
-   - 2020: $244,822,303,264.04
-   - 2021: $268,873,550,391.04
-   - 2022: $296,683,894,891.99
-   - 2023: $308,710,843,090.86
+### San Diego County GRP Overview (2019-2023):
 
-2. **GRP Per Capita (in dollars):**
-   - 2019: $73,346.92
-   - 2020: $74,277.60
-   - 2021: $82,099.95
-   - 2022: $90,557.10
-   - 2023: $94,915.87
+1. **2019:**
+   - **Total GRP:** $244,278,846,457.50
+   - **Population:** 3,330,458
+   - **GRP per Capita:** $73,346.92
 
-3. **Industry Contributions to GRP (2023):**
-   - Accommodation and Food Services: $11,833,760,897.28
-   - Administrative and Support and Waste Management and Remediation Services: $11,304,936,654.41
-   - Agriculture, Forestry, Fishing and Hunting: $1,576,867,627.70
-   - Arts, Entertainment, and Recreation: $3,588,235,567.59
-   - Construction: $12,667,991,170.48
-   - Educational Services: $2,441,232,703.50
-   - Finance and Insurance: $19,499,330,483.44
-   - Government (including GFE, GSLE, and OOD): $52,922,899,790.76
-   - Health Care and Social Assistance: $20,213,811,990.03
-   - Information: $14,898,419,816.60
-   - Management of Companies and Enterprises: $4,146,461,224.91
-   - Manufacturing: $31,669,563,550.34
-   - Mining, Quarrying, and Oil and Gas Extraction: $196,115,838.23
-   - Other Services (except Public Administration): $5,567,515,763.47
-   - Professional, Scientific, and Technical Services: $37,043,140,500.56
-   - Real Estate and Rental and Leasing: $12,330,431,390.54
-   - Retail Trade: $16,239,988,479.32
-   - Transportation and Warehousing: $4,755,652,766.52
-   - Utilities: $4,333,967,139.10
-   - Wholesale Trade: $14,966,365,048.17
+2. **2020:**
+   - **Total GRP:** $244,822,303,264.04
+   - **Population:** 3,296,045
+   - **GRP per Capita:** $74,277.60
 
-4. **Trends and Observations:**
-   - The total GRP has shown a consistent increase from 2019 to 2023, indicating economic growth in the region.
-   - The GRP per capita has also increased over the years, suggesting an improvement in the economic output per person in San Diego County.
-   - Key industries contributing significantly to the GRP include Government, Manufacturing, Professional, Scientific, and Technical Services, and Finance and Insurance.
+3. **2021:**
+   - **Total GRP:** $268,873,550,391.04
+   - **Population:** 3,274,954
+   - **GRP per Capita:** $82,099.95
 
-This breakdown highlights the economic landscape of San Diego County, showcasing the major industries driving its economic growth and the overall increase in economic output over the years.
+4. **2022:**
+   - **Total GRP:** $296,683,894,891.99
+   - **Population:** 3,276,208
+   - **GRP per Capita:** $90,557.10
+
+5. **2023:**
+   - **Total GRP:** $308,710,843,090.86
+   - **Population:** 3,252,468
+   - **GRP per Capita:** $94,915.87
+
+### Analysis:
+
+- **Growth Trend:** Over the five-year period from 2019 to 2023, San Diego County's GRP has shown a consistent upward trend, increasing from approximately $244.28 billion in 2019 to $308.71 billion in 2023.
+  
+- **Population Changes:** The population of San Diego County has slightly decreased from 3,330,458 in 2019 to 3,252,468 in 2023. Despite this decrease, the GRP has continued to grow, indicating an increase in economic productivity per capita.
+
+- **GRP per Capita:** The GRP per capita has increased significantly from $73,346.92 in 2019 to $94,915.87 in 2023. This suggests that the economic output per person has improved, reflecting a more productive economy.
+
+Overall, San Diego County has experienced robust economic growth over the past five years, with significant increases in both total GRP and GRP per capita, despite a slight decline in population.
+
+
