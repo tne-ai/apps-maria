@@ -1,0 +1,36 @@
+FinancialTimesToChartJS:
+  Flow Charts:
+    description: "For volumes or intensity of movement between states or conditions."
+    chartjs: "No direct equivalent (consider custom or external libraries)"
+
+  Spatial Charts:
+    description: "For geographical patterns and locations."
+    chartjs: "No direct equivalent (consider mapping libraries or custom overlays)"
+
+  Change over Time Charts:
+    description: "For trends over time periods."
+    chartjs: "Line Chart"
+
+  Magnitude Charts:
+    description: "For size comparisons."
+    chartjs: "Bar Chart"
+
+  Deviation Charts:
+    description: "For variations from a reference point."
+    chartjs: "Bar Chart or Line Chart (with a reference line)"
+
+  Ranking Charts:
+    description: "For item positions in an ordered list."
+    chartjs: "Horizontal Bar Chart"
+
+  Correlation Charts:
+    description: "For relationships between variables."
+    chartjs: "Scatter Chart"
+
+  Distribution Charts:
+    description: "For showing value frequencies in a dataset."
+    chartjs: "Bar Chart (as a histogram approximation)"
+
+  Part-to-Whole Charts:
+    description: "For breaking down an entity into components."
+    chartjs: "Pie or Doughnut Chart"
