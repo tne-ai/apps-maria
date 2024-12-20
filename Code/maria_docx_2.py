@@ -3,10 +3,15 @@ from io import BytesIO
 from docx import Document
 from docx.shared import Inches
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter
 from tne.TNE import TNE
 
 # Initialize the TNE object
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
+
+def currency_formatter(value, pos):
+    # Format the number with commas and prepend a dollar sign
+    return '${:,.2f}'.format(value)
 
 def convert_to_docx(content, output_file):
     # Create a Word document
@@ -22,11 +27,11 @@ def convert_to_docx(content, output_file):
         if content_type == "raw text":
             # Add raw text
             doc.add_paragraph(content_data)
+
         elif content_type == "table":
             # Parse and add table data
-            # doc.add_heading('Table Data', level=2)
             lines = content_data.strip().split("\n")
-            headers = lines[0].split("|") # Extract headers
+            headers = lines[0].split("|")  # Extract headers
             rows = [line.split("|") for line in lines[1:]]  # Extract rows
 
             table = doc.add_table(rows=1, cols=len(headers))
@@ -42,37 +47,121 @@ def convert_to_docx(content, output_file):
                 row_cells = table.add_row().cells
                 for i, cell in enumerate(row):
                     row_cells[i].text = cell.strip()
+
         elif content_type == "chart":
-            # Generate and add chart
-            # doc.add_heading('Chart Data', level=2)
+            # Enhanced chart rendering with support for multiple y-axes and formatting
             try:
                 chart_info = json.loads(content_data)
+                chart_type = chart_info.get("type", "line")
+                data = chart_info["data"]
+                options = chart_info.get("options", {})
 
-                plt.figure(figsize=(6, 4))
-                for dataset in chart_info["data"]["datasets"]:
-                    plt.plot(chart_info["data"]["labels"],
-                             dataset["data"],
-                             label=dataset["label"],
-                             color=dataset.get("borderColor", "#000"),
-                             marker="o")
-    
-                plt.title(chart_info["options"]["title"]["text"])
-                plt.xlabel('Year')
-                plt.ylabel('Value')
-                plt.grid(True)
-                if chart_info["options"]["legend"]["display"]:
-                    plt.legend()
-    
+                labels = data.get("labels", [])
+                datasets = data.get("datasets", [])
+
+                fig, ax = plt.subplots(figsize=(6,4))
+
+                # Handle scales (yAxes)
+                y_axes_config = options.get("scales", {}).get("yAxes", [])
+                axis_map = {}
+
+                # Primary Y-axis
+                if y_axes_config:
+                    primary_yaxis_conf = y_axes_config[0]
+                    axis_map[primary_yaxis_conf.get("id", "y-axis-0")] = ax
+
+                    # Additional Y-axes
+                    for extra_yaxis_conf in y_axes_config[1:]:
+                        twin_ax = ax.twinx()
+                        # For more than two y-axes, more complex positioning is needed.
+                        axis_map[extra_yaxis_conf.get("id", "y-axis-1")] = twin_ax
+                else:
+                    # No yAxes config, single default axis
+                    axis_map["y-axis-0"] = ax
+
+                # Set Y-axis labels and formatting
+                for yaxis_conf in y_axes_config:
+                    y_id = yaxis_conf.get("id", "y-axis-0")
+                    current_ax = axis_map[y_id]
+
+                    # Axis label
+                    scale_label = yaxis_conf.get("scaleLabel", {})
+                    if scale_label.get("display", False):
+                        current_ax.set_ylabel(scale_label.get("labelString", ""), fontsize=10)
+
+                    # Tick formatting
+                    ticks_conf = yaxis_conf.get("ticks", {})
+                    callback = ticks_conf.get("callback", "")
+                    if "return '$' + value.toLocaleString('en-US');" in callback:
+                        current_ax.yaxis.set_major_formatter(FuncFormatter(currency_formatter))
+                    else:
+                        # Default format
+                        current_ax.yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f"{x:,.0f}"))
+
+                # If no yAxes config at all, set a default formatter
+                if not y_axes_config:
+                    ax.yaxis.set_major_formatter(FuncFormatter(lambda x, pos: f"{x:,.0f}"))
+
+                # X-axis label if provided
+                x_axes_config = options.get("scales", {}).get("xAxes", [])
+                if x_axes_config:
+                    x_axis_conf = x_axes_config[0]
+                    scale_label = x_axis_conf.get("scaleLabel", {})
+                    if scale_label.get("display", False):
+                        ax.set_xlabel(scale_label.get("labelString", ""), fontsize=10)
+                else:
+                    ax.set_xlabel('Year')
+
+                # Plot datasets
+                for dataset in datasets:
+                    yAxisID = dataset.get("yAxisID", "y-axis-0")
+                    plot_ax = axis_map.get(yAxisID, ax)
+
+                    color = dataset.get("borderColor", "#000")
+                    label = dataset.get("label", "")
+                    line_data = dataset.get("data", [])
+
+                    if chart_type == "line":
+                        plot_ax.plot(labels, line_data, label=label, color=color, marker="o")
+                    elif chart_type == "bar":
+                        # Basic bar plotting (may need adjustments for grouped bars)
+                        plot_ax.bar(labels, line_data, label=label, color=color)
+                    else:
+                        # Fallback to line plot if type not recognized
+                        plot_ax.plot(labels, line_data, label=label, color=color, marker="o")
+
+                # Title
+                title_conf = options.get("title", {})
+                if title_conf.get("display", False):
+                    plt.title(title_conf.get("text", ""), fontsize=12)
+
+                # Grid
+                ax.grid(True)
+
+                # Legend
+                legend_conf = options.get("legend", {})
+                if legend_conf.get("display", True):
+                    # Combine legends from all axes
+                    handles, labels_legend = [], []
+                    for axis_id, axis_obj in axis_map.items():
+                        h, l = axis_obj.get_legend_handles_labels()
+                        handles.extend(h)
+                        labels_legend.extend(l)
+                    if handles:
+                        ax.legend(handles, labels_legend, loc='best')
+
                 # Save chart to a BytesIO buffer
                 chart_stream = BytesIO()
                 plt.savefig(chart_stream, format='png')
-                plt.close()
+                plt.close(fig)
                 chart_stream.seek(0)
-    
+
                 # Insert chart image into the document
                 doc.add_picture(chart_stream, width=Inches(5.5))
                 chart_stream.close()
+
             except:
+                # If something fails, skip
                 continue
 
     # Save the document
@@ -88,7 +177,7 @@ try:
     # Extract document filename and content
     output_file = content_json["document_filename"]
     content_sections = content_json
-    
+
     # Generate the docx file
     result = convert_to_docx(content_sections, output_file)
 except json.JSONDecodeError as e:
