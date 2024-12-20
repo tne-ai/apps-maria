@@ -168,11 +168,11 @@ nodes:
   - id: URrA3DT62xlwYXhQJEFzu
     type: llm
     position:
-      x: 945.746586626622
-      'y': 580.9063749510883
+      x: 831.746586626622
+      'y': 292.9063749510883
     data:
       id: URrA3DT62xlwYXhQJEFzu
-      title: New Model
+      title: ie item generator
       input: ''
       slashgptManifest: ie_item_generator_qwen.model
       toolJson: ''
@@ -209,13 +209,13 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 945.746586626622
-      'y': 580.9063749510883
+      x: 831.746586626622
+      'y': 292.9063749510883
   - id: mFzWLaNxyBABou5EFFwxD
     type: file
     position:
-      x: 1129.746586626622
-      'y': 264.9063749510883
+      x: 1127.746586626622
+      'y': 220.9063749510883
     data:
       id: mFzWLaNxyBABou5EFFwxD
       title: Data
@@ -223,12 +223,133 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 226
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
-      x: 1129.746586626622
-      'y': 264.9063749510883
+      x: 1127.746586626622
+      'y': 220.9063749510883
+  - id: RjgEXBRKZ1pPApfjtNjnd
+    type: out
+    position:
+      x: 823.746586626622
+      'y': 946.9063749510883
+    data:
+      id: RjgEXBRKZ1pPApfjtNjnd
+      title: Save File
+      outputName: final_json_no_chart.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 823.746586626622
+      'y': 946.9063749510883
+    dragging: false
+  - id: C56HGhgpvIIiuXIZb7-5k
+    type: llm
+    position:
+      x: 1193.746586626622
+      'y': 582.9063749510883
+    data:
+      id: C56HGhgpvIIiuXIZb7-5k
+      title: New Model
+      input: ''
+      slashgptManifest: chart_chooser.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1193.746586626622
+      'y': 582.9063749510883
+    dragging: false
+  - id: uYh7acb0FWczpQaJ6IQ09
+    type: file
+    position:
+      x: 1397.746586626622
+      'y': 222.9063749510883
+    data:
+      id: uYh7acb0FWczpQaJ6IQ09
+      title: Data
+      fileName: chart_purposes.txt
+      flowState: *ref_2
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1397.746586626622
+      'y': 222.9063749510883
+    dragging: false
+  - id: ncNA12AaNmBqakVSZfBNp
+    type: llm
+    position:
+      x: 1493.746586626622
+      'y': 584.9063749510883
+    data:
+      id: ncNA12AaNmBqakVSZfBNp
+      title: New Model
+      input: ''
+      slashgptManifest: chart_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1493.746586626622
+      'y': 584.9063749510883
+    dragging: false
+  - id: Yg50-8cdPl3ZNBpXkvWtH
+    type: file
+    position:
+      x: 1649.746586626622
+      'y': 226.9063749510883
+    data:
+      id: Yg50-8cdPl3ZNBpXkvWtH
+      title: Data
+      fileName: schema-chart.txt
+      flowState: *ref_2
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1649.746586626622
+      'y': 226.9063749510883
+    dragging: false
 edges:
+  - source: Yg50-8cdPl3ZNBpXkvWtH
+    sourceHandle: b
+    target: ncNA12AaNmBqakVSZfBNp
+    targetHandle: t
+    id: FQ7cYM
+  - source: C56HGhgpvIIiuXIZb7-5k
+    sourceHandle: r
+    target: ncNA12AaNmBqakVSZfBNp
+    targetHandle: l
+    id: szrZdN
+  - source: URrA3DT62xlwYXhQJEFzu
+    sourceHandle: r
+    target: C56HGhgpvIIiuXIZb7-5k
+    targetHandle: l
+    id: 5qsJuF
+  - source: uYh7acb0FWczpQaJ6IQ09
+    sourceHandle: b
+    target: C56HGhgpvIIiuXIZb7-5k
+    targetHandle: t
+    id: 0Uz-lO
+  - source: URrA3DT62xlwYXhQJEFzu
+    sourceHandle: b
+    target: RjgEXBRKZ1pPApfjtNjnd
+    targetHandle: t
+    id: WcwLo-
   - source: mFzWLaNxyBABou5EFFwxD
     sourceHandle: b
     target: URrA3DT62xlwYXhQJEFzu
