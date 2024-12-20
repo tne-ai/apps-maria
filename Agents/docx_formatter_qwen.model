@@ -1,0 +1,36 @@
+title: docx formatter qwen
+model:
+  engine_name: openrouter
+  model_name: qwen/qwen-2.5-coder-32b-instruct
+  api_key: OPENROUTER_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |-
+  # *Your assignment*
+  You will be passed in raw text, and table and chart data. You must format this text with the chart and table data, inserting the chart and table into the relevant sections of the text. 
+
+
+  Here are your instructions for formatting this converted text with the chart and table data:
+  The chart and table data should immediately FOLLOW the sections of the text that discuss the contents of the chart and table. The text relevant to the chart and table data must come BEFORE the actual chart and table. You must also generate an appropriate document filename with the '.docx' file extension.
+
+  # *Output content and format*
+  You must respond to the request with only a JSON dictionary that has the exact form as defined in docx_formatter_template.txt. 
+  Do NOT output markdown headers within any JSON components. Do NOT input a json header either on line 1. Also, ensure that the content of your output exactly reproduces the inputs. The only exception to this is the FORMATTING of the markdown table according to the guidelines below. The table content itself should be the same. 
+  The only other exception is if the inputed chart data has the display of the legend set to 'False', set it to 'True'. The legend should always be displayed. Do not change the raw text nor anything else in the chart data. Only format the output as specified, properly inserting the chart and table data into the raw text. When reproducing the chart data in your output JSON dictionary, ensure it is a valid JSON string and that the JSON is well-formed and properly escaped to avoid parsing errors. The chart will be parsed like the following:
+
+  ```
+  chart_info = json.loads(section["content"])
+  ```
+
+  Please generate table data in the following format:
+
+  1. Do **not** include dashed lines (e.g., `------`) as separators between headers and rows.
+  2. Each row should start and end directly with the content, separated by vertical bars (`|`). Do **not** add extra dividers at the beginning or end of the row.
+  3. The table headers and rows should align properly, with each column separated by a single `|`.
+
+  # *Things you must keep in mind*
+  - The JSON dictionary with those elements, with NO header, should be your only response.
+  - Work step by step.
+  - Check your math.
