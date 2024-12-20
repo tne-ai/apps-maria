@@ -1,13 +1,25 @@
 {
-  "document_filename": "San_Diego_County_GRP_Report.docx",
-  "sections": [
-    {
-      "content": "The following chart shows the Gross Regional Product (GRP) and GRP per Capita for San Diego County from 2019 to 2023. The GRP data is represented in millions, while the GRP per Capita is in dollars.",
-      "type": "raw text"
-    },
-    {
-      "content": "{\"type\": \"line\", \"data\": {\"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"], \"datasets\": [{\"label\": \"GRP (in millions)\", \"data\": [150000, 145000, 155000, 160000, 165000], \"yAxisID\": \"y-axis-grp\", \"borderColor\": \"#3e95cd\", \"fill\": false}, {\"label\": \"GRP per Capita (in dollars)\", \"data\": [30000, 29000, 31000, 32000, 33000], \"yAxisID\": \"y-axis-grp-per-capita\", \"borderColor\": \"#8e5ea2\", \"fill\": false}]}, \"options\": {\"responsive\": true, \"title\": {\"display\": true, \"text\": \"San Diego County's GRP and GRP per Capita from 2019 to 2023\"}, \"scales\": {\"xAxes\": [{\"scaleLabel\": {\"display\": true, \"labelString\": \"Year\"}}], \"yAxes\": [{\"id\": \"y-axis-grp\", \"type\": \"linear\", \"position\": \"left\", \"scaleLabel\": {\"display\": true, \"labelString\": \"GRP (in millions)\"}, \"ticks\": {\"callback\": function(value) { return value.toLocaleString(); }}}, {\"id\": \"y-axis-grp-per-capita\", \"type\": \"linear\", \"position\": \"right\", \"scaleLabel\": {\"display\": true, \"labelString\": \"GRP per Capita (in dollars)\"}, \"ticks\": {\"callback\": function(value) { return value.toLocaleString(); }}}]}}}",
-      "type": "chart"
-    }
-  ]
+    "document_filename": "San_Diego_County_GRP_Report_2019_2023.docx",
+    "sections": [
+        {
+            "content": "San Diego County's economic landscape has shown remarkable growth and resilience from 2019 to 2023. The Gross Regional Product (GRP) of the region, which serves as a comprehensive measure of its economic output, has increased significantly over this period. In 2019, the GRP was approximately $244.28 billion. By 2023, it had risen to about $308.71 billion, marking a substantial growth of approximately 26.4% over five years. This upward trajectory highlights the region's economic vitality and its ability to rebound from challenges, such as the slight dip experienced in 2020 due to the COVID-19 pandemic. The following chart illustrates the yearly GRP figures, showcasing the steady increase in economic output.",
+            "type": "raw text"
+        },
+        {
+            "content": "{\n    \"type\": \"line\",\n    \"data\": {\n        \"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"],\n        \"datasets\": [{\n            \"label\": \"GRP\",\n            \"data\": [244.28, 244.82, 268.87, 296.68, 308.71],\n            \"borderColor\": \"#3e95cd\",\n            \"fill\": false\n        }]\n    },\n    \"options\": {\n        \"title\": {\n            \"display\": true,\n            \"text\": \"San Diego County GRP 2019-2023\"\n        },\n        \"legend\": {\n            \"display\": true\n        }\n    }\n}",
+            "type": "chart"
+        },
+        {
+            "content": "The table below provides a detailed view of the GRP figures for each year from 2019 to 2023, further emphasizing the economic growth experienced by San Diego County.",
+            "type": "raw text"
+        },
+        {
+            "content": "Year | GRP (billion $)\n2019 | 244.28\n2020 | 244.82\n2021 | 268.87\n2022 | 296.68\n2023 | 308.71",
+            "type": "table"
+        },
+        {
+            "content": "In addition to the overall growth, the per capita GRP also saw a notable increase. In 2019, the per capita GRP was approximately $73,347, and by 2023, it had risen to about $94,916. This represents a growth of approximately 29.4%, indicating an improvement in economic productivity and living standards in the region. The largest contributors to the GRP in 2023 were the Government sector, which remained the most significant contributor throughout the years, followed by Professional, Scientific, and Technical Services, Manufacturing, Health Care and Social Assistance, and Finance and Insurance. The Professional, Scientific, and Technical Services sector, in particular, demonstrated significant growth, reflecting San Diego's strong emphasis on innovation and technology. Overall, San Diego County's economy has shown resilience and robust growth, with key sectors driving its economic success.",
+            "type": "raw text"
+        }
+    ]
 }
