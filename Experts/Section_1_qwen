@@ -340,7 +340,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 319.74658662662205
       'y': 300.9063749510883
