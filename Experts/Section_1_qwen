@@ -237,7 +237,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1193.746586626622
       'y': 582.9063749510883
@@ -272,7 +272,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -312,7 +312,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -335,7 +335,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_2
     width: 212
