@@ -189,8 +189,8 @@ nodes:
   - id: mFzWLaNxyBABou5EFFwxD
     type: file
     position:
-      x: 1127.746586626622
-      'y': 220.9063749510883
+      x: 1093.746586626622
+      'y': 234.9063749510883
     data:
       id: mFzWLaNxyBABou5EFFwxD
       title: Data
@@ -201,8 +201,8 @@ nodes:
     selected: false
     dragging: false
     positionAbsolute:
-      x: 1127.746586626622
-      'y': 220.9063749510883
+      x: 1093.746586626622
+      'y': 234.9063749510883
   - id: RjgEXBRKZ1pPApfjtNjnd
     type: out
     position:
@@ -222,8 +222,8 @@ nodes:
   - id: C56HGhgpvIIiuXIZb7-5k
     type: llm
     position:
-      x: 1193.746586626622
-      'y': 582.9063749510883
+      x: 1073.746586626622
+      'y': 526.9063749510883
     data:
       id: C56HGhgpvIIiuXIZb7-5k
       title: New Model
@@ -239,14 +239,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1193.746586626622
-      'y': 582.9063749510883
+      x: 1073.746586626622
+      'y': 526.9063749510883
     dragging: false
   - id: uYh7acb0FWczpQaJ6IQ09
     type: file
     position:
-      x: 1397.746586626622
-      'y': 222.9063749510883
+      x: 1331.746586626622
+      'y': 232.9063749510883
     data:
       id: uYh7acb0FWczpQaJ6IQ09
       title: Data
@@ -256,14 +256,14 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1397.746586626622
-      'y': 222.9063749510883
+      x: 1331.746586626622
+      'y': 232.9063749510883
     dragging: false
   - id: ncNA12AaNmBqakVSZfBNp
     type: llm
     position:
-      x: 1527.746586626622
-      'y': 580.9063749510883
+      x: 1311.746586626622
+      'y': 524.9063749510883
     data:
       id: ncNA12AaNmBqakVSZfBNp
       title: New Model
@@ -279,14 +279,14 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 1527.746586626622
-      'y': 580.9063749510883
+      x: 1311.746586626622
+      'y': 524.9063749510883
     dragging: false
   - id: Yg50-8cdPl3ZNBpXkvWtH
     type: file
     position:
-      x: 1649.746586626622
-      'y': 226.9063749510883
+      x: 1555.746586626622
+      'y': 232.9063749510883
     data:
       id: Yg50-8cdPl3ZNBpXkvWtH
       title: Data
@@ -296,8 +296,8 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 1649.746586626622
-      'y': 226.9063749510883
+      x: 1555.746586626622
+      'y': 232.9063749510883
     dragging: false
   - id: MMrnd9u1_Uq3d22S4sxWH
     type: llm
@@ -311,11 +311,11 @@ nodes:
       slashgptManifest: bullets_to_prose_qwen.model
       toolJson: ''
       toolCode: ''
-      outputType: overwrite
-      outputToCanvas: true
+      outputType: dispatch
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_2
-    width: 212
+    width: 227
     height: 490
     selected: false
     positionAbsolute:
@@ -361,28 +361,11 @@ nodes:
       x: 573.746586626622
       'y': 970.9063749510883
     dragging: false
-  - id: J7vx_yfPl1Wo2zxRD5V7B
-    type: file
-    position:
-      x: 1363.746586626622
-      'y': -44.29362504891171
-    data:
-      id: J7vx_yfPl1Wo2zxRD5V7B
-      title: Data
-      fileName: sec1_bullets.txt
-      flowState: *ref_2
-    width: 212
-    height: 226
-    selected: false
-    positionAbsolute:
-      x: 1363.746586626622
-      'y': -44.29362504891171
-    dragging: false
   - id: Jz7iBc9CFHMxLz6OJCAgw
     type: file
     position:
-      x: 2354.1421759999303
-      'y': 312.5904524811717
+      x: 2146.1421759999303
+      'y': 250.59045248117172
     data:
       id: Jz7iBc9CFHMxLz6OJCAgw
       title: Data
@@ -392,14 +375,14 @@ nodes:
     height: 250
     selected: false
     positionAbsolute:
-      x: 2354.1421759999303
-      'y': 312.5904524811717
+      x: 2146.1421759999303
+      'y': 250.59045248117172
     dragging: false
   - id: YLEuXIxul87LXvbqUpx7L
     type: out
     position:
-      x: 2342.4645536023504
-      'y': 1203.4583921799956
+      x: 2008.4645536023504
+      'y': 1069.4583921799956
     data:
       id: YLEuXIxul87LXvbqUpx7L
       title: Save File
@@ -408,14 +391,14 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 2342.4645536023504
-      'y': 1203.4583921799956
+      x: 2008.4645536023504
+      'y': 1069.4583921799956
     dragging: false
   - id: ZKVs7P70l5vf4WZQMvKjQ
     type: python_code
     position:
-      x: 2694.4645536023504
-      'y': 714.3263318788196
+      x: 2234.4645536023504
+      'y': 640.3263318788196
     data:
       id: ZKVs7P70l5vf4WZQMvKjQ
       title: New Code
@@ -425,16 +408,16 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 2694.4645536023504
-      'y': 714.3263318788196
+      x: 2234.4645536023504
+      'y': 640.3263318788196
     dragging: false
   - id: 9aXNi0D_fqtWuA4jRNuRO
     type: python_code
     position:
-      x: 1818.7559038746176
-      'y': 674.7616607665458
+      x: 1542.7559038746176
+      'y': 578.7616607665458
     data:
       id: 9aXNi0D_fqtWuA4jRNuRO
       title: New Code
@@ -469,14 +452,14 @@ nodes:
     height: 372
     selected: false
     positionAbsolute:
-      x: 1818.7559038746176
-      'y': 674.7616607665458
+      x: 1542.7559038746176
+      'y': 578.7616607665458
     dragging: false
   - id: x1Mxt4-dFbfidGfqv5_JY
     type: python_code
     position:
-      x: 2115.03616230823
-      'y': 680.687265935218
+      x: 1781.03616230823
+      'y': 578.687265935218
     data:
       id: x1Mxt4-dFbfidGfqv5_JY
       title: New Code
@@ -488,14 +471,14 @@ nodes:
     height: 372
     selected: false
     positionAbsolute:
-      x: 2115.03616230823
-      'y': 680.687265935218
+      x: 1781.03616230823
+      'y': 578.687265935218
     dragging: false
   - id: USvqJn4Kf3spF9CM5bCak
     type: llm
     position:
-      x: 2367.861982838245
-      'y': 658.9600469834198
+      x: 2011.8619828382448
+      'y': 522.9600469834198
     data:
       id: USvqJn4Kf3spF9CM5bCak
       title: New Model
@@ -511,14 +494,14 @@ nodes:
     height: 490
     selected: false
     positionAbsolute:
-      x: 2367.861982838245
-      'y': 658.9600469834198
+      x: 2011.8619828382448
+      'y': 522.9600469834198
     dragging: false
   - id: YI4yG2-Ot8zkcAVvHbRHd
     type: file
     position:
-      x: 2107.1353554166667
-      'y': 269.8453075739431
+      x: 1891.1353554166667
+      'y': 273.8453075739431
     data:
       id: YI4yG2-Ot8zkcAVvHbRHd
       title: Data
@@ -528,14 +511,14 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 2107.1353554166667
-      'y': 269.8453075739431
+      x: 1891.1353554166667
+      'y': 273.8453075739431
     dragging: false
   - id: l-QI7ujHnLuoPRf_j7zbi
     type: out
     position:
-      x: 1820.3167334511204
-      'y': 1186.3970763203006
+      x: 1536.3167334511204
+      'y': 1002.3970763203006
     data:
       id: l-QI7ujHnLuoPRf_j7zbi
       title: Save File
@@ -544,8 +527,8 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 1820.3167334511204
-      'y': 1186.3970763203006
+      x: 1536.3167334511204
+      'y': 1002.3970763203006
     dragging: false
 edges:
   - source: 9aXNi0D_fqtWuA4jRNuRO
@@ -588,11 +571,6 @@ edges:
     target: 9aXNi0D_fqtWuA4jRNuRO
     targetHandle: l
     id: 3cFpfm
-  - source: J7vx_yfPl1Wo2zxRD5V7B
-    sourceHandle: b
-    target: URrA3DT62xlwYXhQJEFzu
-    targetHandle: t
-    id: YHN9mp
   - source: MMrnd9u1_Uq3d22S4sxWH
     sourceHandle: b
     target: VsBVHJg5P8bkUxxlUIAA_
