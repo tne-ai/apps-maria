@@ -317,7 +317,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 577.746586626622
       'y': 294.9063749510883
@@ -378,34 +378,11 @@ nodes:
       x: 1363.746586626622
       'y': -44.29362504891171
     dragging: false
-  - id: Vbnw2x87FVjn_oawOhk0X
-    type: llm
-    position:
-      x: 1903.746586626622
-      'y': 639.7063749510883
-    data:
-      id: Vbnw2x87FVjn_oawOhk0X
-      title: New Model
-      input: ''
-      slashgptManifest: docx_formatter_qwen.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: true
-      useUserQuery: false
-      flowState: *ref_2
-    width: 212
-    height: 490
-    selected: false
-    positionAbsolute:
-      x: 1903.746586626622
-      'y': 639.7063749510883
-    dragging: false
   - id: Jz7iBc9CFHMxLz6OJCAgw
     type: file
     position:
-      x: 1907.746586626622
-      'y': 223.70637495108826
+      x: 2354.1421759999303
+      'y': 312.5904524811717
     data:
       id: Jz7iBc9CFHMxLz6OJCAgw
       title: Data
@@ -415,50 +392,14 @@ nodes:
     height: 250
     selected: false
     positionAbsolute:
-      x: 1907.746586626622
-      'y': 223.70637495108826
-    dragging: false
-  - id: iBm1wI8BKBOmQuUfLNQtS
-    type: file
-    position:
-      x: 2201.746586626622
-      'y': -8.293625048911736
-    data:
-      id: iBm1wI8BKBOmQuUfLNQtS
-      title: Data
-      fileName: final_json_no_chart.txt
-      flowState: *ref_2
-    width: 212
-    height: 226
-    selected: false
-    positionAbsolute:
-      x: 2201.746586626622
-      'y': -8.293625048911736
-    dragging: false
-  - id: 4b2nYKLg6uti4ylVKf2RF
-    type: python_code
-    position:
-      x: 2173.746586626622
-      'y': 247.70637495108826
-    data:
-      id: 4b2nYKLg6uti4ylVKf2RF
-      title: New Code
-      module: get_table_data.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState: *ref_2
-    width: 212
-    height: 348
-    selected: false
-    positionAbsolute:
-      x: 2173.746586626622
-      'y': 247.70637495108826
+      x: 2354.1421759999303
+      'y': 312.5904524811717
     dragging: false
   - id: YLEuXIxul87LXvbqUpx7L
     type: out
     position:
-      x: 1921.746586626622
-      'y': 1183.7063749510883
+      x: 2342.4645536023504
+      'y': 1203.4583921799956
     data:
       id: YLEuXIxul87LXvbqUpx7L
       title: Save File
@@ -467,14 +408,14 @@ nodes:
     height: 190
     selected: false
     positionAbsolute:
-      x: 1921.746586626622
-      'y': 1183.7063749510883
+      x: 2342.4645536023504
+      'y': 1203.4583921799956
     dragging: false
   - id: ZKVs7P70l5vf4WZQMvKjQ
     type: python_code
     position:
-      x: 2273.746586626622
-      'y': 763.7063749510883
+      x: 2694.4645536023504
+      'y': 714.3263318788196
     data:
       id: ZKVs7P70l5vf4WZQMvKjQ
       title: New Code
@@ -486,40 +427,146 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 2273.746586626622
-      'y': 763.7063749510883
+      x: 2694.4645536023504
+      'y': 714.3263318788196
+    dragging: false
+  - id: 9aXNi0D_fqtWuA4jRNuRO
+    type: python_code
+    position:
+      x: 1818.7559038746176
+      'y': 674.7616607665458
+    data:
+      id: 9aXNi0D_fqtWuA4jRNuRO
+      title: New Code
+      module: merge_chart_into_json.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: &ref_3
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_1_qwen
+          path: Experts/Section_1_qwen
+          sha: 20ec05ea1761bb4cb794a548436b9e92fcfb8710
+          size: 15363
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/20ec05ea1761bb4cb794a548436b9e92fcfb8710
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_1_qwen
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/20ec05ea1761bb4cb794a548436b9e92fcfb8710
+            html: >-
+              https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+    width: 212
+    height: 372
+    selected: false
+    positionAbsolute:
+      x: 1818.7559038746176
+      'y': 674.7616607665458
+    dragging: false
+  - id: x1Mxt4-dFbfidGfqv5_JY
+    type: python_code
+    position:
+      x: 2115.03616230823
+      'y': 680.687265935218
+    data:
+      id: x1Mxt4-dFbfidGfqv5_JY
+      title: New Code
+      module: get_table_and_chart.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_3
+    width: 212
+    height: 372
+    selected: false
+    positionAbsolute:
+      x: 2115.03616230823
+      'y': 680.687265935218
+    dragging: false
+  - id: USvqJn4Kf3spF9CM5bCak
+    type: llm
+    position:
+      x: 2367.861982838245
+      'y': 658.9600469834198
+    data:
+      id: USvqJn4Kf3spF9CM5bCak
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter_qwen.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 2367.861982838245
+      'y': 658.9600469834198
+    dragging: false
+  - id: YI4yG2-Ot8zkcAVvHbRHd
+    type: file
+    position:
+      x: 2107.1353554166667
+      'y': 269.8453075739431
+    data:
+      id: YI4yG2-Ot8zkcAVvHbRHd
+      title: Data
+      fileName: sec1_prose.txt
+      flowState: *ref_3
+    width: 212
+    height: 226
+    selected: true
+    positionAbsolute:
+      x: 2107.1353554166667
+      'y': 269.8453075739431
     dragging: false
 edges:
-  - source: Vbnw2x87FVjn_oawOhk0X
+  - source: USvqJn4Kf3spF9CM5bCak
     sourceHandle: r
     target: ZKVs7P70l5vf4WZQMvKjQ
     targetHandle: l
-    id: 4LvF_j
-  - source: Vbnw2x87FVjn_oawOhk0X
+    id: 47mQmL
+  - source: USvqJn4Kf3spF9CM5bCak
     sourceHandle: b
     target: YLEuXIxul87LXvbqUpx7L
     targetHandle: t
-    id: 41f72v
-  - source: 4b2nYKLg6uti4ylVKf2RF
+    id: LVF0Hi
+  - source: YI4yG2-Ot8zkcAVvHbRHd
     sourceHandle: b
-    target: Vbnw2x87FVjn_oawOhk0X
+    target: USvqJn4Kf3spF9CM5bCak
     targetHandle: t
-    id: 72c6UM
-  - source: iBm1wI8BKBOmQuUfLNQtS
-    sourceHandle: b
-    target: 4b2nYKLg6uti4ylVKf2RF
-    targetHandle: t
-    id: uv0LGk
+    id: h524Gf
+  - source: x1Mxt4-dFbfidGfqv5_JY
+    sourceHandle: r
+    target: USvqJn4Kf3spF9CM5bCak
+    targetHandle: l
+    id: KnS7xW
   - source: Jz7iBc9CFHMxLz6OJCAgw
     sourceHandle: b
-    target: Vbnw2x87FVjn_oawOhk0X
+    target: USvqJn4Kf3spF9CM5bCak
     targetHandle: t
-    id: qjs7QN
+    id: m34vNf
+  - source: 9aXNi0D_fqtWuA4jRNuRO
+    sourceHandle: r
+    target: x1Mxt4-dFbfidGfqv5_JY
+    targetHandle: l
+    id: Fhl4Va
   - source: ncNA12AaNmBqakVSZfBNp
     sourceHandle: r
-    target: Vbnw2x87FVjn_oawOhk0X
+    target: 9aXNi0D_fqtWuA4jRNuRO
     targetHandle: l
-    id: BmsYlc
+    id: 3cFpfm
   - source: J7vx_yfPl1Wo2zxRD5V7B
     sourceHandle: b
     target: URrA3DT62xlwYXhQJEFzu
