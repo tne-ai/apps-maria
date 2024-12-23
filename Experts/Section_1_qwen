@@ -231,11 +231,11 @@ nodes:
       slashgptManifest: chart_chooser.model
       toolJson: ''
       toolCode: ''
-      outputType: overwrite
+      outputType: augment_prompt
       outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
-    width: 212
+    width: 224
     height: 466
     selected: false
     positionAbsolute:
