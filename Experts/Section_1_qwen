@@ -237,7 +237,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1193.746586626622
       'y': 582.9063749510883
@@ -308,7 +308,7 @@ nodes:
       id: MMrnd9u1_Uq3d22S4sxWH
       title: New Model
       input: ''
-      slashgptManifest: bullets_to_prose_geminiflash8b.model
+      slashgptManifest: bullets_to_prose_qwen.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -317,7 +317,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 577.746586626622
       'y': 294.9063749510883
