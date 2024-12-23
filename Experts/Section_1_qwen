@@ -311,13 +311,13 @@ nodes:
       slashgptManifest: bullets_to_prose_qwen.model
       toolJson: ''
       toolCode: ''
-      outputType: dispatch
-      outputToCanvas: false
+      outputType: augment_prompt
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
-    width: 227
+    width: 224
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 577.746586626622
       'y': 294.9063749510883
@@ -349,7 +349,7 @@ nodes:
     type: out
     position:
       x: 573.746586626622
-      'y': 970.9063749510883
+      'y': 952.9063749510883
     data:
       id: VsBVHJg5P8bkUxxlUIAA_
       title: Save File
@@ -359,7 +359,7 @@ nodes:
     selected: false
     positionAbsolute:
       x: 573.746586626622
-      'y': 970.9063749510883
+      'y': 952.9063749510883
     dragging: false
   - id: Jz7iBc9CFHMxLz6OJCAgw
     type: file
@@ -408,7 +408,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 2234.4645536023504
       'y': 640.3263318788196
