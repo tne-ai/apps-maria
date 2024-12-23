@@ -19,7 +19,7 @@ prompt: |-
   }
 
   Your task is to generate a Chart.js configuration object that:
-  1. Accurately represents all of the data from the Markdown table
+  1. Accurately represents all of the data from inputted json, particulary the table field
   2. Implements the specified chart type
   3. Follows any provided chart suggestions
   4. Uses appropriate colors, labels, and formatting
