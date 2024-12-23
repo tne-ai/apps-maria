@@ -43,3 +43,7 @@ prompt: |-
   # Output requirements
   Provide a complete chart.js chart specification that conforms to the schema in chart_schema.txt.
   Your output must be only the chart specification JSON, which must follow chart_schema.txt. Do not include comments or explanations.
+  ENSURE YOUR OUTPUT IS VALID JSON, AND CAN BE READ BY THE FOLLOWING CODE: 
+  ```
+  chart_data = json.loads(<your output>)
+  ```
