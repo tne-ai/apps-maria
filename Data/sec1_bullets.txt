@@ -1,33 +1,35 @@
-San Diego County's Gross Regional Product (GRP) provides a comprehensive view of the economic output of the region. Here's a breakdown of the GRP for San Diego County from 2019 to 2023, based on the provided data:
+To generate the San Diego County's Gross Regional Product (GRP) report, we will analyze the data provided in the CSV files: `sec1-1_San Diego County_grp_data.csv` and `sec1-2_San Diego County_per_capita_grp_data.csv`. These files contain information on the GRP by industry and per capita GRP for San Diego County from 2019 to 2023.
 
-1. **Overall GRP Growth**:
-   - In 2019, the GRP was approximately $244.28 billion.
+### Analysis of San Diego County's GRP:
+
+1. **Overall GRP Growth:**
+   - In 2019, the total GRP for San Diego County was approximately $244.28 billion.
    - By 2023, the GRP increased to approximately $308.71 billion.
    - This represents a growth of approximately 26.4% over the five-year period.
 
-2. **Yearly GRP Figures**:
-   - **2019**: $244.28 billion
-   - **2020**: $244.82 billion
-   - **2021**: $268.87 billion
-   - **2022**: $296.68 billion
-   - **2023**: $308.71 billion
+2. **Per Capita GRP:**
+   - The per capita GRP in 2019 was $73,346.92.
+   - By 2023, the per capita GRP increased to $94,915.87.
+   - This indicates a growth of approximately 29.4% in per capita GRP over the five years.
 
-3. **Per Capita GRP**:
-   - The per capita GRP in 2019 was approximately $73,347.
-   - By 2023, the per capita GRP increased to approximately $94,916.
-   - This indicates a per capita growth of approximately 29.4% over the five-year period.
-
-4. **Industry Contributions**:
+3. **Industry Contributions to GRP:**
    - The largest contributors to the GRP in 2023 were:
      - Government: $52.92 billion
      - Professional, Scientific, and Technical Services: $37.04 billion
      - Manufacturing: $31.67 billion
      - Health Care and Social Assistance: $20.21 billion
      - Finance and Insurance: $19.50 billion
+   - These industries have consistently been significant contributors to the GRP over the years.
 
-5. **Trends and Observations**:
-   - The GRP saw a slight dip in 2020, likely due to the economic impacts of the COVID-19 pandemic, but rebounded strongly in the subsequent years.
-   - The Government sector consistently remained the largest contributor to the GRP throughout the years.
-   - The Professional, Scientific, and Technical Services sector showed significant growth, reflecting the region's strong emphasis on innovation and technology.
+4. **Trends and Observations:**
+   - The Government sector has been the largest contributor to the GRP throughout the years, showing steady growth.
+   - The Professional, Scientific, and Technical Services sector has shown significant growth, reflecting the region's focus on innovation and technology.
+   - The Manufacturing sector remains a strong contributor, indicating a robust industrial base in the county.
+   - Health Care and Social Assistance have also seen growth, likely due to an increasing demand for healthcare services.
 
-Overall, San Diego County's economy has demonstrated resilience and growth, with significant contributions from key sectors such as government, professional services, and manufacturing. The increase in per capita GRP also suggests an improvement in economic productivity and living standards in the region.
+5. **Comparison with State and National Levels:**
+   - San Diego County's per capita GRP growth rate of 29.4% from 2019 to 2023 is higher than the national growth rate of approximately 21.4% (from $63,753.57 to $77,366.43).
+   - The county's growth is also slightly higher than the state of California's growth rate of approximately 23.8% (from $75,788.64 to $93,799.67).
+
+### Conclusion:
+San Diego County has experienced significant growth in its Gross Regional Product over the past five years, with notable contributions from the government, professional services, manufacturing, and healthcare sectors. The county's per capita GRP growth outpaces both state and national averages, highlighting its economic resilience and potential for continued prosperity.
