@@ -1,41 +1,29 @@
-The Gross Regional Product (GRP) for San Diego County provides a comprehensive overview of the economic performance of the region. The GRP is a measure of the total economic output of the county, reflecting the value of all goods and services produced within the region. Here is a detailed analysis based on the provided data:
+The Gross Regional Product (GRP) is a key economic indicator that measures the economic output of a region. For San Diego County, we will analyze the GRP data from 2019 to 2023, focusing on the total GRP, industry contributions, and per capita GRP.
 
-### Overview of San Diego County's GRP (2019-2023)
+### Total GRP Analysis (2019-2023)
 
-1. **Total GRP Growth:**
-   - In 2019, the GRP for San Diego County was approximately $244.28 billion.
-   - By 2023, the GRP increased to approximately $308.71 billion.
-   - This represents a growth of approximately 26.4% over the five-year period.
+1. **2019**: The total GRP for San Diego County was approximately $244.28 billion.
+2. **2020**: The GRP slightly increased to approximately $244.82 billion, despite the economic challenges posed by the COVID-19 pandemic.
+3. **2021**: A significant increase in GRP was observed, reaching approximately $268.87 billion, indicating economic recovery and growth.
+4. **2022**: The GRP continued to grow, reaching approximately $296.68 billion.
+5. **2023**: The GRP further increased to approximately $308.71 billion, reflecting sustained economic growth.
 
-2. **Annual GRP Figures:**
-   - **2019:** $244.28 billion
-   - **2020:** $244.82 billion
-   - **2021:** $268.87 billion
-   - **2022:** $296.68 billion
-   - **2023:** $308.71 billion
+### Industry Contributions to GRP
 
-3. **Per Capita GRP:**
-   - The per capita GRP in 2019 was approximately $73,347.
-   - By 2023, the per capita GRP increased to approximately $94,916.
-   - This indicates a significant increase in economic output per person, reflecting improved productivity and economic conditions.
+- **Government**: Consistently the largest contributor to the GRP, with contributions increasing from approximately $45.19 billion in 2019 to $52.92 billion in 2023.
+- **Manufacturing**: Another major contributor, with its GRP increasing from approximately $28.26 billion in 2019 to $31.67 billion in 2023.
+- **Professional, Scientific, and Technical Services**: This sector showed significant growth, with its GRP rising from approximately $28.13 billion in 2019 to $37.04 billion in 2023.
+- **Health Care and Social Assistance**: This sector also saw growth, with its GRP increasing from approximately $15.38 billion in 2019 to $20.21 billion in 2023.
+- **Finance and Insurance**: This sector's GRP increased from approximately $14.67 billion in 2019 to $19.50 billion in 2023.
 
-4. **Industry Contributions:**
-   - The largest contributors to the GRP in 2023 were:
-     - **Government:** $52.92 billion
-     - **Professional, Scientific, and Technical Services:** $37.04 billion
-     - **Manufacturing:** $31.67 billion
-     - **Health Care and Social Assistance:** $20.21 billion
-     - **Finance and Insurance:** $19.50 billion
+### Per Capita GRP Analysis
 
-5. **Trends and Observations:**
-   - The GRP experienced a slight dip in 2020, likely due to the economic impacts of the COVID-19 pandemic. However, it rebounded strongly in the subsequent years.
-   - The Government sector consistently remained the largest contributor to the GRP throughout the period.
-   - The Professional, Scientific, and Technical Services sector showed robust growth, indicating a strong presence of high-tech and research industries in the region.
-
-6. **Comparison with State and National Levels:**
-   - San Diego County's per capita GRP in 2023 ($94,916) was higher than the state average of California ($93,800) and significantly higher than the national average ($77,366).
-   - This suggests that San Diego County is a relatively prosperous region with a strong economic base compared to broader state and national levels.
+- **2019**: The per capita GRP was approximately $73,347.
+- **2020**: It increased slightly to approximately $74,278.
+- **2021**: A notable increase to approximately $82,100.
+- **2022**: The per capita GRP rose to approximately $90,557.
+- **2023**: It further increased to approximately $94,916.
 
 ### Conclusion
 
-San Diego County's economy has shown resilience and growth over the past five years, with significant contributions from government, professional services, and manufacturing sectors. The increase in per capita GRP indicates improved economic conditions and productivity. The county's economic performance is strong compared to state and national averages, highlighting its importance as a key economic hub in California.
+San Diego County's economy has shown resilience and growth over the past five years, with a steady increase in both total and per capita GRP. The government, manufacturing, and professional services sectors have been key drivers of this growth. The increase in per capita GRP indicates that the economic benefits are being distributed among the population, contributing to the overall economic well-being of the region.
