@@ -32,6 +32,6 @@ prompt: |-
   supported inputs are (r, g, b) and (r, g, b, a) 0-1 float tuples; '#rrggbb', '#rrggbbaa', '#rgb', '#rgba' strings; named color strings; string reprs of 0-1 floats for grayscale values; 'C0', 'C1', ... strings for colors of the color cycle; and pairs combining one of the above with an alpha value
   ```
   # *Things you must keep in mind*
-  - The JSON dictionary with those elements should be your only response.
+  - The JSON dictionary with those elements should be your only response. DO NOT RESPOND WITH ANY PREFIX. ONLY RESPOND WITH THE JSON FORMATTED STRING, WITHOUT ANY HEADERS OR FOOTERS
   - Work step by step.
   - Check your math.
