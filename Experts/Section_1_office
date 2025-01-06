@@ -82,7 +82,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState:
         backend: git
@@ -162,7 +162,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: true
       flowState: &ref_2
         backend: git
@@ -236,7 +236,7 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       flowState:
         backend: git
         repo: apps-maria-2-eli
@@ -337,12 +337,12 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       flowState: *ref_3
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1622.479606606817
       'y': 779.9006763844628
@@ -401,7 +401,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1965.3242599533537
       'y': 1275.6182184225345
