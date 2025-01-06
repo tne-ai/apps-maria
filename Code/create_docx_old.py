@@ -109,7 +109,8 @@ def convert_to_docx(content, output_file):
 
             except Exception as e:
                 # You might want to log the error
-                print(f"Error parsing chart data: {e}")
+                # print(f"Error parsing chart data: {e}")
+                paragraph = doc.add_paragraph(f"ERROR GENERATING CHART: {e}")
                 continue
 
     # -- 4. Save and upload the document --
