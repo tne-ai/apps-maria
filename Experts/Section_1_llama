@@ -294,7 +294,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1622.479606606817
       'y': 779.9006763844628
@@ -457,7 +457,7 @@ nodes:
               https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_office
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 969.746586626622
       'y': 494.9063749510882
@@ -466,7 +466,7 @@ nodes:
     type: llm
     position:
       x: 499.74658662662205
-      'y': 320.9063749510882
+      'y': 322.9063749510882
     data:
       id: AbtoGJ1-htOXm__ePw6mZ
       title: New Model
@@ -507,7 +507,7 @@ nodes:
     dragging: false
     positionAbsolute:
       x: 499.74658662662205
-      'y': 320.9063749510882
+      'y': 322.9063749510882
 edges:
   - source: AbtoGJ1-htOXm__ePw6mZ
     sourceHandle: r
