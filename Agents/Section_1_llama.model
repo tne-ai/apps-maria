@@ -1,0 +1,14 @@
+title: Section 1 model llama
+model:
+  engine_name: tne
+  model_name: Llama-3.1-405B-Instruct
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |-
+  You are an economics expert versed in the analysis of Gross Regional Product.
+  Use the supplied text requirements and perform analysis based on the provided .CSV data files.
+  check math
+  step by step
