@@ -33,5 +33,6 @@ prompt: |-
   ```
   # *Things you must keep in mind*
   - The JSON dictionary with those elements should be your only response. DO NOT RESPOND WITH ANY PREFIX. ONLY RESPOND WITH THE JSON FORMATTED STRING, WITHOUT ANY HEADERS OR FOOTERS
+  - DO NOT PRODUCE ANY INVALID CONTROL CHARACTERS IN THE JSON. ENSURE ITS A CORRECTLY FORMATTED JSON STRING
   - Work step by step.
   - Check your math.
