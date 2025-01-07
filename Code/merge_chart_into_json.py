@@ -12,7 +12,7 @@ try:
     # Parse the input string as JSON
     data = json.loads(json_string)
     
-    data['chartData'] = chart_string
+    data['chartData'] = data
     
     # Convert the result to a JSON string
     result = json.dumps(data, indent=4)
