@@ -1,47 +1,23 @@
 {
-  "document_filename": "San_DiegoGRP_Report.docx",
-  "doc_title": "San Diego County's Gross Regional Product (GRP) Report",
-  "header_text": "San Diego County's GRP Report",
-  "footer_text": "San Diego County's GRP Report",
+  "document_filename": "SanDiegoCountyGRPReport.docx",
+  "doc_title": "San Diego County's Gross Regional Product (GRP) Report (2019-2023)",
+  "header_text": "San Diego County's GRP Analysis",
+  "footer_text": "Prepared by Economic Analysis Department",
   "sections": [
     {
-      "content": "San Diego County's GRP has demonstrated steady growth over the years, with some fluctuations. Between 2019 and 2023, the total GRP increased from approximately $298.9 billion to $365.0 billion, representing a compound annual growth rate (CAGR) of 4.3%. This growth trend is a positive indicator of the county's economic health.",
+      "content": "To generate the San Diego County's Gross Regional Product (GRP) report, we will analyze the provided data from the CSV files, focusing on the GRP data for San Diego County, California, and the United States from 2019 to 2023. The analysis will examine both the total GRP in dollars and the GRP per capita for each year.\n\nSan Diego County's total GRP has shown a consistent increase from 2019 to 2023, growing from approximately $244.28 billion in 2019 to $308.71 billion in 2023. This robust economic growth is reflected in the GRP per capita, which has also increased significantly, from $73,346.92 in 2019 to $94,915.87 in 2023. This suggests that the economic output per person in San Diego County has improved, indicating a positive economic environment and potentially higher standards of living.\n\nThe GRP saw a slight increase from 2019 to 2020, despite the challenges posed by the COVID-19 pandemic. However, a more substantial growth is observed from 2020 to 2021, and this trend continues through 2022 and 2023, indicating a strong recovery and expansion phase.\n\nComparing San Diego County's performance with California and the United States, the GRP per capita for California in 2023 was $93,799.67, which is slightly lower than San Diego County's $94,915.87. This suggests that San Diego County's economic performance per capita is slightly above the state average. The national GRP per capita in 2023 was $77,366.43, which is significantly lower than both San Diego County and California, highlighting the strong economic position of San Diego County relative to the national average.\n\nIn conclusion, San Diego County has demonstrated strong economic growth from 2019 to 2023, with both total GRP and GRP per capita showing significant increases. The county's economic performance is robust compared to both the state of California and the national average, indicating a thriving regional economy. This growth can be attributed to various factors, including a diverse industrial base, innovation, and strategic economic planning.",
       "type": "raw text",
       "caption": ""
     },
     {
-      "content": "A key aspect of the county's economic performance is the per capita GRP. This metric rose from $75,788 in 2019 to $93,799 in 2023, representing a CAGR of 4.5%. The increase in per capita GRP highlights the improvement in the standard of living within the county.",
-      "type": "raw text",
-      "caption": ""
-    },
-    {
-      "content": "The sector contributions to San Diego County's GRP are diverse, with the Professional, Scientific, and Technical Services sector being the largest contributor at 14.1% of the total GRP in 2023. Other significant contributors include Manufacturing at 12.4%, Finance and Insurance at 11.4%, Health Care and Social Assistance at 10.3%, and Retail Trade at 8.5%.",
-      "type": "raw text",
-      "caption": ""
-    },
-    {
-      "content": "Professional, Scientific, and Technical Services|Manufacturing|Finance and Insurance|Health Care and Social Assistance|Retail Trade\n14.1%|12.4%|11.4%|10.3%|8.5%",
-      "type": "table",
-      "caption": "Sector Contributions to San Diego County's GRP in 2023"
-    },
-    {
-      "content": "The year-over-year changes in San Diego County's GRP are notable. In 2020, there was a 0.9% decrease compared to 2019. However, this was followed by an 11.8% increase in 2021 compared to 2020, a 6.8% increase in 2022 compared to 2021, and a 3.2% increase in 2023 compared to 2022.",
-      "type": "raw text",
-      "caption": ""
-    },
-    {
-      "content": "2020|2021|2022|2023\n0.9% decrease|11.8% increase|6.8% increase|3.2% increase",
-      "type": "table",
-      "caption": "Year-over-Year Changes in San Diego County's GRP"
-    },
-    {
-      "content": "{ \"chart_type\": \"line\", \"series\": [ { \"name\": \"GRP\", \"data\": [298.9, 326.1, 363.2, 365.0] } ], \"title\": \"San Diego County's GRP Growth\", \"x_axis\": { \"categories\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"] }, \"y_axis\": { \"title\": { \"text\": \"GRP (in billions)\" } }, \"legend\": { \"enabled\": true } }",
+      "content": "{\n  \"type\": \"line\",\n  \"data\": {\n    \"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"],\n    \"datasets\": [\n      {\n        \"label\": \"San Diego County GRP (Dollars)\",\n        \"data\": [244278846457.50, 244822303264.04, 268873550391.04, 296683894891.99, 308710843090.86],\n        \"borderColor\": \"#3e95cd\",\n        \"fill\": false\n      },\n      {\n        \"label\": \"San Diego County GRP Per Capita (Dollars)\",\n        \"data\": [73346.92, 74277.60, 82099.95, 90557.10, 94915.87],\n        \"borderColor\": \"#8e5ea2\",\n        \"fill\": false\n      },\n      {\n        \"label\": \"California GRP Per Capita (Dollars)\",\n        \"data\": [89848.45, 91374.85, 95489.57, 98888.47, 93799.67],\n        \"borderColor\": \"#3cba9f\",\n        \"fill\": false\n      },\n      {\n        \"label\": \"US GRP Per Capita (Dollars)\",\n        \"data\": [65715.13, 67677.96, 70142.50, 73742.31, 77366.43],\n        \"borderColor\": \"#e8c3b9\",\n        \"fill\": false\n      }\n    ]\n  },\n  \"options\": {\n    \"responsive\": true,\n    \"title\": {\n      \"display\": true,\n      \"text\": \"San Diego County GRP Analysis (2019-2023)\"\n    },\n    \"scales\": {\n      \"xAxes\": [\n        {\n          \"scaleLabel\": {\n            \"display\": true,\n            \"labelString\": \"Year\"\n          }\n        }\n      ],\n      \"yAxes\": [\n        {\n          \"ticks\": {\n            \"callback\": function(value) {\n              return value.toLocaleString('en-US');\n            }\n          },\n          \"scaleLabel\": {\n            \"display\": true,\n            \"labelString\": \"Amount in Dollars\"\n          }\n        }\n      ]\n    },\n    \"legend\": {\n      \"display\": true,\n      \"position\": \"top\"\n    }\n  }\n}",
       "type": "chart",
-      "caption": "San Diego County's GRP Growth"
+      "caption": "San Diego County GRP Analysis (2019-2023)"
     },
     {
-      "content": "In conclusion, San Diego County's GRP has shown steady growth over the years, driven by a diverse range of sectors. The increase in per capita GRP indicates a rising standard of living within the county. The county's strong economy and innovative sectors position it for continued growth and success in the future.",
-      "type": "raw text",
-      "caption": ""
+      "content": "Year | Total GRP (Dollars)       | GRP Per Capita (Dollars) | California GRP Per Capita (Dollars) | US GRP Per Capita (Dollars) \n2019 | 244,278,846,457.50        | 73,346.92                | 89,848.45                       | 65,715.13                   \n2020 | 244,822,303,264.04        | 74,277.60                | 91,374.85                       | 67,677.96                   \n2021 | 268,873,550,391.04        | 82,099.95                | 95,489.57                       | 70,142.50                   \n2022 | 296,683,894,891.99        | 90,557.10                | 98,888.47                       | 73,742.31                   \n2023 | 308,710,843,090.86        | 94,915.87                | 93,799.67                       | 77,366.43                   ",
+      "type": "table",
+      "caption": "GRP Data for San Diego County, California, and the United States (2019-2023)"
     }
   ]
+}
