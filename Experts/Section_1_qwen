@@ -530,7 +530,52 @@ nodes:
       x: 1536.3167334511204
       'y': 1002.3970763203006
     dragging: false
+  - id: gX7G4t89xw56DbdIeaF_T
+    type: file
+    position:
+      x: 1724.3167334511204
+      'y': -48.6029236796993
+    data:
+      id: gX7G4t89xw56DbdIeaF_T
+      title: Data
+      fileName: chart_generation_examples.txt
+      flowState:
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_1_qwen
+          path: Experts/Section_1_qwen
+          sha: 05fa71e071854373f4625ba2f16f44f46a5f0680
+          size: 17015
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/05fa71e071854373f4625ba2f16f44f46a5f0680
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_1_qwen
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/05fa71e071854373f4625ba2f16f44f46a5f0680
+            html: >-
+              https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+    width: 212
+    height: 250
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 1724.3167334511204
+      'y': -48.6029236796993
 edges:
+  - source: gX7G4t89xw56DbdIeaF_T
+    sourceHandle: b
+    target: ncNA12AaNmBqakVSZfBNp
+    targetHandle: t
+    id: qBA5CA
   - source: 9aXNi0D_fqtWuA4jRNuRO
     sourceHandle: b
     target: l-QI7ujHnLuoPRf_j7zbi
