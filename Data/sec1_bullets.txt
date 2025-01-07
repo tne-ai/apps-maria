@@ -16,7 +16,7 @@ To generate the San Diego County's Gross Regional Product (GRP) report, we will 
 - **2022**: $90,557.10
 - **2023**: $94,915.87
 
-### California GRP Analysis (2019-2023)
+### California State GRP Analysis (2019-2023)
 
 #### Total GRP in Dollars
 - **2019**: $2,988,922,635,912.63
@@ -48,12 +48,14 @@ To generate the San Diego County's Gross Regional Product (GRP) report, we will 
 - **2022**: $74,889.00
 - **2023**: $77,366.43
 
-### Analysis Summary
+### Analysis and Insights
 
-1. **San Diego County** has shown a consistent increase in both total GRP and GRP per capita from 2019 to 2023. The GRP per capita increased from $73,346.92 in 2019 to $94,915.87 in 2023, indicating a strong economic growth in the region.
+1. **Growth Trend**: San Diego County's GRP has shown a consistent upward trend from 2019 to 2023, with a notable increase in both total GRP and GRP per capita. This indicates a growing economy in the region.
 
-2. **California** also experienced growth in GRP and GRP per capita over the same period, with the GRP per capita rising from $75,788.64 in 2019 to $93,799.67 in 2023.
+2. **Comparison with State and National Levels**: San Diego County's GRP per capita is consistently higher than the national average but slightly lower than the state average. This suggests that while San Diego County is performing well economically, it is slightly behind the overall state performance in terms of per capita output.
 
-3. The **United States** as a whole saw an increase in GRP and GRP per capita, with the GRP per capita growing from $63,753.57 in 2019 to $77,366.43 in 2023.
+3. **Impact of 2020**: The year 2020 shows a slight stagnation in GRP growth, likely due to the economic impacts of the COVID-19 pandemic. However, recovery is evident in the subsequent years with significant growth in 2021 and beyond.
 
-Overall, San Diego County's economic performance is in line with the broader trends observed in California and the United States, with steady growth in GRP and GRP per capita over the past five years. This indicates a robust economic environment in the region.
+4. **Economic Resilience**: The data reflects the economic resilience of San Diego County, as it not only recovered from the 2020 downturn but also surpassed pre-pandemic levels by 2021.
+
+This analysis provides a comprehensive overview of the economic performance of San Diego County in terms of its Gross Regional Product over the past five years.
