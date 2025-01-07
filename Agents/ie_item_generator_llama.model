@@ -15,10 +15,12 @@ prompt: |-
   After you inspect and consider the CSV file schema and understand it clearly, respond to the following request. Base your response on this data and your domain specific knowledge.
 
   # *Output content and format*
-  Please respond to the request with only a JSON dictionary that has the following keys in ie_item_template.txt. 
+  Please respond to the request with only a JSON dictionary that has the keys in ie_item_template.txt. 
   Do NOT output markdown headers within any JSON components. Your output will be read directly with the following code:
 
+  ```
   json.loads(<your output>)
+  ```
 
   # *Table height instructions*
   If an informative response table would present information about more than 12 objects, truncate the table to show only the first 12 items.
