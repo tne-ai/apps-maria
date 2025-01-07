@@ -353,7 +353,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-eli/blob/main/Experts/Section_1_office
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1965.3242599533537
       'y': 1275.6182184225345
@@ -457,7 +457,7 @@ nodes:
               https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_office
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 969.746586626622
       'y': 494.9063749510882
