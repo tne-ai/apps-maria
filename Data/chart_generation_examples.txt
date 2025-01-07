@@ -1,0 +1,178 @@
+## Example 1: Sales by Range Segment
+
+Input:
+```json
+{
+  "request": "What range segments sells best for crossbody?",
+  "response": "| Range Segment   |   Total Units Sold |\n|:----------------|-------------------:|\n| Newness         |               6395 |\n| Carryover EOL   |               5065 |\n| Carryover       |               4569 |\n| Seasonal        |               1685 |",
+  "chart_format": "Bar Chart",
+  "chart_suggestions": "Sort in descending order of sales for clarity.",
+  "explanation": "Bar Chart for size comparisons of sales."
+}
+```
+
+Output:
+```json
+{
+  type: 'bar',
+  data: {
+    // Data sorted in descending order as suggested
+    labels: ['Newness', 'Carryover EOL', 'Carryover', 'Seasonal'],
+    datasets: [{
+      label: 'Total Units Sold',
+      data: [6395, 5065, 4569, 1685],
+      backgroundColor: [
+        'rgba(54, 162, 235, 0.8)',
+        'rgba(54, 162, 235, 0.6)',
+        'rgba(54, 162, 235, 0.4)',
+        'rgba(54, 162, 235, 0.2)'
+      ],
+      borderColor: [
+        'rgb(54, 162, 235)',
+        'rgb(54, 162, 235)',
+        'rgb(54, 162, 235)',
+        'rgb(54, 162, 235)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Crossbody Sales by Range Segment',
+        font: {
+          size: 16
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: 'Total Units Sold'
+        }
+      },
+      x: {
+        title: {
+          display: true,
+          text: 'Range Segment'
+        }
+      }
+    }
+  }
+}
+```
+
+## Example 2: Monthly Sales Distribution
+
+Input:
+```json
+{
+  "request": "Show me the sales distribution across months",
+  "response": "| Month      |   Sales |\n|:-----------|---------:|\n| January    |    12500 |\n| February   |    15800 |\n| March      |    14200 |\n| April      |    16900 |",
+  "chart_format": "Line Chart",
+  "chart_suggestions": "Add points at each data point for clarity",
+  "explanation": "Line chart to show trend over time"
+}
+```
+
+Output:
+```json
+{
+  type: 'line',
+  data: {
+    labels: ['January', 'February', 'March', 'April'],
+    datasets: [{
+      label: 'Monthly Sales',
+      data: [12500, 15800, 14200, 16900],
+      borderColor: 'rgb(75, 192, 192)',
+      backgroundColor: 'rgba(75, 192, 192, 0.1)',
+      tension: 0.1,
+      pointRadius: 6,
+      pointHoverRadius: 8,
+      fill: true
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Monthly Sales Distribution',
+        font: {
+          size: 16
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: {
+          display: true,
+          text: 'Sales ($)'
+        }
+      },
+      x: {
+        title: {
+          display: true,
+          text: 'Month'
+        }
+      }
+    }
+  }
+}
+```
+
+## Example 3: Category Distribution
+
+Input:
+```json
+{
+  "request": "What's the distribution of product categories?",
+  "response": "| Category    | Percentage |\n|:------------|------------:|\n| Electronics |        35% |\n| Clothing    |        28% |\n| Home        |        22% |\n| Other       |        15% |",
+  "chart_format": "Pie Chart",
+  "chart_suggestions": "Use distinct colors for each category",
+  "explanation": "Pie chart to show proportion of each category"
+}
+```
+
+Output:
+```json
+{
+  type: 'pie',
+  data: {
+    labels: ['Electronics', 'Clothing', 'Home', 'Other'],
+    datasets: [{
+      data: [35, 28, 22, 15],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.8)',
+        'rgba(54, 162, 235, 0.8)',
+        'rgba(255, 206, 86, 0.8)',
+        'rgba(75, 192, 192, 0.8)'
+      ],
+      borderColor: [
+        'rgb(255, 99, 132)',
+        'rgb(54, 162, 235)',
+        'rgb(255, 206, 86)',
+        'rgb(75, 192, 192)'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Product Category Distribution',
+        font: {
+          size: 16
+        }
+      }
+    }
+  }
+}
+```
