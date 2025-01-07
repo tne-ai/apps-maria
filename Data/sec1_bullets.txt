@@ -1,8 +1,8 @@
-To generate the San Diego County's Gross Regional Product (GRP) report, we will analyze the provided data from the CSV files. The analysis will focus on the GRP data for San Diego County, California, and the United States from 2019 to 2023. We will examine the total GRP in dollars and the GRP per capita for each year.
+To generate the San Diego County's Gross Regional Product (GRP) report, we will analyze the data from the provided CSV files: `sec1-1_San Diego County_grp_data.csv` and `sec1-2_San Diego County_per_capita_grp_data.csv`. The analysis will focus on the GRP trends over the years 2019 to 2023, both in total dollars and on a per capita basis.
 
-### San Diego County GRP Analysis (2019-2023)
+### Analysis of San Diego County's GRP
 
-#### Total GRP in Dollars
+#### Total GRP (in dollars)
 - **2019**: $244,278,846,457.50
 - **2020**: $244,822,303,264.04
 - **2021**: $268,873,550,391.04
@@ -16,44 +16,20 @@ To generate the San Diego County's Gross Regional Product (GRP) report, we will 
 - **2022**: $90,557.10
 - **2023**: $94,915.87
 
-### California GRP Analysis (2019-2023)
+### Key Observations
 
-#### Total GRP in Dollars
-- **2019**: $2,988,922,635,912.63
-- **2020**: $2,961,220,972,406.21
-- **2021**: $3,310,971,279,555.43
-- **2022**: $3,537,472,975,398.05
-- **2023**: $3,650,092,494,382.46
+1. **Growth in Total GRP**: 
+   - From 2019 to 2023, San Diego County's total GRP increased from approximately $244.28 billion to $308.71 billion. This represents a growth of about 26.4% over the five-year period.
+   - The most significant year-over-year increase occurred between 2021 and 2022, with an increase of approximately $27.81 billion.
 
-#### GRP Per Capita
-- **2019**: $75,788.64
-- **2020**: $74,964.48
-- **2021**: $84,586.57
-- **2022**: $90,636.25
-- **2023**: $93,799.67
+2. **Growth in GRP Per Capita**:
+   - The GRP per capita also showed a consistent upward trend, increasing from $73,346.92 in 2019 to $94,915.87 in 2023.
+   - This represents a growth of approximately 29.4% over the five-year period.
+   - The largest increase in GRP per capita occurred between 2021 and 2022, with an increase of $8,457.15.
 
-### United States GRP Analysis (2019-2023)
+3. **Impact of Population Changes**:
+   - The population of San Diego County slightly decreased from 3,330,458 in 2019 to 3,252,468 in 2023. This decrease in population, coupled with the increase in total GRP, contributed to the rise in GRP per capita.
 
-#### Total GRP in Dollars
-- **2019**: $20,932,206,705,691.04
-- **2020**: $20,605,670,032,083.35
-- **2021**: $22,863,031,609,317.27
-- **2022**: $24,959,572,656,548.07
-- **2023**: $25,958,622,498,968.79
+### Conclusion
 
-#### GRP Per Capita
-- **2019**: $63,753.57
-- **2020**: $62,156.73
-- **2021**: $68,858.01
-- **2022**: $74,889.00
-- **2023**: $77,366.43
-
-### Analysis Summary
-
-1. **San Diego County** has shown a consistent increase in both total GRP and GRP per capita from 2019 to 2023. The GRP per capita increased from $73,346.92 in 2019 to $94,915.87 in 2023, indicating a strong economic growth in the region.
-
-2. **California** also experienced growth in GRP and GRP per capita over the same period, with a slight dip in 2020 likely due to the economic impacts of the COVID-19 pandemic. However, the state rebounded strongly in subsequent years.
-
-3. **The United States** as a whole followed a similar trend, with a dip in 2020 and recovery in the following years. The GRP per capita increased from $63,753.57 in 2019 to $77,366.43 in 2023.
-
-Overall, San Diego County's economic performance is in line with the broader trends observed in California and the United States, with a notable increase in economic output and per capita productivity over the five-year period.
+San Diego County's economy has shown robust growth over the past five years, both in terms of total GRP and GRP per capita. The consistent increase in GRP per capita suggests that the economic output per resident has improved, indicating a strengthening economy. Despite a slight decrease in population, the county's economic performance has been strong, with significant contributions from various industries driving this growth.
