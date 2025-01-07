@@ -17,15 +17,15 @@ To generate the San Diego County's Gross Regional Product (GRP) report, we will 
 - **2023**: $94,915.87
 
 ### Observations
-1. **Growth in Total GRP**: San Diego County's total GRP has shown a consistent increase from 2019 to 2023. The GRP grew from approximately $244.28 billion in 2019 to $308.71 billion in 2023, indicating a strong economic growth over the five-year period.
+1. **Growth in Total GRP**: San Diego County's total GRP has shown a consistent increase from 2019 to 2023. The GRP grew from approximately $244.28 billion in 2019 to $308.71 billion in 2023, indicating a strong economic performance over these years.
 
-2. **Increase in GRP Per Capita**: The GRP per capita has also increased significantly, from $73,346.92 in 2019 to $94,915.87 in 2023. This suggests that the economic output per person in San Diego County has improved, reflecting a rise in productivity and economic prosperity.
+2. **Increase in GRP Per Capita**: The GRP per capita has also increased significantly, from $73,346.92 in 2019 to $94,915.87 in 2023. This suggests that the economic output per person in San Diego County has improved, reflecting a growing economy and potentially higher standards of living.
 
 3. **Yearly Growth Rates**:
    - **2019 to 2020**: The GRP remained relatively stable with a slight increase, despite the challenges posed by the COVID-19 pandemic.
    - **2020 to 2021**: There was a notable increase in GRP, both in total and per capita, indicating a recovery and growth phase post-pandemic.
    - **2021 to 2022**: The growth continued with a significant rise in both total GRP and GRP per capita.
-   - **2022 to 2023**: The upward trend persisted, with the highest GRP per capita recorded in 2023.
+   - **2022 to 2023**: The upward trend persisted, with the GRP per capita nearing $95,000.
 
 ### Conclusion
-San Diego County has experienced robust economic growth from 2019 to 2023, as evidenced by the increase in both total GRP and GRP per capita. This growth reflects the county's resilience and ability to adapt to economic challenges, such as the COVID-19 pandemic, and its capacity to sustain economic development over time. The consistent rise in GRP per capita also highlights improvements in productivity and living standards for the residents of San Diego County.
+San Diego County has experienced robust economic growth from 2019 to 2023, as evidenced by the increasing GRP and GRP per capita. This growth reflects the county's resilience and ability to recover from economic disruptions, such as those caused by the pandemic. The consistent rise in GRP per capita suggests improvements in productivity and economic well-being for the residents of San Diego County.
