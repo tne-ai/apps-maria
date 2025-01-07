@@ -39,6 +39,7 @@ prompt: |-
   - Handle any special characters in labels
   - Format numbers according to their context
   - Add a title based on the original request
+  - In your response, do not produce a 'ticks' field with a 'callback' field embedded within it
 
   # Output requirements
   Provide a complete chart.js chart specification that conforms to the schema in chart_schema.txt.
