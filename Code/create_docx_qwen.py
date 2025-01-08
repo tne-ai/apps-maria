@@ -76,6 +76,11 @@ def convert_to_docx(content, output_file):
                 for j, cell_data in enumerate(row_data):
                     row_cells[j].text = cell_data.strip()
 
+            # Add caption if present
+            if "caption" in section_data:
+                caption_para = doc.add_paragraph(section_data["caption"])
+                caption_para.style = "Caption"
+
         elif content_type == "chart":
             chart_info = parse_chart_data(content_text)
             if not chart_info:
@@ -116,6 +121,11 @@ def convert_to_docx(content, output_file):
                 # Insert chart into document
                 doc.add_picture(chart_stream, width=Inches(5.5))
                 chart_stream.close()
+
+                # Add caption if present
+                if "caption" in section_data:
+                    caption_para = doc.add_paragraph(section_data["caption"])
+                    caption_para.style = "Caption"
             
             except Exception as e:
                 doc.add_paragraph(f"ERROR GENERATING CHART: {e}")
