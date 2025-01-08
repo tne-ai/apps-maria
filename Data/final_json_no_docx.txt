@@ -1,11 +1,11 @@
 {
-    "title": "San Diego County GRP Trends (2019-2023)",
-    "bodyText": "The Gross Regional Product (GRP) for San Diego County from 2019 to 2023 shows a consistent upward trend, increasing from $244.28 billion in 2019 to $308.71 billion in 2023. The GRP per capita also grew significantly, from $73,346.92 in 2019 to $94,915.87 in 2023. Yearly growth rates indicate a strong economic recovery and expansion, with notable increases from 2020 to 2021 (9.82%) and 2021 to 2022 (10.34%). Compared to state and national data, San Diego County's GRP per capita is consistently higher, reflecting robust economic performance.",
-    "tableData": "| Year | GRP (Billion $) | GRP Per Capita ($) | Yearly Growth Rate (%) |\n|------|----------------|----------------------|------------------------|\n| 2019 | 244.28         | 73,346.92            | -                      |\n| 2020 | 244.82         | 74,277.60            | 0.22                   |\n| 2021 | 268.87         | 82,099.95            | 9.82                   |\n| 2022 | 296.68         | 90,557.10            | 10.34                  |\n| 2023 | 308.71         | 94,915.87            | 4.06                   |",
-    "subhead": "San Diego County's GRP has shown a consistent upward trend from 2019 to 2023, with significant growth in both total GRP and GRP per capita. The yearly growth rates indicate a strong economic recovery and expansion, and the county's GRP per capita is consistently higher than state and national averages.",
-    "details": "The analysis is based on data from `sec1-2_San Diego County_per_capita_grp_data.csv` and `sec1-1_San Diego County_grp_data.csv`. The GRP and GRP per capita values are calculated annually. Yearly growth rates are computed using the formula: ((GRP of current year - GRP of previous year) / GRP of previous year) * 100. State and national GRP per capita data are used for comparison.",
-    "recommendations": "Continue monitoring GRP trends to assess the impact of economic policies and external factors. Explore opportunities for further economic growth and diversification to maintain the strong economic performance.",
-    "request_and_response_issues": "The data provided covers the years 2019 to 2023, which is sufficient for the requested analysis. However, more detailed sector-specific data could provide deeper insights into the drivers of GRP growth.",
+    "title": "San Diego County GRP Analysis (2019-2023)",
+    "bodyText": "The analysis of the Gross Regional Product (GRP) data for San Diego County, California, and the United States from 2019 to 2023 shows consistent growth in both total GRP and GRP per capita. San Diego County's total GRP increased from approximately $244 billion in 2019 to $309 billion in 2023, while the GRP per capita rose from $73,347 to $94,916. California's total GRP grew from about $2.99 trillion in 2019 to $3.65 trillion in 2023, with the GRP per capita increasing from $75,789 to $93,800. The United States saw an increase in total GRP from approximately $20.93 trillion in 2019 to $25.96 trillion in 2023, with the GRP per capita growing from $63,754 to $77,366. This trend indicates strong economic performance in San Diego County, consistent with broader economic growth in California and the United States.",
+    "tableData": "Year | San Diego County Total GRP (Dollars) | San Diego County GRP Per Capita | California Total GRP (Dollars) | California GRP Per Capita | United States Total GRP (Dollars) | United States GRP Per Capita\n--- | --- | --- | --- | --- | --- | ---\n2019 | 244,278,846,457.50 | 73,346.92 | 2,988,922,635,912.63 | 75,788.64 | 20,932,206,705,691.04 | 63,753.57\n2020 | 244,822,303,264.04 | 74,277.60 | 2,961,220,972,406.21 | 74,964.48 | 20,605,670,032,083.35 | 62,156.73\n2021 | 268,873,550,391.04 | 82,099.95 | 3,310,971,279,555.43 | 84,586.57 | 22,863,031,609,317.27 | 68,858.01\n2022 | 296,683,894,891.99 | 90,557.10 | 3,537,472,975,398.05 | 90,636.25 | 24,959,572,656,548.07 | 74,889.00\n2023 | 308,710,843,090.86 | 94,915.87 | 3,650,092,494,382.46 | 93,799.67 | 25,958,622,498,968.79 | 77,366.43",
+    "subhead": "The analysis of GRP data from 2019 to 2023 for San Diego County, California, and the United States shows consistent growth in both total GRP and GRP per capita, indicating strong economic performance in San Diego County.",
+    "details": "The data includes total GRP in dollars and GRP per capita for San Diego County, California, and the United States from 2019 to 2023. The calculations for GRP per capita were derived by dividing the total GRP by the respective population for each year.",
+    "recommendations": "Continue monitoring GRP trends to assess the economic health of San Diego County and compare it with broader economic indicators in California and the United States.",
+    "request_and_response_issues": "No ambiguities or data insufficiencies were identified in the provided data.",
     "chartData": {
         "type": "line",
         "data": {
@@ -18,31 +18,51 @@
             ],
             "datasets": [
                 {
-                    "label": "GRP (Billion $)",
+                    "label": "San Diego County Total GRP (Dollars)",
                     "data": [
-                        244.28,
-                        244.82,
-                        268.87,
-                        296.68,
-                        308.71
-                    ],
-                    "borderColor": "rgba(75, 192, 192, 1)",
-                    "backgroundColor": "rgba(75, 192, 192, 0.1)",
-                    "tension": 0.1,
-                    "fill": true
-                },
-                {
-                    "label": "GRP Per Capita ($)",
-                    "data": [
-                        73346.92,
-                        74277.6,
-                        82099.95,
-                        90557.1,
-                        94915.87
+                        244278846457.5,
+                        244822303264.04,
+                        268873550391.04,
+                        296683894891.99,
+                        308710843090.86
                     ],
                     "borderColor": "rgba(255, 99, 132, 1)",
                     "backgroundColor": "rgba(255, 99, 132, 0.1)",
                     "tension": 0.1,
+                    "pointRadius": 6,
+                    "pointHoverRadius": 8,
+                    "fill": true
+                },
+                {
+                    "label": "California Total GRP (Dollars)",
+                    "data": [
+                        2988922635912.63,
+                        2961220972406.21,
+                        3310971279555.43,
+                        3537472975398.05,
+                        3650092494382.46
+                    ],
+                    "borderColor": "rgba(54, 162, 235, 1)",
+                    "backgroundColor": "rgba(54, 162, 235, 0.1)",
+                    "tension": 0.1,
+                    "pointRadius": 6,
+                    "pointHoverRadius": 8,
+                    "fill": true
+                },
+                {
+                    "label": "United States Total GRP (Dollars)",
+                    "data": [
+                        20932206705691.04,
+                        20605670032083.35,
+                        22863031609317.27,
+                        24959572656548.07,
+                        25958622498968.79
+                    ],
+                    "borderColor": "rgba(75, 192, 192, 1)",
+                    "backgroundColor": "rgba(75, 192, 192, 0.1)",
+                    "tension": 0.1,
+                    "pointRadius": 6,
+                    "pointHoverRadius": 8,
                     "fill": true
                 }
             ]
@@ -52,7 +72,7 @@
             "plugins": {
                 "title": {
                     "display": true,
-                    "text": "San Diego County GRP Trends (2019-2023)",
+                    "text": "GRP Analysis for San Diego County, California, and the United States (2019-2023)",
                     "font": {
                         "size": 16
                     }
@@ -64,10 +84,10 @@
             },
             "scales": {
                 "y": {
-                    "beginAtZero": false,
+                    "beginAtZero": true,
                     "title": {
                         "display": true,
-                        "text": "Value"
+                        "text": "GRP in Dollars"
                     }
                 },
                 "x": {
