@@ -31,6 +31,8 @@ prompt: |-
   - Format numbers appropriately (e.g., add commas for thousands)
   - Make the chart responsive
   - Do not include function definitions of any kind for callbacks. No tooltips or ticks.
+  - Generate valid colors, according to the following rules:
+  supported inputs are (r, g, b) and (r, g, b, a) 0-1 float tuples; '#rrggbb', '#rrggbbaa', '#rgb', '#rgba' strings; named color strings; string reprs of 0-1 floats for grayscale values; 'C0', 'C1', ... strings for colors of the color cycle; and pairs combining one of the above with an alpha value
 
   Remember to:
   - Sort data if suggested in chart_suggestions
