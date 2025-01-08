@@ -1,5 +1,5 @@
 {
-  "version": "maria--70af02c5-20241217234006",
+  "version": "maria--ed33342d-20250108215506",
   "data": [
     {
       "id": "612ce446-d3b3-43e8-8f2f-359ae450fd50",
@@ -56,6 +56,13 @@
       "item_expert_name": "Section_8",
       "chat_expert_name": "Section_8_Chat",
       "title": "Section 8 - Industry Impact"
+    },
+    {
+      "id": "008b724e-045d-4cd2-80f2-2679e158e3c7",
+      "data_source": "",
+      "item_expert_name": "Section_1_qwen",
+      "chat_expert_name": "Section_1_Chat",
+      "title": "QWEN"
     }
   ]
 }
