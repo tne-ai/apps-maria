@@ -272,7 +272,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -331,7 +331,7 @@ nodes:
       id: Jc1RVNHKGx1klaTxIgIYk
       title: New Model
       input: ''
-      slashgptManifest: Section_1.model
+      slashgptManifest: Section_1_llama.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -404,7 +404,7 @@ nodes:
       title: New Code
       module: create_docx_qwen.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
@@ -423,7 +423,7 @@ nodes:
       title: New Code
       module: merge_chart_into_json.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: &ref_3
         backend: git
         repo: apps-maria
@@ -465,7 +465,7 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_3
     width: 212
     height: 372
@@ -487,7 +487,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_3
     width: 212
@@ -570,7 +570,54 @@ nodes:
     positionAbsolute:
       x: 1724.3167334511204
       'y': -48.6029236796993
+  - id: E1l_aNWvXmoFfPJ-LOgtJ
+    type: python_code
+    position:
+      x: 2468.3167334511204
+      'y': 649.3970763203007
+    data:
+      id: E1l_aNWvXmoFfPJ-LOgtJ
+      title: New Code
+      module: final_merge_qwen.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_1_qwen
+          path: Experts/Section_1_qwen
+          sha: afd3a1c7bd1d3629b9c506143c6ce1a48b029797
+          size: 18614
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/afd3a1c7bd1d3629b9c506143c6ce1a48b029797
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_1_qwen
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_1_qwen?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/afd3a1c7bd1d3629b9c506143c6ce1a48b029797
+            html: >-
+              https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_1_qwen
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 2468.3167334511204
+      'y': 649.3970763203007
+    dragging: false
 edges:
+  - source: ZKVs7P70l5vf4WZQMvKjQ
+    sourceHandle: r
+    target: E1l_aNWvXmoFfPJ-LOgtJ
+    targetHandle: l
+    id: K_LAlQ
   - source: gX7G4t89xw56DbdIeaF_T
     sourceHandle: b
     target: ncNA12AaNmBqakVSZfBNp
