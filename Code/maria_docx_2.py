@@ -4,6 +4,7 @@ from docx import Document
 from docx.shared import Inches
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
+import re
 from tne.TNE import TNE
 
 # Initialize the TNE object
@@ -20,7 +21,7 @@ def comma_formatter(value, pos):
 def format_axis_ticks(ax, callback):
     """
     Apply formatting to the axis ticks based on the callback string.
-    We look for patterns in the callback function. For example:
+    For example:
       - "return '$' + value.toLocaleString();" => currency formatting
       - "return value.toLocaleString();" => comma formatting
     """
@@ -48,6 +49,34 @@ def parse_chart_data(content_data):
             return json.loads(json.loads(content_data))
         except:
             return None
+
+def chartjs_color_to_mpl(color_str):
+    """
+    Convert a Chart.js-style RGBA color string (e.g., 'rgba(75, 192, 192, 1)')
+    into a format Matplotlib can understand, i.e., an (r, g, b, a) tuple 
+    with values 0..1. If it's not in rgba(...) form, return it as is 
+    to let Matplotlib handle other valid color formats (e.g., '#rrggbb' or 'red').
+    """
+    if not isinstance(color_str, str):
+        return color_str  # Not a string, maybe already a tuple or None.
+
+    pattern = r'rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*,\s*([\d\.]+))?\)'
+    match = re.match(pattern, color_str.strip())
+    if match:
+        r_val, g_val, b_val, a_val = match.groups()
+        # Convert 0..255 => 0..1
+        r_float = float(r_val) / 255.0
+        g_float = float(g_val) / 255.0
+        b_float = float(b_val) / 255.0
+        if a_val is None:
+            a_float = 1.0
+        else:
+            a_float = float(a_val)
+        return (r_float, g_float, b_float, a_float)
+    else:
+        # If the pattern doesn't match, return as is; 
+        # it might be '#rrggbb' or a named color.
+        return color_str
 
 def convert_to_docx(content, output_file):
     # Create a Word document
@@ -108,8 +137,8 @@ def convert_to_docx(content, output_file):
             # (ii) Rows
             for row_data in rows:
                 row_cells = table.add_row().cells
-                for i, cell_data in enumerate(row_data):
-                    row_cells[i].text = cell_data.strip()
+                for j, cell_data in enumerate(row_data):
+                    row_cells[j].text = cell_data.strip()
 
             # (iii) Caption if present
             if "caption" in section_data:
@@ -186,7 +215,10 @@ def convert_to_docx(content, output_file):
                     yAxisID = dataset.get("yAxisID", "y-axis-0")
                     plot_ax = axis_map.get(yAxisID, ax)
 
-                    color = dataset.get("borderColor", "#000")
+                    # Handle color strings like rgba(75, 192, 192, 1)
+                    raw_color = dataset.get("borderColor", "#000")
+                    color = chartjs_color_to_mpl(raw_color)
+
                     label = dataset.get("label", "")
                     line_data = dataset.get("data", [])
 
