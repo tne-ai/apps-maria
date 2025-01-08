@@ -1,9 +1,9 @@
 To generate the San Diego County's Gross Regional Product (GRP) report, we will analyze the provided data from the CSV files, focusing on the GRP data for San Diego County, California, and the United States from 2019 to 2023. The analysis will examine both the total GRP in dollars and the GRP per capita for each year.
 
-San Diego County's total GRP showed a steady increase from $244,278,846,457.50 in 2019 to $308,710,843,090.86 in 2023. This growth is reflected in the GRP per capita, which rose from $73,346.92 in 2019 to $94,915.87 in 2023, indicating robust economic growth in the region.
+San Diego County's total GRP showed a steady increase from $244,278,846,457.50 in 2019 to $308,710,843,090.86 in 2023. This growth is reflected in the GRP per capita, which rose from $73,346.92 in 2019 to $94,915.87 in 2023, indicating robust economic performance in the region.
 
-California's economic performance mirrored that of San Diego County, with a slight dip in 2020 likely due to the economic impacts of the COVID-19 pandemic. The state's total GRP decreased from $2,988,922,635,912.63 in 2019 to $2,961,220,972,406.21 in 2020 before rebounding to $3,650,092,494,382.46 by 2023. Similarly, the GRP per capita in California fell from $75,788.64 in 2019 to $74,964.48 in 2020, recovering to $93,799.67 by 2023.
+Similarly, California experienced growth in both total GRP and GRP per capita over the same period. The state's total GRP increased from $2,988,922,635,912.63 in 2019 to $3,650,092,494,382.46 in 2023, with the GRP per capita rising from $75,788.64 in 2019 to $93,799.67 in 2023.
 
-The United States as a whole followed a similar trend, with both total GRP and GRP per capita increasing each year after 2020. The national total GRP dropped from $20,932,206,705,691.04 in 2019 to $20,605,670,032,083.35 in 2020, but recovered to $25,958,622,498,968.79 by 2023. The GRP per capita also saw a decline from $63,753.57 in 2019 to $62,156.73 in 2020, before rising to $77,366.43 by 2023.
+At the national level, the United States also saw an increase in GRP and GRP per capita, though the growth rate was slightly lower compared to San Diego County and California. The total GRP for the United States rose from $20,932,206,705,691.04 in 2019 to $25,958,622,498,968.79 in 2023, while the GRP per capita increased from $63,753.57 in 2019 to $77,366.43 in 2023.
 
-This analysis highlights the economic resilience and growth of San Diego County within the broader context of state and national economic trends.
+Overall, San Diego County's economic performance has been particularly strong, with significant growth in both total GRP and GRP per capita, outpacing the national average and closely aligning with the state-level growth in California.
