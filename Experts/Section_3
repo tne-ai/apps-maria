@@ -166,7 +166,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: &ref_1
         backend: git
@@ -338,7 +338,7 @@ nodes:
       title: New Code
       module: merge_json3.py
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       flowState: *ref_2
     width: 212
     height: 348
