@@ -311,12 +311,174 @@ nodes:
       outputName: sec2_json.txt
     width: 212
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1273.6430593835253
       'y': 1159.8738691822045
     dragging: false
+  - id: hanBRG9oVWkd_rE0WhqsK
+    type: python_code
+    position:
+      x: 1631.6326375657472
+      'y': 764.3129560574671
+    data:
+      id: hanBRG9oVWkd_rE0WhqsK
+      title: New Code
+      module: get_table_and_chart.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: &ref_3
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_2
+          path: Experts/Section_2
+          sha: 5dc3abd732c8b29bf2c434d5bb77519e06a4f7fc
+          size: 11088
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_2?ref=main
+          html_url: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_2
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/5dc3abd732c8b29bf2c434d5bb77519e06a4f7fc
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_2
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_2?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/5dc3abd732c8b29bf2c434d5bb77519e06a4f7fc
+            html: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_2
+    width: 212
+    height: 372
+    selected: false
+    dragging: false
+  - id: FFKaRCRkx_ibcS6bGUJK-
+    type: llm
+    position:
+      x: 1937.6326375657472
+      'y': 790.3129560574671
+    data:
+      id: FFKaRCRkx_ibcS6bGUJK-
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1937.6326375657472
+      'y': 790.3129560574671
+    dragging: false
+  - id: t7IHV9dRc4cW2wnOJh0Wd
+    type: python_code
+    position:
+      x: 2217.6326375657472
+      'y': 844.3129560574671
+    data:
+      id: t7IHV9dRc4cW2wnOJh0Wd
+      title: New Code
+      module: create_docx_old.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_3
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 2217.6326375657472
+      'y': 844.3129560574671
+    dragging: false
+  - id: 43zri37BxHa9RhVHR2Ao_
+    type: python_code
+    position:
+      x: 2473.6326375657472
+      'y': 830.3129560574671
+    data:
+      id: 43zri37BxHa9RhVHR2Ao_
+      title: New Code
+      module: merge_json2.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_3
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 2473.6326375657472
+      'y': 830.3129560574671
+    dragging: false
+  - id: uRqZpgAj_ri-D9RTzuxZm
+    type: file
+    position:
+      x: 1803.6326375657472
+      'y': 450.3129560574671
+    data:
+      id: uRqZpgAj_ri-D9RTzuxZm
+      title: Data
+      fileName: sec2_bullets.txt
+      flowState: *ref_3
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1803.6326375657472
+      'y': 450.3129560574671
+    dragging: false
+  - id: V8Kr8JczYnL5jcMP6jber
+    type: file
+    position:
+      x: 2067.6326375657472
+      'y': 472.3129560574671
+    data:
+      id: V8Kr8JczYnL5jcMP6jber
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_3
+    width: 212
+    height: 250
+    selected: true
+    positionAbsolute:
+      x: 2067.6326375657472
+      'y': 472.3129560574671
+    dragging: false
 edges:
+  - source: V8Kr8JczYnL5jcMP6jber
+    sourceHandle: b
+    target: FFKaRCRkx_ibcS6bGUJK-
+    targetHandle: t
+    id: GIiTEC
+  - source: uRqZpgAj_ri-D9RTzuxZm
+    sourceHandle: b
+    target: FFKaRCRkx_ibcS6bGUJK-
+    targetHandle: t
+    id: DOe1ho
+  - source: t7IHV9dRc4cW2wnOJh0Wd
+    sourceHandle: r
+    target: 43zri37BxHa9RhVHR2Ao_
+    targetHandle: l
+    id: AGdnGs
+  - source: FFKaRCRkx_ibcS6bGUJK-
+    sourceHandle: r
+    target: t7IHV9dRc4cW2wnOJh0Wd
+    targetHandle: l
+    id: E9-s9H
+  - source: hanBRG9oVWkd_rE0WhqsK
+    sourceHandle: r
+    target: FFKaRCRkx_ibcS6bGUJK-
+    targetHandle: l
+    id: INVK7D
+  - source: dF8DvKmUyK7Nxkdxm4Gph
+    sourceHandle: r
+    target: hanBRG9oVWkd_rE0WhqsK
+    targetHandle: l
+    id: 6lEhKA
   - source: dF8DvKmUyK7Nxkdxm4Gph
     sourceHandle: b
     target: hCENQ9pNyLqJhoc3QWGRu
