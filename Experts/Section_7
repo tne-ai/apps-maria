@@ -316,12 +316,12 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: *ref_0
     width: 212
     height: 490
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
       x: 728.2447999762047
@@ -454,7 +454,7 @@ nodes:
       flowState: *ref_1
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1976.746586626622
       'y': 629.9063749510883
