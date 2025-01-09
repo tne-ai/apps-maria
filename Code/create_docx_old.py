@@ -4,16 +4,27 @@ from docx import Document
 from docx.shared import Inches
 import matplotlib.pyplot as plt
 from tne.TNE import TNE
+import re
 
 # Initialize the TNE object
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
+
+def chartjs_color_to_mpl(color_str):
+    """
+    Convert a Chart.js-style RGBA color string to Matplotlib format.
+    """
+    pattern = r'rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*,\s*([\d\.]+))?\)'
+    match = re.match(pattern, color_str.strip())
+    if match:
+        r, g, b, a = match.groups()
+        return (int(r) / 255.0, int(g) / 255.0, int(b) / 255.0, float(a) if a else 1.0)
+    return color_str  # Return as-is for other valid formats.
 
 def convert_to_docx(content, output_file):
     # Create a Word document
     doc = Document()
 
     # -- 1. Set up header and footer (if provided) --
-    #    By default, .sections[0] is the first (and often only) section.
     section = doc.sections[0]
     if "header_text" in content:
         header = section.header
@@ -36,61 +47,61 @@ def convert_to_docx(content, output_file):
 
         # (A) Optionally add a heading for this section
         if "heading" in section_data:
-            # You can choose the heading level (1, 2, 3, etc.) 
-            # or base it on the JSON input.
             doc.add_heading(section_data["heading"], level=2)
 
         # (B) Check the content type and handle accordingly
         if content_type == "raw text":
-            # Add raw text with a specific style (optional)
             paragraph = doc.add_paragraph(content_text)
             if "style" in section_data:
                 paragraph.style = section_data["style"]
 
         elif content_type == "table":
-            # Convert text into table rows
             lines = content_text.strip().split("\n")
-            headers = lines[0].split("|")  # Extract headers
-            rows = [line.split("|") for line in lines[1:]]  # Extract rows
+            headers = lines[0].split("|")
+            rows = [line.split("|") for line in lines[1:]]
 
             table = doc.add_table(rows=1, cols=len(headers))
             table.style = 'Table Grid'
 
-            # (i) Add header row
+            # Add header row
             hdr_cells = table.rows[0].cells
-            for i, header_text in enumerate(headers):
-                hdr_cells[i].text = header_text.strip()
+            for i, header in enumerate(headers):
+                hdr_cells[i].text = header.strip()
 
-            # (ii) Add data rows
+            # Add data rows
             for row_data in rows:
                 row_cells = table.add_row().cells
                 for i, cell_data in enumerate(row_data):
                     row_cells[i].text = cell_data.strip()
 
-            # (iii) Add caption if present
+            # Add caption if present
             if "caption" in section_data:
                 caption_para = doc.add_paragraph(section_data["caption"])
-                caption_para.style = "Caption"  # You can define a custom style
+                caption_para.style = "Caption"
 
         elif content_type == "chart":
-            # Parse chart data, generate a chart with matplotlib, then insert it
             try:
                 chart_info = json.loads(content_text)
 
                 plt.figure(figsize=(6, 4))
                 for dataset in chart_info["data"]["datasets"]:
+                    # Use chartjs_color_to_mpl for parsing color strings
+                    color = chartjs_color_to_mpl(dataset.get("borderColor", "#000"))
                     plt.plot(chart_info["data"]["labels"],
                              dataset["data"],
                              label=dataset["label"],
-                             color=dataset.get("borderColor", "#000"),
+                             color=color,
                              marker="o")
 
                 plt.title(chart_info["options"]["title"]["text"])
-                plt.xlabel('Year')
-                plt.ylabel('Value')
+                plt.xlabel(chart_info["options"]["scales"]["x"]["title"]["text"])
+                plt.ylabel(chart_info["options"]["scales"]["y"]["title"]["text"])
                 plt.grid(True)
                 if chart_info["options"]["legend"]["display"]:
                     plt.legend()
+
+                # Use tight layout to ensure nothing is cut off
+                plt.tight_layout()
 
                 # Save chart to a BytesIO buffer
                 chart_stream = BytesIO()
@@ -108,8 +119,6 @@ def convert_to_docx(content, output_file):
                     caption_para.style = "Caption"
 
             except Exception as e:
-                # You might want to log the error
-                # print(f"Error parsing chart data: {e}")
                 paragraph = doc.add_paragraph(f"ERROR GENERATING CHART: {e}")
                 continue
 
@@ -121,7 +130,6 @@ def convert_to_docx(content, output_file):
 # Load JSON content from the input
 try:
     content_json = json.loads(PROCESS_INPUT)  # Parse PROCESS_INPUT string into a dictionary
-    # Extract document filename
     output_file = content_json["document_filename"]
 
     # Generate the docx file
