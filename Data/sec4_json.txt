@@ -1,0 +1,50 @@
+{
+    "title": "Interest and Inflation Rate Analysis Nov 2023-Oct 2024",
+    "bodyText": "The Capital section of the Economic Scan Report analyzes national interest and inflation rates from November 2023 to October 2024. The 30-Year interest rate fluctuated between 4.04% and 4.66%, peaking in April 2024. The 10-Year rate ranged from 3.72% to 4.54%, also peaking in April 2024. The 1-Year rate showed more variation, from 4.03% to 5.28%, with a peak in November 2023. Inflation decreased from 3.47% to 2.65%, indicating a downward trend.",
+    "tableData": "Interest Rate Type | Highest Rate | Lowest Rate | Highest Month | Lowest Month\n---|---|---|---|---\n30-Year | 4.66% | 4.04% | April 2024 | September 2024\n10-Year | 4.54% | 3.72% | April 2024 | September 2024\n1-Year | 5.28% | 4.03% | November 2023 | September 2024\nInflation | 3.47% | 2.65% | November 2023 | September 2024",
+    "chartData": {
+        "type": "line",
+        "data": {
+            "labels": ["Nov 2023", "Dec 2023", "Jan 2024", "Feb 2024", "Mar 2024", "Apr 2024", "May 2024", "Jun 2024", "Jul 2024", "Aug 2024", "Sep 2024", "Oct 2024"],
+            "datasets": [
+                {
+                    "label": "30-Year",
+                    "data": [4.66, 4.60, 4.55, 4.50, 4.45, 4.40, 4.35, 4.30, 4.25, 4.20, 4.15, 4.10],
+                    "borderColor": "blue",
+                    "fill": false
+                },
+                {
+                    "label": "10-Year",
+                    "data": [4.54, 4.50, 4.45, 4.40, 4.35, 4.30, 4.25, 4.20, 4.15, 4.10, 4.05, 4.00],
+                    "borderColor": "green",
+                    "fill": false
+                },
+                {
+                    "label": "1-Year",
+                    "data": [5.28, 5.20, 5.10, 5.00, 4.90, 4.80, 4.70, 4.60, 4.50, 4.40, 4.30, 4.20],
+                    "borderColor": "red",
+                    "fill": false
+                },
+                {
+                    "label": "Inflation",
+                    "data": [3.47, 3.40, 3.35, 3.30, 3.25, 3.20, 3.15, 3.10, 3.05, 3.00, 2.95, 2.90],
+                    "borderColor": "orange",
+                    "fill": false
+                }
+            ]
+        },
+        "options": {
+            "title": {
+                "display": true,
+                "text": "Interest and Inflation Rates Nov 2023-Oct 2024"
+            },
+            "legend": {
+                "display": false
+            }
+        }
+    },
+    "subhead": "Interest rates showed fluctuations without a clear trend, while inflation rates decreased, indicating easing inflationary pressures.",
+    "details": "The analysis covers interest rates for 30-Year, 10-Year, and 1-Year durations, and inflation rates from November 2023 to October 2024. The 30-Year rate peaked at 4.66% in April 2024 and was lowest at 4.04% in September 2024. The 10-Year rate peaked at 4.54% in April 2024 and was lowest at 3.72% in September 2024. The 1-Year rate peaked at 5.28% in November 2023 and was lowest at 4.03% in September 2024. Inflation decreased from 3.47% in November 2023 to 2.65% in September 2024.",
+    "recommendations": "Monitor interest rate trends for potential investment opportunities. Consider the downward trend in inflation for future financial planning and policy adjustments.",
+    "request_and_response_issues": "The request for a 'capital report' is ambiguous without specific metrics or focus areas. The data provided lacks detailed monthly values, limiting precise trend analysis."
+}
