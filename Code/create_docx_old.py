@@ -83,21 +83,35 @@ def convert_to_docx(content, output_file):
             try:
                 chart_info = json.loads(content_text)
 
+                # Safely extract chart properties
+                data = chart_info.get("data", {})
+                labels = data.get("labels", [])
+                datasets = data.get("datasets", [])
+
+                options = chart_info.get("options", {})
+                title_info = options.get("title", {})
+                title = title_info.get("text", "Chart")
+                x_label = "Year"
+                y_label = "Value"
+
+                legend_info = options.get("legend", {})
+                legend_display = legend_info.get("display", True)
+
+                # Generate the chart
                 plt.figure(figsize=(6, 4))
-                for dataset in chart_info["data"]["datasets"]:
-                    # Use chartjs_color_to_mpl for parsing color strings
+                for dataset in datasets:
                     color = chartjs_color_to_mpl(dataset.get("borderColor", "#000"))
-                    plt.plot(chart_info["data"]["labels"],
-                             dataset["data"],
-                             label=dataset["label"],
+                    plt.plot(labels,
+                             dataset.get("data", []),
+                             label=dataset.get("label", ""),
                              color=color,
                              marker="o")
 
-                plt.title(chart_info["options"]["title"]["text"])
-                plt.xlabel('Year')
-                plt.ylabel('Value')
+                plt.title(title)
+                plt.xlabel(x_label)
+                plt.ylabel(y_label)
                 plt.grid(True)
-                if chart_info["options"]["legend"]["display"]:
+                if legend_display:
                     plt.legend()
 
                 # Use tight layout to ensure nothing is cut off
