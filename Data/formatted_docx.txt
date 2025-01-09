@@ -1,33 +1,32 @@
 {
     "document_filename": "San_Diego_County_GRP_Analysis_2019_2023.docx",
     "doc_title": "San Diego County GRP Analysis (2019-2023)",
-    "header_text": "San Diego County Economic Report",
-    "footer_text": "Page \\# of \\#",
+    "header_text": "Economic Growth and Industry Contributions in San Diego County",
     "sections": [
         {
-            "content": "The Gross Regional Product (GRP) of San Diego County has demonstrated a consistent upward trajectory from 2019 to 2023, reflecting a robust economic environment. In 2019, the total GRP was approximately $244.28 billion. Despite the challenges posed by the COVID-19 pandemic, 2020 saw a slight increase to $244.82 billion. This resilience set the stage for a significant economic recovery in 2021, with the GRP rising to $268.87 billion. The growth momentum continued into 2022, reaching $296.68 billion, and further increased to $308.71 billion in 2023, indicating sustained economic expansion.",
+            "content": "The Gross Regional Product (GRP) serves as a vital economic indicator, reflecting the economic output of San Diego County. Over the period from 2019 to 2023, the county has demonstrated remarkable economic resilience and growth. In 2019, the total GRP was approximately $244.28 billion. Despite the challenges posed by the COVID-19 pandemic, 2020 saw a slight increase to $244.82 billion. This resilience set the stage for a significant economic recovery in 2021, with the GRP rising to $268.87 billion. The upward trend continued in 2022, reaching $296.68 billion, and further increased to $308.71 billion in 2023, indicating sustained economic growth.",
             "type": "raw text",
             "caption": ""
         },
         {
-            "content": "Per capita GRP also followed a positive trend, highlighting improved economic productivity per individual. In 2019, the per capita GRP was approximately $73,347. This figure rose to $74,278 in 2020, despite the pandemic's impact. The recovery phase in 2021 saw a notable rise to $82,100, followed by an increase to $90,557 in 2022. By 2023, the per capita GRP reached approximately $94,916, underscoring the region's enhanced economic output per person.",
-            "type": "raw text",
-            "caption": ""
-        },
-        {
-            "content": "San Diego County's diverse economy is reflected in the contributions of various industries to the GRP in 2023. The government sector emerged as the largest contributor, adding approximately $52.92 billion. Professional, Scientific, and Technical Services followed with a contribution of $37.04 billion, while Manufacturing added $31.67 billion. The Health Care and Social Assistance sector contributed $20.21 billion, and Finance and Insurance added $19.50 billion. Other significant contributors included Information ($14.90 billion), Retail Trade ($16.24 billion), Real Estate and Rental and Leasing ($12.33 billion), Accommodation and Food Services ($11.83 billion), and Administrative and Support and Waste Management and Remediation Services ($11.30 billion).",
-            "type": "raw text",
-            "caption": ""
-        },
-        {
-            "content": "{\"type\": \"bar\", \"data\": {\"labels\": [\"Government\", \"Prof. Services\", \"Manufacturing\", \"Healthcare\", \"Finance\", \"Information\", \"Real Estate\", \"Retail\", \"Accommodation\", \"Admin Services\"], \"datasets\": [{\"label\": \"GRP Contribution\", \"data\": [52.92, 37.04, 31.67, 20.21, 19.5, 14.9, 12.33, 16.24, 11.83, 11.3], \"backgroundColor\": \"rgba(75, 192, 192, 0.6)\"}]}, \"options\": {\"title\": {\"display\": true, \"text\": \"Industry Contributions to GRP (2023)\"}, \"legend\": {\"display\": true}}}",
+            "content": "{\n    \"type\": \"bar\",\n    \"data\": {\n        \"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"],\n        \"datasets\": [\n            {\n                \"label\": \"Total GRP\",\n                \"data\": [244.28, 244.82, 268.87, 296.68, 308.71],\n                \"backgroundColor\": \"#4e79a7\"\n            }\n        ]\n    },\n    \"options\": {\n        \"title\": {\n            \"display\": true,\n            \"text\": \"San Diego County Total GRP (2019-2023)\"\n        },\n        \"legend\": {\n            \"display\": true\n        }\n    }\n}",
             "type": "chart",
-            "caption": "Industry Contributions to GRP (2023)"
+            "caption": "San Diego County Total GRP (2019-2023)"
         },
         {
-            "content": "Industry | Contribution to GRP (2023)\nGovernment | $52.92 billion\nProfessional, Scientific, and Technical Services | $37.04 billion\nManufacturing | $31.67 billion\nHealth Care and Social Assistance | $20.21 billion\nFinance and Insurance | $19.50 billion\nInformation | $14.90 billion\nReal Estate and Rental and Leasing | $12.33 billion\nRetail Trade | $16.24 billion\nAccommodation and Food Services | $11.83 billion\nAdministrative and Support and Waste Management and Remediation Services | $11.30 billion",
+            "content": "The per capita GRP also reflects this positive economic trajectory. In 2019, the per capita GRP was approximately $73,347. It increased to $74,278 in 2020, despite the pandemic's impact. The recovery in 2021 was marked by a significant rise to $82,100. This growth continued in 2022, with the per capita GRP reaching $90,557, and further increased to $94,916 in 2023. These figures underscore the robust economic health and increasing productivity of the region.",
+            "type": "raw text",
+            "caption": ""
+        },
+        {
+            "content": "Year | Total GRP (Billion $) | Per Capita GRP ($)\n2019 | 244.28 | 73,347\n2020 | 244.82 | 74,278\n2021 | 268.87 | 82,100\n2022 | 296.68 | 90,557\n2023 | 308.71 | 94,916",
             "type": "table",
-            "caption": "Detailed Industry Contributions to GRP (2023)"
+            "caption": "San Diego County GRP and Per Capita GRP (2019-2023)"
+        },
+        {
+            "content": "In 2023, the contributions of various industries to the GRP highlight the diverse economic landscape of San Diego County. The government sector emerged as the largest contributor, with approximately $52.92 billion. This was followed by the professional, scientific, and technical services sector, contributing around $37.04 billion. Manufacturing added approximately $31.67 billion, while the health care and social assistance sector contributed $20.21 billion. The finance and insurance industry added $19.50 billion, and the information sector contributed $14.90 billion. Real estate and rental and leasing, retail trade, accommodation and food services, and administrative and support and waste management and remediation services also made significant contributions, underscoring the county's economic diversity and strength.",
+            "type": "raw text",
+            "caption": ""
         }
     ]
 }
