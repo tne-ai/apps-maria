@@ -337,7 +337,7 @@ nodes:
     type: llm
     position:
       x: 1198.7200416395688
-      'y': 553.6681580425204
+      'y': 557.6681580425204
     data:
       id: 5QMlrPLTVB8_pJduN_y8F
       title: New Model
@@ -346,7 +346,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: &ref_1
         backend: git
@@ -375,7 +375,7 @@ nodes:
     selected: false
     positionAbsolute:
       x: 1198.7200416395688
-      'y': 553.6681580425204
+      'y': 557.6681580425204
     dragging: false
   - id: MrxG9hWOB8u0RI_mz5H59
     type: file
@@ -518,7 +518,7 @@ nodes:
       title: New Code
       module: merge_json6.py
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       flowState: *ref_2
     width: 212
     height: 348
