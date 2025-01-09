@@ -25,9 +25,9 @@ nodes:
       'y': 339.57846633220566
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 8
+      title: Section 7
       input: ''
-      slashgptManifest: Section_8.model
+      slashgptManifest: Section_7.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -304,7 +304,7 @@ nodes:
   - id: KwwaU_Jrb4NFaAOrgFQ3y
     type: llm
     position:
-      x: 998.8055052480433
+      x: 996.9589437242612
       'y': 487.93823647171376
     data:
       id: KwwaU_Jrb4NFaAOrgFQ3y
@@ -314,7 +314,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: &ref_1
         backend: git
@@ -342,7 +342,7 @@ nodes:
     height: 490
     selected: false
     positionAbsolute:
-      x: 998.8055052480433
+      x: 996.9589437242612
       'y': 487.93823647171376
     dragging: false
   - id: UW10EGVp0gMbaSwEkWZzZ
@@ -397,14 +397,14 @@ nodes:
   - id: KQgGIP5MD64YRAWKQdK1d
     type: python_code
     position:
-      x: 1255.5647831049732
+      x: 1248.1785370098448
       'y': 476.30288513615005
     data:
       id: KQgGIP5MD64YRAWKQdK1d
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: &ref_2
         backend: git
         repo: apps-maria
@@ -431,10 +431,13 @@ nodes:
     height: 372
     selected: false
     dragging: false
+    positionAbsolute:
+      x: 1248.1785370098448
+      'y': 476.30288513615005
   - id: QTNm5AmaVz-H9amCLyNna
     type: llm
     position:
-      x: 1503.5647831049732
+      x: 1498.0250985336268
       'y': 512.30288513615
     data:
       id: QTNm5AmaVz-H9amCLyNna
@@ -444,14 +447,14 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
     height: 466
     selected: false
     positionAbsolute:
-      x: 1503.5647831049732
+      x: 1498.0250985336268
       'y': 512.30288513615
     dragging: false
   - id: K-4W5zUWqxV3038bzURDo
@@ -464,11 +467,11 @@ nodes:
       title: New Code
       module: create_docx_old.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1757.5647831049732
       'y': 534.30288513615
