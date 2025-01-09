@@ -277,7 +277,7 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -294,7 +294,7 @@ nodes:
       title: Data
       fileName: sec8-4_San Diego_mean_earn_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -338,9 +338,9 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/cc8411b6c03bf3431f48e47808b9409d3a907f89
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_8
-    width: 206
+    width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 998.8055052480433
       'y': 487.93823647171376
@@ -355,14 +355,56 @@ nodes:
       title: Data
       fileName: ie_item_template.txt
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 226
     selected: false
     dragging: false
     positionAbsolute:
       x: 1051.568296022173
       'y': 213.57172444624038
+  - id: iWTsBCBfUt65-g5XfQkyW
+    type: out
+    position:
+      x: 1037.0038902460283
+      'y': 1034.30288513615
+    data:
+      id: iWTsBCBfUt65-g5XfQkyW
+      title: Save File
+      outputName: sec8_json.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1037.0038902460283
+      'y': 1034.30288513615
+    dragging: false
+  - id: Ll8AiBzWEMNDNLIWQvlBH
+    type: out
+    position:
+      x: 629.0038902460282
+      'y': 872.30288513615
+    data:
+      id: Ll8AiBzWEMNDNLIWQvlBH
+      title: Save File
+      outputName: sec8_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 629.0038902460282
+      'y': 872.30288513615
+    dragging: false
 edges:
+  - source: KwwaU_Jrb4NFaAOrgFQ3y
+    sourceHandle: b
+    target: iWTsBCBfUt65-g5XfQkyW
+    targetHandle: t
+    id: h3ewJ5
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: Ll8AiBzWEMNDNLIWQvlBH
+    targetHandle: t
+    id: s1HfGS
   - source: UW10EGVp0gMbaSwEkWZzZ
     sourceHandle: b
     target: KwwaU_Jrb4NFaAOrgFQ3y
