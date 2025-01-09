@@ -1,40 +1,36 @@
 {
     "title": "San Diego Industry Clusters Report 2019-2023",
-    "bodyText": "The report analyzes industry clusters in San Diego and San Diego County from 2019 to 2023, focusing on job changes, percentage changes, and location quotients. Key findings include a modest job increase in the Information sector in San Diego, a decline in jobs in the Arts, Entertainment, and Recreation sector in both regions, and significant job growth in Transportation and Warehousing in San Diego County. The Government sector in San Diego County saw a small job increase with stable location quotients.",
-    "tableData": "| Industry | 2019 Jobs | 2023 Jobs | Change in Jobs | Percentage Change | 2019 Location Quotient | 2023 Location Quotient | Change in Location Quotient |\n|----------|-----------|-----------|----------------|-------------------|------------------------|------------------------|-----------------------------|\n| Information (NAICS 51) | 30,385 | 31,146 | 761 | 2.5% | 0.9 | 0.8 | -0.1 |\n| Arts, Entertainment, and Recreation (NAICS 71) | 56,872 | 53,662 | -3,210 | -5.6% | 1.2 | 1.2 | 0.0 |\n| Accommodation and Food Services (NAICS 72) | 183,576 | 182,210 | -1,366 | -0.7% | 1.2 | 1.1 | -0.1 |\n| Transportation and Warehousing (NAICS 48) | 63,862 | 76,523 | 12,661 | 19.8% | 0.5 | 0.5 | 0.0 |\n| Government (NAICS 90) | 335,797 | 340,217 | 4,420 | 1.3% | 1.3 | 1.3 | 0.0 |",
+    "bodyText": "The industry clusters report for San Diego analyzes key sectors from 2019 to 2023, focusing on job changes and location quotients. The Information sector saw a 2.5% job increase but a slight decline in concentration. Arts, Entertainment, and Recreation experienced a 5.6% job decrease with stable concentration. Accommodation and Food Services had a 0.7% job decrease and a minor reduction in concentration. These trends highlight mixed performance across industries, informing economic strategies.",
+    "tableData": "Industry | 2019 Jobs | 2023 Jobs | Change in Jobs | Percentage Change | 2019 Location Quotient | 2023 Location Quotient | Change in Location Quotient\n--- | --- | --- | --- | --- | --- | --- | ---\nInformation (NAICS 51) | 30,385 | 31,146 | +761 | +2.5% | 0.9 | 0.8 | -0.1\nArts, Entertainment, and Recreation (NAICS 71) | 56,872 | 53,662 | -3,210 | -5.6% | 1.2 | 1.2 | -0.1\nAccommodation and Food Services (NAICS 72) | 183,576 | 182,210 | -1,366 | -0.7% | 1.2 | 1.1 | -0.0",
     "chartData": {
         "type": "bar",
         "data": {
-            "labels": ["Info", "Arts", "Accom", "Trans", "Gov"],
+            "labels": ["Info", "Arts & Ent", "Accom & Food"],
             "datasets": [
                 {
-                    "label": "Job Change",
-                    "data": [761, -3210, -1366, 12661, 4420],
-                    "backgroundColor": "rgba(75, 192, 192, 0.2)",
-                    "borderColor": "rgba(75, 192, 192, 1)",
-                    "borderWidth": 1
+                    "label": "2019 Jobs",
+                    "data": [30385, 56872, 183576],
+                    "backgroundColor": "rgba(75, 192, 192, 0.2)"
+                },
+                {
+                    "label": "2023 Jobs",
+                    "data": [31146, 53662, 182210],
+                    "backgroundColor": "rgba(153, 102, 255, 0.2)"
                 }
             ]
         },
         "options": {
-            "scales": {
-                "y": {
-                    "beginAtZero": true
-                }
-            },
-            "plugins": {
-                "legend": {
-                    "display": false
-                }
-            },
             "title": {
                 "display": true,
-                "text": "Job Change in San Diego Industries (2019-2023)"
+                "text": "Job Changes in Key Industries (2019-2023)"
+            },
+            "legend": {
+                "display": false
             }
         }
     },
-    "subhead": "San Diego's industry clusters from 2019 to 2023 show varied job changes, with notable growth in Transportation and Warehousing and declines in Arts and Accommodation sectors.",
-    "details": "The analysis uses data from San Diego and San Diego County, focusing on job numbers, percentage changes, and location quotients for 2019 and 2023. Calculations include job change (2023 Jobs - 2019 Jobs) and percentage change ((Change in Jobs / 2019 Jobs) * 100). Location quotient changes are calculated as (2023 Location Quotient - 2019 Location Quotient).",
-    "recommendations": "Consider strategies to support declining sectors like Arts and Accommodation, and leverage growth in Transportation and Warehousing for economic development.",
-    "request_and_response_issues": "The data does not specify the reasons behind job changes or location quotient shifts, which could provide deeper insights into industry dynamics."
+    "subhead": "San Diego's industry clusters from 2019 to 2023 show mixed performance, with Information growing slightly, while Arts, Entertainment, and Accommodation sectors face job declines.",
+    "details": "The analysis uses data from 2019 to 2023, focusing on job numbers and location quotients for key industries in San Diego. The Information sector increased jobs by 761 (2.5%) but saw a decrease in location quotient from 0.9 to 0.8. Arts, Entertainment, and Recreation lost 3,210 jobs (-5.6%) with a stable location quotient of 1.2. Accommodation and Food Services decreased by 1,366 jobs (-0.7%) with a location quotient drop from 1.2 to 1.1. These metrics indicate changes in industry concentration relative to national averages.",
+    "recommendations": "Consider strategies to support job growth in declining sectors like Arts, Entertainment, and Accommodation. Enhance policies to sustain the growth in the Information sector.",
+    "request_and_response_issues": "The request was clear, but the data lacks granularity on sub-sectors within the industries, which could provide deeper insights into specific areas of growth or decline."
 }
