@@ -1,68 +1,61 @@
 {
-  "version": "maria--ed33342d-20250108215506",
+  "version": "maria--5620b05d-20250109064404",
   "data": [
     {
-      "id": "612ce446-d3b3-43e8-8f2f-359ae450fd50",
+      "id": "12691f29-23cb-4f87-92d2-c8218f02efba",
       "data_source": "",
       "item_expert_name": "Section_1_office",
       "chat_expert_name": "Section_1_Chat",
       "title": "Section 1 - Gross Regional Product"
     },
     {
-      "id": "735ba2ef-9a67-4949-b562-0e90882a50f8",
+      "id": "f295e323-5332-441d-9037-15e97fe2f83a",
       "data_source": "",
       "item_expert_name": "Section_2",
       "chat_expert_name": "Section_2_Chat",
-      "title": "Section 2 - Jobs Report"
+      "title": "Section 2 - Jobs Reports"
     },
     {
-      "id": "76002798-380f-4d3f-b46a-8a67543aab2c",
+      "id": "585db6b6-4744-4bed-809f-2fe126b67ce1",
       "data_source": "",
       "item_expert_name": "Section_3",
       "chat_expert_name": "Section_3_Chat",
       "title": "Section 3 - Talent and Workforce"
     },
     {
-      "id": "5dce61de-9694-410a-a9ce-c3597abff04b",
+      "id": "63579a42-ae19-486e-8b67-0b5bb782b143",
       "data_source": "",
       "item_expert_name": "Section_4",
       "chat_expert_name": "Section_4_Chat",
       "title": "Section 4 - Capital"
     },
     {
-      "id": "f46a8e75-64bb-4553-bbbd-15f2282cfcb4",
+      "id": "829215f1-4309-4640-b38c-8ceae63224ef",
       "data_source": "",
       "item_expert_name": "Section_5",
       "chat_expert_name": "Section_5_Chat",
       "title": "Section 5 - Income and Housing"
     },
     {
-      "id": "554c88dd-1cc8-4c5b-9f03-8151af5612d1",
+      "id": "1356a862-361f-43eb-b9be-f4565cd84bb9",
       "data_source": "",
       "item_expert_name": "Section_6",
       "chat_expert_name": "Section_6_Chat",
       "title": "Section 6 - Business Activity"
     },
     {
-      "id": "2e5ca254-8341-4bc5-905b-b48642cca1eb",
+      "id": "56b0ffce-87ca-4aac-b97d-694b72f4b77f",
       "data_source": "",
       "item_expert_name": "Section_7",
       "chat_expert_name": "Section_7_Chat",
       "title": "Section 7 - Industry Clusters"
     },
     {
-      "id": "a4baa0e9-1802-499d-9c36-29cf8d706192",
+      "id": "58825aa5-260c-4e44-984e-5af01897fa40",
       "data_source": "",
       "item_expert_name": "Section_8",
       "chat_expert_name": "Section_8_Chat",
       "title": "Section 8 - Industry Impact"
-    },
-    {
-      "id": "008b724e-045d-4cd2-80f2-2679e158e3c7",
-      "data_source": "",
-      "item_expert_name": "Section_1_qwen",
-      "chat_expert_name": "Section_1_Chat",
-      "title": "QWEN"
     }
   ]
 }
