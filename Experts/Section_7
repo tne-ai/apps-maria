@@ -296,7 +296,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/775422dd91fa3ea8e108b6c631783631d1ac9f72
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_7
-    width: 193
+    width: 212
     height: 226
     selected: false
     dragging: false
@@ -319,14 +319,56 @@ nodes:
       outputToCanvas: false
       useUserQuery: true
       flowState: *ref_0
-    width: 206
+    width: 212
     height: 490
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 728.2447999762047
       'y': 483.4173643089142
+  - id: KDIrIX8y-bos1m1buDLw6
+    type: out
+    position:
+      x: 795.6248009087316
+      'y': 1068.7841283950293
+    data:
+      id: KDIrIX8y-bos1m1buDLw6
+      title: Save File
+      outputName: sec7_json.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 795.6248009087316
+      'y': 1068.7841283950293
+    dragging: false
+  - id: fbCMm7SAP6xU2doukjh0o
+    type: out
+    position:
+      x: 343.6248009087316
+      'y': 976.7841283950293
+    data:
+      id: fbCMm7SAP6xU2doukjh0o
+      title: Save File
+      outputName: sec7_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 343.6248009087316
+      'y': 976.7841283950293
+    dragging: false
 edges:
+  - source: q2KxRDmxuTFPWuXutejxL
+    sourceHandle: b
+    target: KDIrIX8y-bos1m1buDLw6
+    targetHandle: t
+    id: '-TeHcE'
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: fbCMm7SAP6xU2doukjh0o
+    targetHandle: t
+    id: e_C2bi
   - source: 3tNm4yfR_vHOl2XyhDblO
     sourceHandle: b
     target: q2KxRDmxuTFPWuXutejxL
