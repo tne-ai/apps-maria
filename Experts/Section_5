@@ -11,8 +11,8 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 193
-    height: 274
+    width: 212
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -34,7 +34,7 @@ nodes:
       outputToCanvas: true
       useUserQuery: false
       flowState: *ref_0
-    width: 206
+    width: 212
     height: 466
     selected: false
     positionAbsolute:
@@ -72,7 +72,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
+    width: 212
     height: 250
     selected: false
     positionAbsolute:
@@ -110,8 +110,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
-    height: 274
+    width: 212
+    height: 226
     selected: false
     dragging: false
     positionAbsolute:
@@ -255,7 +255,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/ce32fe22affe12fa3a773efa1caa53035f674126
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_5
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -272,7 +272,7 @@ nodes:
       title: Data
       fileName: sec5-3_San Diego County_household_inc_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -289,7 +289,7 @@ nodes:
       title: Data
       fileName: sec5-4_San Diego County_housing_starts_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     positionAbsolute:
@@ -306,7 +306,7 @@ nodes:
       title: Data
       fileName: sec5-5_San Diego County_housing_starts_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -323,7 +323,7 @@ nodes:
       title: Data
       fileName: sec5-6_San Diego_home_price_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -340,7 +340,7 @@ nodes:
       title: Data
       fileName: sec5-7_San Diego_home_price_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     positionAbsolute:
@@ -357,7 +357,7 @@ nodes:
       title: Data
       fileName: sec5-8_San Diego_household_inc_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -374,7 +374,7 @@ nodes:
       title: Data
       fileName: sec5-9_San Diego_housing_starts_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -391,7 +391,7 @@ nodes:
       title: Data
       fileName: sec5-10_San Diego_housing_starts_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -408,7 +408,7 @@ nodes:
       title: Data
       fileName: sec5-11_San Diego County_household_inc_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -425,7 +425,7 @@ nodes:
       title: Data
       fileName: sec5-12_San Diego_household_inc_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -469,7 +469,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/2c175f8a5c0050c317c793c48bef6436221b70c2
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_5
-    width: 206
+    width: 212
     height: 490
     selected: false
     dragging: false
@@ -486,7 +486,7 @@ nodes:
       title: Data
       fileName: ie_item_template.txt
       flowState: *ref_2
-    width: 193
+    width: 212
     height: 226
     selected: false
     dragging: false
@@ -504,7 +504,7 @@ nodes:
       outputName: sec5_json.txt
     width: 212
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
       x: 580.5708067929702
       'y': 1473.7683003262941
@@ -525,7 +525,172 @@ nodes:
       x: 142.5708067929702
       'y': 1259.7683003262941
     dragging: false
+  - id: Pjt8HfWQbAFcrvEDxCzmW
+    type: python_code
+    position:
+      x: 876.7891868311276
+      'y': 984.412484429663
+    data:
+      id: Pjt8HfWQbAFcrvEDxCzmW
+      title: New Code
+      module: get_table_and_chart.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: &ref_3
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_5
+          path: Experts/Section_5
+          sha: 157d9777a2a604a17b3c2ac166f95a086929a7f8
+          size: 22098
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_5?ref=main
+          html_url: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_5
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/157d9777a2a604a17b3c2ac166f95a086929a7f8
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_5
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_5?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/157d9777a2a604a17b3c2ac166f95a086929a7f8
+            html: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_5
+    width: 212
+    height: 372
+    selected: false
+    positionAbsolute:
+      x: 876.7891868311276
+      'y': 984.412484429663
+    dragging: false
+  - id: Sn4z4XGKjn56D8dCbBbiR
+    type: llm
+    position:
+      x: 1136.7891868311276
+      'y': 984.412484429663
+    data:
+      id: Sn4z4XGKjn56D8dCbBbiR
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_3
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1136.7891868311276
+      'y': 984.412484429663
+    dragging: false
+  - id: awo7GUVovrww7jftwlwx6
+    type: python_code
+    position:
+      x: 1392.7891868311276
+      'y': 1016.412484429663
+    data:
+      id: awo7GUVovrww7jftwlwx6
+      title: New Code
+      module: create_docx_old.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_3
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 1392.7891868311276
+      'y': 1016.412484429663
+    dragging: false
+  - id: BYV9IwZPzVfiDfB1tnhQd
+    type: python_code
+    position:
+      x: 1638.7891868311276
+      'y': 1016.412484429663
+    data:
+      id: BYV9IwZPzVfiDfB1tnhQd
+      title: New Code
+      module: merge_json5.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_3
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 1638.7891868311276
+      'y': 1016.412484429663
+    dragging: false
+  - id: GCE946xmljjEk-G_Vu5Iy
+    type: file
+    position:
+      x: 1018.7891868311276
+      'y': 662.412484429663
+    data:
+      id: GCE946xmljjEk-G_Vu5Iy
+      title: Data
+      fileName: sec5_bullets.txt
+      flowState: *ref_3
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1018.7891868311276
+      'y': 662.412484429663
+    dragging: false
+  - id: mY_YyzqVxDweV9BbCIcWo
+    type: file
+    position:
+      x: 1336.7891868311276
+      'y': 676.412484429663
+    data:
+      id: mY_YyzqVxDweV9BbCIcWo
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_3
+    width: 212
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1336.7891868311276
+      'y': 676.412484429663
+    dragging: false
 edges:
+  - source: mY_YyzqVxDweV9BbCIcWo
+    sourceHandle: b
+    target: Sn4z4XGKjn56D8dCbBbiR
+    targetHandle: t
+    id: bWkDcN
+  - source: GCE946xmljjEk-G_Vu5Iy
+    sourceHandle: b
+    target: Sn4z4XGKjn56D8dCbBbiR
+    targetHandle: t
+    id: ju5P72
+  - source: awo7GUVovrww7jftwlwx6
+    sourceHandle: r
+    target: BYV9IwZPzVfiDfB1tnhQd
+    targetHandle: l
+    id: UqRagr
+  - source: Sn4z4XGKjn56D8dCbBbiR
+    sourceHandle: r
+    target: awo7GUVovrww7jftwlwx6
+    targetHandle: l
+    id: 5gDBY1
+  - source: Pjt8HfWQbAFcrvEDxCzmW
+    sourceHandle: r
+    target: Sn4z4XGKjn56D8dCbBbiR
+    targetHandle: l
+    id: cyL5bx
+  - source: _pLm9puc3LuuXGENaCKDc
+    sourceHandle: r
+    target: Pjt8HfWQbAFcrvEDxCzmW
+    targetHandle: l
+    id: qVVLXI
   - source: _pLm9puc3LuuXGENaCKDc
     sourceHandle: b
     target: IlkseW76jWIfuSPGnio_C
