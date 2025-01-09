@@ -493,7 +493,49 @@ nodes:
     positionAbsolute:
       x: 657.1818907773452
       'y': 497.81167115330686
+  - id: IlkseW76jWIfuSPGnio_C
+    type: out
+    position:
+      x: 580.5708067929702
+      'y': 1473.7683003262941
+    data:
+      id: IlkseW76jWIfuSPGnio_C
+      title: Save File
+      outputName: sec5_json.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 580.5708067929702
+      'y': 1473.7683003262941
+    dragging: false
+  - id: xsv8pEeibKKqYfN5A177P
+    type: out
+    position:
+      x: 142.5708067929702
+      'y': 1259.7683003262941
+    data:
+      id: xsv8pEeibKKqYfN5A177P
+      title: Save File
+      outputName: sec5_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 142.5708067929702
+      'y': 1259.7683003262941
+    dragging: false
 edges:
+  - source: _pLm9puc3LuuXGENaCKDc
+    sourceHandle: b
+    target: IlkseW76jWIfuSPGnio_C
+    targetHandle: t
+    id: an2ONw
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: xsv8pEeibKKqYfN5A177P
+    targetHandle: t
+    id: '-9kyhM'
   - source: _WIMfi43zz-kCTc3CrCHC
     sourceHandle: b
     target: _pLm9puc3LuuXGENaCKDc
