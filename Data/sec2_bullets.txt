@@ -1,8 +1,8 @@
-The Jobs Report for San Diego County, CA, focuses on two main areas: Unemployment and Industry Job Postings. Let's break down each section based on the provided data.
+The Jobs Report for San Diego County, CA, provides insights into the unemployment rates and job postings across various industries. Here's a detailed analysis based on the provided data:
 
-### Unemployment
+### Unemployment Analysis
 
-#### San Diego County Unemployment Rate (2023-2024)
+#### San Diego County Unemployment Rate (2023-2024):
 - **September 2024**: 4.55%
 - **August 2024**: 5.05%
 - **July 2024**: 4.91%
@@ -18,23 +18,42 @@ The Jobs Report for San Diego County, CA, focuses on two main areas: Unemploymen
 
 The unemployment rate in San Diego County has shown fluctuations over the past year, with a peak in August 2024 at 5.05% and a low in May 2024 at 3.65%. The rate has generally been higher in 2024 compared to the end of 2023.
 
-#### Comparison with Peers
-- **Maricopa County, AZ**: September 2024 unemployment rate at 3.36%
-- **Miami-Dade County, FL**: September 2024 unemployment rate at 2.05%
-- **Wayne County, MI**: September 2024 unemployment rate at 5.18%
+#### Comparison with Peers:
+- **Maricopa County, AZ**: Lower unemployment rates, with a peak of 3.84% in October 2023.
+- **Miami-Dade County, FL**: Significantly lower rates, with a peak of 3.13% in August 2024.
+- **Wayne County, MI**: Higher rates, with a peak of 8.23% in July 2024.
 
-San Diego County's unemployment rate in September 2024 (4.55%) is higher than Maricopa County and Miami-Dade County but slightly lower than Wayne County.
+San Diego County's unemployment rate is higher than Miami-Dade County but lower than Wayne County, indicating a moderate employment situation compared to these peers.
 
-### Industry Job Postings
+### Job Postings Analysis
 
-#### San Diego County Job Postings (2023-2024)
-- **Health Care and Social Assistance**: 52,862 unique postings, -24.16% change from previous year
-- **Admin/Support/Waste Mgmt and Remediation Svcs**: 50,026 unique postings, -34.86% change
-- **Professional, Scientific, and Technical Services**: 44,158 unique postings, -25.67% change
-- **Manufacturing**: 30,688 unique postings, -29.44% change
-- **Retail Trade**: 30,326 unique postings, -20.51% change
+#### Key Industries in San Diego County (2023-2024):
+1. **Health Care and Social Assistance**:
+   - Unique Postings: 52,862
+   - Median Salary: $57,216
+   - Percent Change: -24.16%
 
-The job postings in San Diego County have generally decreased across various industries compared to the previous year. The largest decline is seen in the Finance and Insurance sector with a -33.64% change, while the smallest decline is in Agriculture, Forestry, Fishing, and Hunting with a -3.98% change.
+2. **Admin/Support/Waste Mgmt and Remediation Services**:
+   - Unique Postings: 50,026
+   - Median Salary: $62,336
+   - Percent Change: -34.86%
+
+3. **Professional, Scientific, and Technical Services**:
+   - Unique Postings: 44,158
+   - Median Salary: $89,984
+   - Percent Change: -25.67%
+
+4. **Manufacturing**:
+   - Unique Postings: 30,688
+   - Median Salary: $95,616
+   - Percent Change: -29.44%
+
+5. **Retail Trade**:
+   - Unique Postings: 30,326
+   - Median Salary: $41,600
+   - Percent Change: -20.51%
+
+The job postings data indicates a decline in unique postings across all major industries, with the most significant drop in the Finance and Insurance sector (-33.64%). Despite the decrease in postings, the Professional, Scientific, and Technical Services industry offers the highest median salary at $89,984.
 
 ### Summary
-San Diego County has experienced a fluctuating unemployment rate over the past year, with a noticeable increase in 2024 compared to late 2023. The county's unemployment rate is higher than some peer counties but lower than others. Job postings have decreased across most industries, indicating a potential slowdown in hiring or a shift in labor market dynamics. The Health Care and Social Assistance sector remains the largest in terms of job postings, despite a significant year-over-year decline.
+San Diego County's unemployment rate has been relatively stable but slightly higher in 2024 compared to the end of 2023. The job market shows a decline in postings across various industries, with significant reductions in sectors like Admin/Support and Finance. However, the Professional, Scientific, and Technical Services industry remains a high-paying sector despite the decrease in job postings. Overall, the employment situation in San Diego County is moderate, with room for improvement in job availability and stability.
