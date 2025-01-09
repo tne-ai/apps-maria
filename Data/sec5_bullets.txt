@@ -1,0 +1,52 @@
+To create the Income and Housing report, we will analyze the data related to median household income, median home price, and housing starts for San Diego and San Diego County. We will also compare these metrics with peer regions. Let's break down the analysis step by step:
+
+### Median Household Income
+
+#### San Diego County
+1. **2019**: Median household income was $112,786 with 1,132,434 total households.
+2. **2020**: Median household income increased to $118,862 with 1,151,043 total households.
+3. **2021**: Median household income further increased to $121,451 with 1,162,896 total households.
+4. **2022**: Median household income rose to $129,976 with 1,172,343 total households.
+5. **2023**: Median household income reached $139,510 with 1,181,259 total households.
+
+#### Peer Comparison
+- **Maricopa County, AZ**: In 2023, the median income was $116,757.
+- **Miami-Dade County, FL**: In 2023, the median income was $107,855.
+- **Wayne County, MI**: In 2023, the median income was $80,604.
+
+San Diego County's median household income is higher than its peers.
+
+### Median Home Price
+
+#### San Diego County
+1. **2019**: Median home price was $619,300.
+2. **2020**: Median home price increased to $703,833.
+3. **2021**: Median home price further increased to $722,200.
+4. **2022**: Median home price rose to $846,600.
+5. **2023**: Median home price reached $864,900.
+
+#### Peer Comparison
+- **Maricopa County, AZ**: In 2023, the median home price was $468,700.
+- **Miami-Dade County, FL**: In 2023, the median home price was $488,600.
+- **Wayne County, MI**: In 2023, the median home price was $177,300.
+
+San Diego County's median home price is significantly higher than its peers.
+
+### Housing Starts
+
+#### San Diego County
+1. **2019**: Total housing units were 7,907 with 4,950 multi-units.
+2. **2020**: Total housing units increased to 9,285 with 6,454 multi-units.
+3. **2021**: Total housing units further increased to 9,700 with 6,523 multi-units.
+4. **2022**: Total housing units were 9,412 with 5,925 multi-units.
+5. **2023**: Total housing units reached 10,944 with 8,065 multi-units.
+
+#### Peer Comparison
+- **Maricopa County, AZ**: In 2023, total housing units were 37,076 with 19,169 multi-units.
+- **Miami-Dade County, FL**: In 2023, total housing units were 13,587 with 12,186 multi-units.
+- **Wayne County, MI**: In 2023, total housing units were 1,379 with 720 multi-units.
+
+San Diego County has a moderate number of housing starts compared to its peers, with a significant portion being multi-unit developments.
+
+### Summary
+San Diego County exhibits a strong median household income and high median home prices compared to its peers. The housing market shows a steady increase in housing starts, with a focus on multi-unit developments. This indicates a robust economic environment with a high cost of living relative to peer regions.
