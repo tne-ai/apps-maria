@@ -1,0 +1,38 @@
+{
+    "title": "San Diego County Business Activity Report 2022",
+    "bodyText": "The Business Activity report for San Diego County highlights a growth in the number of firms from 65,178 in 2021 to 68,078 in 2022, marking a 4.45% increase. The per capita number of firms in 2022 was 0.02078, surpassing both state and national averages. Employment also rose from 1,326,174 in 2021 to 1,412,457 in 2022, indicating a growing workforce. The county has consistently outperformed state and national averages in per capita firms from 2017 to 2022.",
+    "tableData": "| Year | Number of Firms | Per Capita Firms | Total Employment | Population |\n|------|-----------------|------------------|------------------|------------|\n| 2017 | 61,321          | 0.01848          | N/A              | N/A        |\n| 2021 | 65,178          | 0.01990          | 1,326,174        | N/A        |\n| 2022 | 68,078          | 0.02078          | 1,412,457        | 3,276,208  |",
+    "chartData": {
+        "type": "line",
+        "data": {
+            "labels": ["2017", "2021", "2022"],
+            "datasets": [
+                {
+                    "label": "Number of Firms",
+                    "data": [61321, 65178, 68078],
+                    "borderColor": "blue",
+                    "fill": false
+                },
+                {
+                    "label": "Per Capita Firms",
+                    "data": [0.01848, 0.01990, 0.02078],
+                    "borderColor": "green",
+                    "fill": false
+                }
+            ]
+        },
+        "options": {
+            "title": {
+                "display": true,
+                "text": "San Diego County Business Activity Trends"
+            },
+            "legend": {
+                "display": false
+            }
+        }
+    },
+    "subhead": "San Diego County's business activity shows growth in firms and employment, surpassing state and national averages in per capita firms.",
+    "details": "The data shows an increase in the number of firms from 65,178 in 2021 to 68,078 in 2022, calculated as a 4.45% growth rate using the formula: ((68,078 - 65,178) / 65,178) * 100. The per capita firms in 2022 were 0.02078, higher than the state (0.01840) and national (0.01723) averages. Employment rose from 1,326,174 in 2021 to 1,412,457 in 2022. The data indicates a positive trend in business activity from 2017 to 2022.",
+    "recommendations": "Consider investing in San Diego County due to its robust business growth and favorable economic conditions. Monitor employment trends to align workforce development with business needs.",
+    "request_and_response_issues": "The report does not provide specific data on industry sectors or the impact of external factors on business growth. Further analysis could include these aspects for a comprehensive understanding."
+}
