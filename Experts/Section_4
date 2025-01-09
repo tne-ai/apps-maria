@@ -13,7 +13,7 @@ nodes:
         repo: apps-maria-2
     width: 193
     height: 250
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 518.8358935676725
@@ -178,7 +178,49 @@ nodes:
       x: 729.2568219196389
       'y': 522.6704367978306
     dragging: false
+  - id: pEWmNMDhiZ6bwsl1q57ct
+    type: out
+    position:
+      x: 761.8690418189324
+      'y': 1089.0033269820551
+    data:
+      id: pEWmNMDhiZ6bwsl1q57ct
+      title: Save File
+      outputName: sec4_json.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 761.8690418189324
+      'y': 1089.0033269820551
+    dragging: false
+  - id: U_fcq1xEVwK2LFDV4Zpc1
+    type: out
+    position:
+      x: 233.99548419038058
+      'y': 942.8229571772251
+    data:
+      id: U_fcq1xEVwK2LFDV4Zpc1
+      title: Save File
+      outputName: sec4_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 233.99548419038058
+      'y': 942.8229571772251
+    dragging: false
 edges:
+  - source: R2Iv4XqbbOAxQY2wT5z0X
+    sourceHandle: b
+    target: pEWmNMDhiZ6bwsl1q57ct
+    targetHandle: t
+    id: 3UktTt
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: U_fcq1xEVwK2LFDV4Zpc1
+    targetHandle: t
+    id: gvq0U_
   - source: 6HRLbEep5aYPmBacd7A6H
     sourceHandle: r
     target: R2Iv4XqbbOAxQY2wT5z0X
