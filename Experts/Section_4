@@ -220,7 +220,7 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: &ref_2
         backend: git
         repo: apps-maria
@@ -260,7 +260,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -280,7 +280,7 @@ nodes:
       title: New Code
       module: create_docx_old.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
@@ -293,7 +293,7 @@ nodes:
     type: python_code
     position:
       x: 1779.1953940789303
-      'y': 585.9958709539656
+      'y': 587.5670435050811
     data:
       id: 7UgXonweknEQ6ntXkGmaD
       title: New Code
@@ -303,10 +303,10 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1779.1953940789303
-      'y': 585.9958709539656
+      'y': 587.5670435050811
     dragging: false
   - id: 0sHhu3o9XNvw_shpyN4Po
     type: file
