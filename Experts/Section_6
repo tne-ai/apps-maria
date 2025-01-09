@@ -436,7 +436,7 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: &ref_2
         backend: git
         repo: apps-maria
@@ -470,7 +470,7 @@ nodes:
     type: llm
     position:
       x: 1697.070478952089
-      'y': 580.7466149127877
+      'y': 582.7466149127877
     data:
       id: DCnl7m8OI1NlqYdCHZ5tK
       title: New Model
@@ -479,7 +479,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_2
     width: 212
@@ -487,7 +487,7 @@ nodes:
     selected: false
     positionAbsolute:
       x: 1697.070478952089
-      'y': 580.7466149127877
+      'y': 582.7466149127877
     dragging: false
   - id: fySJCnX7DjkbnsXMq7uEo
     type: python_code
@@ -499,7 +499,7 @@ nodes:
       title: New Code
       module: create_docx_old.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
@@ -511,20 +511,20 @@ nodes:
   - id: gzPSJ-9fqWFW7TjPtMyOR
     type: python_code
     position:
-      x: 2253.0704789520887
+      x: 2255.0704789520887
       'y': 628.7466149127877
     data:
       id: gzPSJ-9fqWFW7TjPtMyOR
       title: New Code
       module: merge_json6.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_2
     width: 212
     height: 348
     selected: true
     positionAbsolute:
-      x: 2253.0704789520887
+      x: 2255.0704789520887
       'y': 628.7466149127877
     dragging: false
   - id: e1iDVOP7xGpfh74vkQE17
