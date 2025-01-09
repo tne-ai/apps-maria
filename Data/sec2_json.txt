@@ -1,40 +1,10 @@
 {
-    "title": "San Diego County Jobs Report: Unemployment and Job Postings",
-    "bodyText": "The Jobs Report for San Diego County, CA, highlights unemployment rates and job postings across various industries. The unemployment rate fluctuated over the past year, peaking at 5.05% in August 2024 and reaching a low of 3.65% in May 2024. Compared to peers, San Diego's rate is moderate. Job postings have declined across key industries, with the Professional, Scientific, and Technical Services sector offering the highest median salary despite a decrease in postings.",
-    "tableData": "| Industry                                      | Unique Postings | Median Salary | Percent Change |\n|-----------------------------------------------|-----------------|---------------|----------------|\n| Health Care and Social Assistance             | 52,862          | $57,216       | -24.16%        |\n| Admin/Support/Waste Mgmt and Remediation Svcs | 50,026          | $62,336       | -34.86%        |\n| Professional, Scientific, and Technical Svcs  | 44,158          | $89,984       | -25.67%        |\n| Manufacturing                                 | 30,688          | $95,616       | -29.44%        |\n| Retail Trade                                  | 30,326          | $41,600       | -20.51%        |",
-    "chartData": {
-        "type": "bar",
-        "data": {
-            "labels": ["Health Care", "Admin/Support", "Prof/Tech", "Manufacturing", "Retail"],
-            "datasets": [
-                {
-                    "label": "Unique Postings",
-                    "data": [52862, 50026, 44158, 30688, 30326],
-                    "backgroundColor": "rgba(75, 192, 192, 0.2)",
-                    "borderColor": "rgba(75, 192, 192, 1)",
-                    "borderWidth": 1
-                }
-            ]
-        },
-        "options": {
-            "scales": {
-                "y": {
-                    "beginAtZero": true
-                }
-            },
-            "plugins": {
-                "legend": {
-                    "display": false
-                }
-            },
-            "title": {
-                "display": true,
-                "text": "Job Postings by Industry"
-            }
-        }
-    },
-    "subhead": "San Diego County's unemployment rate is moderate compared to peers, with job postings declining across industries. Professional services offer high salaries despite fewer postings.",
-    "details": "The unemployment data for San Diego County shows a peak of 5.05% in August 2024 and a low of 3.65% in May 2024. Compared to Maricopa County, AZ, and Miami-Dade County, FL, San Diego's rates are higher, but lower than Wayne County, MI. Job postings data reveals declines across major industries, with the Professional, Scientific, and Technical Services sector having the highest median salary of $89,984. The data is sourced from unemployment rates and job postings statistics for 2023-2024.",
-    "recommendations": "To improve the employment situation, consider initiatives to boost job creation in declining sectors and support workforce development programs to enhance skills in high-demand industries.",
-    "request_and_response_issues": "The request for a jobs report is clear, but the data lacks specific details on the causes of unemployment rate fluctuations and job posting declines. Additional context on economic factors influencing these trends would enhance the analysis."
+    "title": "San Diego County Unemployment and Job Postings Analysis",
+    "bodyText": "The report analyzes San Diego County's unemployment rate and job postings data, comparing it with peer counties. As of September 2024, San Diego's unemployment rate is 4.55%, higher than Maricopa and Miami-Dade but lower than Wayne County. The rate peaked in August 2024 at 5.05%. Job postings in major industries like Health Care and Social Assistance, and Admin/Support/Waste Management have decreased significantly, indicating a potential slowdown in hiring.",
+    "tableData": "| County                  | Unemployment Rate (Sep 2024) |\n|-------------------------|------------------------------|\n| San Diego County, CA    | 4.55%                        |\n| Maricopa County, AZ     | 3.36%                        |\n| Miami-Dade County, FL   | 2.05%                        |\n| Wayne County, MI        | 5.18%                        |",
+    "chartData": "{\n    \"type\": \"bar\",\n    \"data\": {\n        \"labels\": [\"San Diego\", \"Maricopa\", \"Miami-Dade\", \"Wayne\"],\n        \"datasets\": [{\n            \"label\": \"Unemployment Rate\",\n            \"data\": [4.55, 3.36, 2.05, 5.18],\n            \"backgroundColor\": \"#4e79a7\"\n        }]\n    },\n    \"options\": {\n        \"title\": {\n            \"display\": true,\n            \"text\": \"Unemployment Rate Comparison (Sep 2024)\"\n        },\n        \"legend\": {\n            \"display\": false\n        }\n    }\n}",
+    "subhead": "San Diego's unemployment rate is moderate compared to peers, with a notable decrease in job postings across major industries, indicating potential economic challenges.",
+    "details": "The unemployment data for San Diego County from October 2023 to September 2024 shows fluctuations, with a peak in August 2024 at 5.05%. In September 2024, San Diego's rate was 4.55%, compared to Maricopa (3.36%), Miami-Dade (2.05%), and Wayne (5.18%) counties. Job postings data for 2023-2024 indicates a decrease across major industries, with Health Care and Social Assistance having the highest postings but a 24.16% decline. The Admin/Support/Waste Management sector saw the largest decline at 34.86%.",
+    "recommendations": "Monitor unemployment trends and job postings to identify economic shifts. Consider workforce development strategies to address potential hiring slowdowns.",
+    "request_and_response_issues": "The data does not specify the reasons for the decline in job postings, which could be due to various economic factors. Further analysis may be needed to understand underlying causes."
 }
