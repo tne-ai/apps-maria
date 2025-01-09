@@ -1,0 +1,61 @@
+The Talent and Workforce report for San Diego County focuses on two main areas: Education and Skills Gap. Here's a detailed analysis based on the provided data:
+
+### Education
+
+#### Educational Attainment in San Diego County (2023)
+- **Less Than 9th Grade**: 138,901 individuals, representing 6.14% of the population.
+- **9th Grade to 12th Grade**: 119,211 individuals, representing 5.27% of the population.
+- **High School Diploma**: 414,691 individuals, representing 18.34% of the population.
+- **Some College**: 470,451 individuals, representing 20.80% of the population.
+- **Associate's Degree**: 188,322 individuals, representing 8.33% of the population.
+- **Bachelor's Degree**: 564,521 individuals, representing 24.96% of the population.
+- **Graduate Degree and Higher**: 365,203 individuals, representing 16.15% of the population.
+
+**Key Observations:**
+- The largest segment of the population has attained a Bachelor's Degree, accounting for nearly a quarter of the population.
+- There is a significant portion of the population with some college education but no degree, indicating potential for further educational advancement.
+- The percentage of individuals with a Graduate Degree and Higher is relatively high, reflecting a well-educated workforce.
+
+### Skills Gap
+
+#### Skills Gap Analysis in San Diego County
+The skills gap analysis identifies occupations with a significant difference between job openings and regional completions, indicating areas where the workforce supply does not meet demand.
+
+**Top Occupations with Skills Gaps:**
+1. **Compensation and Benefits Managers**: 
+   - 2023 Jobs: 233
+   - 2028 Jobs: 0 (projected decrease)
+   - Skills Gap: 7,402
+   - Median Hourly Earnings: $72.47
+
+2. **Training and Development Managers**: 
+   - 2023 Jobs: 1,000
+   - 2028 Jobs: 1,251 (projected increase)
+   - Skills Gap: 5,279
+   - Median Hourly Earnings: $64.23
+
+3. **Compensation, Benefits, and Job Analysis Specialists**: 
+   - 2023 Jobs: 1,095
+   - 2028 Jobs: 543 (projected decrease)
+   - Skills Gap: 5,008
+   - Median Hourly Earnings: $41.55
+
+4. **Entertainment and Recreation Managers, Except Gambling**: 
+   - 2023 Jobs: 1,004
+   - 2028 Jobs: 791 (projected decrease)
+   - Skills Gap: 4,531
+   - Median Hourly Earnings: $33.91
+
+5. **Social Science Research Assistants**: 
+   - 2023 Jobs: 521
+   - 2028 Jobs: 1,563 (projected increase)
+   - Skills Gap: 3,434
+   - Median Hourly Earnings: $22.43
+
+**Key Observations:**
+- There is a notable skills gap in managerial positions related to compensation and benefits, as well as training and development.
+- The demand for Social Science Research Assistants is expected to increase significantly, highlighting a potential area for educational institutions to focus on.
+- The skills gap in certain occupations suggests a need for targeted training programs to align workforce skills with market demands.
+
+### Conclusion
+San Diego County boasts a highly educated workforce, with a significant portion holding Bachelor's and Graduate degrees. However, there are notable skills gaps in specific managerial and specialist roles. Addressing these gaps through targeted education and training programs could enhance the alignment between workforce skills and market needs, supporting economic growth in the region.
