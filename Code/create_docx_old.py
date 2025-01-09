@@ -94,8 +94,8 @@ def convert_to_docx(content, output_file):
                              marker="o")
 
                 plt.title(chart_info["options"]["title"]["text"])
-                plt.xlabel(chart_info["options"]["scales"]["x"]["title"]["text"])
-                plt.ylabel(chart_info["options"]["scales"]["y"]["title"]["text"])
+                plt.xlabel('Year')
+                plt.ylabel('Value')
                 plt.grid(True)
                 if chart_info["options"]["legend"]["display"]:
                     plt.legend()
