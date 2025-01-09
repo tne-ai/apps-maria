@@ -1,0 +1,29 @@
+To create the Industry Impact report, we will analyze the mean earnings and job data for San Diego, CA, using the provided datasets. The analysis will focus on the mean earnings per worker and the number of jobs across different industries in San Diego.
+
+### Mean Earnings Analysis
+
+We will use the `sec8-4_San Diego_mean_earn_data.csv` file to analyze the mean earnings per worker in San Diego across various industries. Here are the key findings:
+
+1. **Utilities**: This industry has the highest mean earnings per worker at $211,444.85, with a growth rate of 140.15%.
+2. **Professional, Scientific, and Technical Services**: This industry has mean earnings of $135,544.26, with a significant growth rate of 117.19%.
+3. **Management of Companies and Enterprises**: Mean earnings are $148,422.67, with a growth rate of 101.97%.
+4. **Information**: Mean earnings are $139,498.45, with a growth rate of 76.34%.
+5. **Manufacturing**: Mean earnings are $125,586.41, with a growth rate of 117.45%.
+
+These industries show strong earnings potential and growth, indicating a robust economic environment in San Diego.
+
+### Jobs Analysis
+
+We will use the `sec8-3_San Diego_jobs_ind_data.csv` file to analyze the number of jobs in San Diego across various industries. Here are the key findings:
+
+1. **Professional, Scientific, and Technical Services**: This industry has the highest number of jobs at 158,554.
+2. **Health Care and Social Assistance**: This industry has 127,749 jobs, indicating a strong demand for healthcare services.
+3. **Accommodation and Food Services**: This industry has 91,600 jobs, reflecting the importance of tourism and hospitality in San Diego.
+4. **Retail Trade**: This industry has 74,674 jobs, showing a significant presence in the local economy.
+5. **Government**: This sector employs 156,140 people, highlighting its role as a major employer in the region.
+
+### Conclusion
+
+San Diego's economy is characterized by high mean earnings in industries such as Utilities, Professional Services, and Management. The job market is robust, with significant employment in Professional Services, Healthcare, and Government sectors. The data suggests a healthy economic environment with opportunities for growth and development in various industries.
+
+This analysis provides insights into the economic landscape of San Diego, highlighting key industries that drive the local economy.
