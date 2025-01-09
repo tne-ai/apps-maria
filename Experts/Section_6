@@ -11,7 +11,7 @@ nodes:
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -36,7 +36,7 @@ nodes:
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 206
+    width: 212
     height: 466
     selected: false
     positionAbsolute:
@@ -74,7 +74,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
+    width: 212
     height: 250
     selected: false
     positionAbsolute:
@@ -112,8 +112,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
-    height: 274
+    width: 212
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -426,7 +426,172 @@ nodes:
       x: 762.5708067929702
       'y': 1023.7466149127877
     dragging: false
+  - id: AVieBF1WgulfXf3-zrHiK
+    type: python_code
+    position:
+      x: 1453.070478952089
+      'y': 618.7466149127877
+    data:
+      id: AVieBF1WgulfXf3-zrHiK
+      title: New Code
+      module: get_table_and_chart.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: &ref_2
+        backend: git
+        repo: apps-maria
+        content:
+          name: Section_6
+          path: Experts/Section_6
+          sha: 8df596f03a11c887bcf23bf44129d6f78b0e0daf
+          size: 18879
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_6?ref=main
+          html_url: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_6
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria/git/blobs/8df596f03a11c887bcf23bf44129d6f78b0e0daf
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria/main/Experts/Section_6
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria/contents/Experts/Section_6?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria/git/blobs/8df596f03a11c887bcf23bf44129d6f78b0e0daf
+            html: https://github.com/tne-ai/apps-maria/blob/main/Experts/Section_6
+    width: 212
+    height: 372
+    selected: false
+    positionAbsolute:
+      x: 1453.070478952089
+      'y': 618.7466149127877
+    dragging: false
+  - id: DCnl7m8OI1NlqYdCHZ5tK
+    type: llm
+    position:
+      x: 1697.070478952089
+      'y': 580.7466149127877
+    data:
+      id: DCnl7m8OI1NlqYdCHZ5tK
+      title: New Model
+      input: ''
+      slashgptManifest: docx_formatter.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_2
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1697.070478952089
+      'y': 580.7466149127877
+    dragging: false
+  - id: fySJCnX7DjkbnsXMq7uEo
+    type: python_code
+    position:
+      x: 1971.070478952089
+      'y': 628.7466149127877
+    data:
+      id: fySJCnX7DjkbnsXMq7uEo
+      title: New Code
+      module: create_docx_old.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_2
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 1971.070478952089
+      'y': 628.7466149127877
+    dragging: false
+  - id: gzPSJ-9fqWFW7TjPtMyOR
+    type: python_code
+    position:
+      x: 2253.0704789520887
+      'y': 628.7466149127877
+    data:
+      id: gzPSJ-9fqWFW7TjPtMyOR
+      title: New Code
+      module: merge_json6.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_2
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 2253.0704789520887
+      'y': 628.7466149127877
+    dragging: false
+  - id: e1iDVOP7xGpfh74vkQE17
+    type: file
+    position:
+      x: 1843.070478952089
+      'y': 294.74661491278766
+    data:
+      id: e1iDVOP7xGpfh74vkQE17
+      title: Data
+      fileName: docx_formatter_template.txt
+      flowState: *ref_2
+    width: 212
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1843.070478952089
+      'y': 294.74661491278766
+    dragging: false
+  - id: '-ok48JOEBNEj0YiGOAOzo'
+    type: file
+    position:
+      x: 1547.070478952089
+      'y': 308.74661491278766
+    data:
+      id: '-ok48JOEBNEj0YiGOAOzo'
+      title: Data
+      fileName: sec6_bullets.txt
+      flowState: *ref_2
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1547.070478952089
+      'y': 308.74661491278766
+    dragging: false
 edges:
+  - source: e1iDVOP7xGpfh74vkQE17
+    sourceHandle: b
+    target: DCnl7m8OI1NlqYdCHZ5tK
+    targetHandle: t
+    id: 4CRozR
+  - source: '-ok48JOEBNEj0YiGOAOzo'
+    sourceHandle: b
+    target: DCnl7m8OI1NlqYdCHZ5tK
+    targetHandle: t
+    id: w7YCfK
+  - source: fySJCnX7DjkbnsXMq7uEo
+    sourceHandle: r
+    target: gzPSJ-9fqWFW7TjPtMyOR
+    targetHandle: l
+    id: M-mzat
+  - source: DCnl7m8OI1NlqYdCHZ5tK
+    sourceHandle: r
+    target: fySJCnX7DjkbnsXMq7uEo
+    targetHandle: l
+    id: 5TzQIG
+  - source: AVieBF1WgulfXf3-zrHiK
+    sourceHandle: r
+    target: DCnl7m8OI1NlqYdCHZ5tK
+    targetHandle: l
+    id: DegV57
+  - source: 5QMlrPLTVB8_pJduN_y8F
+    sourceHandle: r
+    target: AVieBF1WgulfXf3-zrHiK
+    targetHandle: l
+    id: gx5LP3
   - source: 5QMlrPLTVB8_pJduN_y8F
     sourceHandle: b
     target: pCLCPgk4A4c356U_m1Y97
