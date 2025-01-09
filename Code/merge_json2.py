@@ -5,7 +5,7 @@ from tabulate import tabulate
 import json
 
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
-json_string = session.get_object('sec1_2son.txt')
+json_string = session.get_object('sec2_json.txt')
 
 document_filename = PROCESS_INPUT
 try:
