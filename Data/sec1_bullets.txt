@@ -1,79 +1,34 @@
-### San Diego County's Gross Regional Product (GRP) Report
+The Gross Regional Product (GRP) is a key economic indicator that measures the economic output of a region. For San Diego County, we will analyze the GRP data from 2019 to 2023, focusing on the total GRP, per capita GRP, and the contributions of various industries to the overall GRP.
 
-#### Overall Trends
-- **2019 to 2023**: The total GRP for San Diego County has shown a consistent upward trend.
-- **2019**: Total GRP was approximately $2,988,922,635,912.63.
-- **2020**: Total GRP slightly decreased to $2,961,220,972,406.21, likely due to the economic impact of the COVID-19 pandemic.
-- **2021**: Total GRP recovered and increased to $3,310,971,279,555.43.
-- **2022**: Total GRP further grew to $3,537,472,975,398.05.
-- **2023**: Total GRP reached $3,650,092,494,382.46, indicating a strong economic recovery.
+### Total GRP Analysis (2019-2023)
 
-#### Per Capita Analysis
-- **2019**: Per capita GRP was approximately $75,788.64.
-- **2020**: Per capita GRP decreased to $74,964.48.
-- **2021**: Per capita GRP increased to $84,586.57.
-- **2022**: Per capita GRP continued to grow to $90,636.25.
-- **2023**: Per capita GRP further increased to $93,799.67, reflecting a strong economic performance relative to population growth.
+1. **2019**: The total GRP for San Diego County was approximately $244.28 billion.
+2. **2020**: The GRP slightly increased to approximately $244.82 billion, despite the economic challenges posed by the COVID-19 pandemic.
+3. **2021**: A significant increase in GRP was observed, reaching approximately $268.87 billion, indicating economic recovery and growth.
+4. **2022**: The GRP continued to grow, reaching approximately $296.68 billion.
+5. **2023**: The GRP further increased to approximately $308.71 billion, reflecting sustained economic growth.
 
-#### Sector Contributions
-- **Government**: The largest contributor to GRP, with significant increases year-over-year.
-  - **2019**: $331,842,022,480.93
-  - **2020**: $343,208,225,694.40
-  - **2021**: $355,832,491,728.16
-  - **2022**: $368,312,198,410.99
-  - **2023**: $390,103,541,461.64
-- **Finance and Insurance**: A strong contributor with notable growth.
-  - **2019**: $195,117,949,731.75
-  - **2020**: $218,739,988,352.13
-  - **2021**: $250,042,734,817.55
-  - **2022**: $249,615,526,485.45
-  - **2023**: $245,034,793,719.87
-- **Health Care and Social Assistance**: Another significant sector with steady growth.
-  - **2019**: $206,214,884,847.99
-  - **2020**: $211,602,673,365.79
-  - **2021**: $227,309,469,023.11
-  - **2022**: $249,613,907,434.10
-  - **2023**: $249,347,484,076.92
-- **Professional, Scientific, and Technical Services**: Growing steadily, reflecting the increasing importance of tech and professional services.
-  - **2019**: $286,914,130,813.18
-  - **2020**: $293,800,684,934.18
-  - **2021**: $328,096,745,865.00
-  - **2022**: $347,384,600,742.84
-  - **2023**: $347,162,099,434.22
-- **Manufacturing**: Significant sector with substantial growth.
-  - **2019**: $320,923,564,246.75
-  - **2020**: $310,813,343,416.13
-  - **2021**: $350,322,267,491.94
-  - **2022**: $384,714,299,783.84
-  - **2023**: $380,161,470,663.68
-- **Retail Trade**: Strong growth, indicating a recovering consumer market.
-  - **2019**: $143,411,614,854.20
-  - **2020**: $144,298,814,202.90
-  - **2021**: $166,928,688,692.51
-  - **2022**: $180,384,554,468.18
-  - **2023**: $198,037,284,668.60
-- **Transportation and Warehousing**: Consistent growth, reflecting increased economic activity.
-  - **2019**: $86,631,537,825.24
-  - **2020**: $73,379,534,152.03
-  - **2021**: $90,510,310,574.90
-  - **2022**: $119,971,288,326.72
-  - **2023**: $119,971,288,326.72 (remained stable)
-- **Accommodation and Food Services**: Significant recovery post-pandemic.
-  - **2019**: $90,829,991,195.60
-  - **2020**: $71,783,056,635.79
-  - **2021**: $95,733,957,467.47
-  - **2022**: $114,002,044,145.21
-  - **2023**: $111,648,001,134.69
+### Per Capita GRP Analysis (2019-2023)
 
-#### Observations
-- **Government Sector**: The government sector has been the largest contributor to GRP, with a steady increase each year. This suggests that public spending and services are a significant driver of the local economy.
-- **Finance and Insurance**: This sector has shown strong growth, indicating a robust financial services industry in San Diego County.
-- **Health Care and Social Assistance**: The health care sector has also grown steadily, reflecting the increasing demand for health services and the aging population.
-- **Professional, Scientific, and Technical Services**: This sector's growth highlights the importance of tech and professional services in the county's economy.
-- **Manufacturing**: Despite some fluctuations, the manufacturing sector has shown substantial growth, suggesting a resilient industrial base.
-- **Retail Trade**: The retail sector's growth indicates a recovering consumer market, which is crucial for economic health.
-- **Transportation and Warehousing**: This sector's growth is consistent with increased economic activity and possibly improved logistics and supply chain management.
-- **Accommodation and Food Services**: The sector's recovery post-pandemic is notable, showing resilience and a strong rebound in consumer spending on leisure and hospitality.
+1. **2019**: The per capita GRP was approximately $73,347.
+2. **2020**: The per capita GRP increased to approximately $74,278.
+3. **2021**: A notable rise in per capita GRP to approximately $82,100.
+4. **2022**: The per capita GRP further increased to approximately $90,557.
+5. **2023**: The per capita GRP reached approximately $94,916, indicating improved economic productivity per individual.
 
-#### Conclusion
-San Diego County's GRP has shown a strong recovery and growth from 2019 to 2023, with per capita GRP increasing significantly. The government sector remains the largest contributor, but sectors like finance, health care, professional services, manufacturing, and retail have also shown substantial growth. These trends suggest a diverse and resilient economy, with key drivers in public services, financial services, health care, and tech. The recovery in the accommodation and food services sector indicates a strong rebound in consumer spending and leisure activities. Overall, San Diego County's economy appears to be on a solid growth trajectory, with implications for continued investment and job creation in these key sectors.
+### Industry Contributions to GRP (2023)
+
+1. **Government**: The largest contributor with approximately $52.92 billion.
+2. **Professional, Scientific, and Technical Services**: Contributed approximately $37.04 billion.
+3. **Manufacturing**: Added approximately $31.67 billion to the GRP.
+4. **Health Care and Social Assistance**: Contributed approximately $20.21 billion.
+5. **Finance and Insurance**: Contributed approximately $19.50 billion.
+6. **Information**: Added approximately $14.90 billion.
+7. **Real Estate and Rental and Leasing**: Contributed approximately $12.33 billion.
+8. **Retail Trade**: Added approximately $16.24 billion.
+9. **Accommodation and Food Services**: Contributed approximately $11.83 billion.
+10. **Administrative and Support and Waste Management and Remediation Services**: Contributed approximately $11.30 billion.
+
+### Summary
+
+San Diego County's GRP has shown consistent growth from 2019 to 2023, with a notable increase in both total and per capita GRP. The government sector remains the largest contributor to the GRP, followed by professional services, manufacturing, and healthcare. The data reflects a robust and diverse economy with significant contributions from various sectors, indicating a healthy economic environment in San Diego County.
