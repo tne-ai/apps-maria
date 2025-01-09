@@ -1,0 +1,32 @@
+The Business Activity report for San Diego County, based on the provided data, is as follows:
+
+### Overview of Business Activity in San Diego County
+
+1. **Number of Firms:**
+   - In 2022, San Diego County had a total of 68,078 firms.
+   - This represents an increase from 2021, where there were 65,178 firms.
+   - The year-over-year growth in the number of firms from 2021 to 2022 is calculated as follows:
+     \[
+     \text{Growth Rate} = \left(\frac{68,078 - 65,178}{65,178}\right) \times 100 \approx 4.45\%
+     \]
+
+2. **Per Capita Firms:**
+   - In 2022, the per capita number of firms in San Diego County was approximately 0.02078.
+   - This is higher than both the state average of 0.01840 and the national average of 0.01723 for the same year.
+   - In 2021, the per capita number of firms was 0.01990, which was also higher than the state average of 0.01750 and the national average of 0.01687.
+
+3. **Comparison with State and National Averages:**
+   - San Diego County consistently outperforms both the state and national averages in terms of per capita firms.
+   - The county's per capita firms have shown a steady increase from 2017 to 2022, indicating a robust business environment.
+
+4. **Employment and Population:**
+   - In 2022, the total employment in San Diego County was 1,412,457, with a population of 3,276,208.
+   - The employment figures have increased from 1,326,174 in 2021, reflecting a growing workforce in the region.
+
+5. **Trends Over the Years:**
+   - From 2017 to 2022, the number of firms in San Diego County has increased from 61,321 to 68,078.
+   - The per capita firms have also shown a positive trend, increasing from 0.01848 in 2017 to 0.02078 in 2022.
+
+### Conclusion
+
+San Diego County's business activity is on an upward trajectory, with a notable increase in the number of firms and per capita firms over the years. The county's performance surpasses both state and national averages, indicating a favorable business climate. The growth in employment further supports the positive economic outlook for the region.
