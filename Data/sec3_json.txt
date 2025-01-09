@@ -1,0 +1,34 @@
+{
+    "title": "San Diego County Talent and Workforce Report 2023",
+    "bodyText": "The Talent and Workforce report for San Diego County highlights educational attainment and skills gaps. A significant portion of the population holds a Bachelor's Degree, with potential for further educational advancement. Skills gaps are notable in managerial roles, particularly in compensation and benefits, and training and development. Addressing these gaps through targeted programs could better align workforce skills with market demands.",
+    "tableData": "| Occupation | 2023 Jobs | 2028 Jobs | Skills Gap | Median Hourly Earnings |\n|------------|-----------|-----------|------------|------------------------|\n| Compensation and Benefits Managers | 233 | 0 | 7,402 | $72.47 |\n| Training and Development Managers | 1,000 | 1,251 | 5,279 | $64.23 |\n| Compensation, Benefits, and Job Analysis Specialists | 1,095 | 543 | 5,008 | $41.55 |\n| Entertainment and Recreation Managers, Except Gambling | 1,004 | 791 | 4,531 | $33.91 |\n| Social Science Research Assistants | 521 | 1,563 | 3,434 | $22.43 |",
+    "chartData": {
+        "type": "bar",
+        "data": {
+            "labels": ["Comp & Ben Mgrs", "Train & Dev Mgrs", "Comp & Ben Spec", "Ent & Rec Mgrs", "Soc Sci Res Asst"],
+            "datasets": [{
+                "label": "Skills Gap",
+                "data": [7402, 5279, 5008, 4531, 3434],
+                "backgroundColor": "rgba(75, 192, 192, 0.2)",
+                "borderColor": "rgba(75, 192, 192, 1)",
+                "borderWidth": 1
+            }]
+        },
+        "options": {
+            "scales": {
+                "y": {
+                    "beginAtZero": true
+                }
+            },
+            "plugins": {
+                "legend": {
+                    "display": false
+                }
+            }
+        }
+    },
+    "subhead": "San Diego County's workforce is well-educated, with a significant portion holding Bachelor's and Graduate degrees. However, skills gaps exist in managerial roles, necessitating targeted training programs.",
+    "details": "The report analyzes educational attainment and skills gaps in San Diego County. Educational data shows a high percentage of individuals with Bachelor's (24.96%) and Graduate degrees (16.15%). Skills gap analysis identifies occupations with a mismatch between job openings and regional completions, highlighting managerial roles with significant gaps. Data sources include population statistics and job projections for 2023 and 2028, with median hourly earnings provided for each occupation.",
+    "recommendations": "Implement targeted training programs for managerial roles in compensation and benefits, and training and development. Encourage educational institutions to focus on emerging fields like social science research to meet future demand.",
+    "request_and_response_issues": "The report lacks specific data on the causes of skills gaps and potential barriers to education. Further analysis could provide insights into these areas to better inform policy and program development."
+}
