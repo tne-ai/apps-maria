@@ -11,7 +11,7 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -28,7 +28,7 @@ nodes:
       title: Data
       fileName: sec2-2_San Diego County_unemp_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     positionAbsolute:
@@ -45,7 +45,7 @@ nodes:
       title: Data
       fileName: sec2-3_San Diego County_unemp_peers_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -62,7 +62,7 @@ nodes:
       title: Data
       fileName: sec2-4_San Diego_job_postings_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     positionAbsolute:
@@ -85,9 +85,9 @@ nodes:
       outputToCanvas: true
       useUserQuery: false
       flowState: *ref_0
-    width: 206
+    width: 212
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 835.346028711649
       'y': 350.533778903244
@@ -123,7 +123,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
+    width: 212
     height: 250
     selected: false
     positionAbsolute:
@@ -161,8 +161,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
-    height: 250
+    width: 212
+    height: 226
     selected: false
     dragging: false
     positionAbsolute:
@@ -199,8 +199,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/4c503bb525980e32552ee27438115ac0d2df9b6d
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 193
-    height: 274
+    width: 212
+    height: 250
     selected: false
     positionAbsolute:
       x: 1332.7232525730337
@@ -216,7 +216,7 @@ nodes:
       title: Data
       fileName: sec2-6_San Diego_unemp_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -254,7 +254,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/c29a3752fb21bb48520077b1b0201afde8152b1f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 193
+    width: 212
     height: 226
     selected: false
     dragging: false
@@ -277,14 +277,56 @@ nodes:
       outputToCanvas: false
       useUserQuery: true
       flowState: *ref_2
-    width: 206
+    width: 212
     height: 490
     selected: false
     dragging: false
     positionAbsolute:
       x: 1337.4215513557428
       'y': 601.6520832018465
+  - id: ZxTAdDPzUh3eFM0c67Cfm
+    type: out
+    position:
+      x: 723.1719337643326
+      'y': 974.6359665928891
+    data:
+      id: ZxTAdDPzUh3eFM0c67Cfm
+      title: Save File
+      outputName: sec2_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 723.1719337643326
+      'y': 974.6359665928891
+    dragging: false
+  - id: hCENQ9pNyLqJhoc3QWGRu
+    type: out
+    position:
+      x: 1273.6430593835253
+      'y': 1159.8738691822045
+    data:
+      id: hCENQ9pNyLqJhoc3QWGRu
+      title: Save File
+      outputName: sec2_json.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 1273.6430593835253
+      'y': 1159.8738691822045
+    dragging: false
 edges:
+  - source: dF8DvKmUyK7Nxkdxm4Gph
+    sourceHandle: b
+    target: hCENQ9pNyLqJhoc3QWGRu
+    targetHandle: t
+    id: nnxoZ6
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: ZxTAdDPzUh3eFM0c67Cfm
+    targetHandle: t
+    id: tSL1hj
   - source: 6HRLbEep5aYPmBacd7A6H
     sourceHandle: r
     target: dF8DvKmUyK7Nxkdxm4Gph
