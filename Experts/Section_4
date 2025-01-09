@@ -159,7 +159,7 @@ nodes:
     type: llm
     position:
       x: 729.2568219196389
-      'y': 522.6704367978306
+      'y': 524.2416093489461
     data:
       id: R2Iv4XqbbOAxQY2wT5z0X
       title: New Model
@@ -168,15 +168,15 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: true
       flowState: *ref_1
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 729.2568219196389
-      'y': 522.6704367978306
+      'y': 524.2416093489461
     dragging: false
   - id: pEWmNMDhiZ6bwsl1q57ct
     type: out
@@ -303,7 +303,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1779.1953940789303
       'y': 587.5670435050811
