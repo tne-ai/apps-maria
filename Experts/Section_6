@@ -258,7 +258,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/794e70712c13d1a5b54404d460bf50b25e647913
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_6
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -275,7 +275,7 @@ nodes:
       title: Data
       fileName: sec6-3_San Diego County_firms_yoy_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -292,7 +292,7 @@ nodes:
       title: Data
       fileName: sec6-4_San Diego_firms_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 250
     selected: false
     dragging: false
@@ -309,7 +309,7 @@ nodes:
       title: Data
       fileName: sec6-5_San Diego_firms_percap_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -326,7 +326,7 @@ nodes:
       title: Data
       fileName: sec6-6_San Diego_firms_yoy_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -370,7 +370,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/476a391b772a03afe0cea23e4fa7a936d4c12441
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_6
-    width: 206
+    width: 212
     height: 490
     selected: false
     positionAbsolute:
@@ -387,14 +387,56 @@ nodes:
       title: Data
       fileName: ie_item_template.txt
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 226
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 1235.3237987322473
       'y': 271.9783751988626
+  - id: pCLCPgk4A4c356U_m1Y97
+    type: out
+    position:
+      x: 1240.5708067929702
+      'y': 1101.7466149127877
+    data:
+      id: pCLCPgk4A4c356U_m1Y97
+      title: Save File
+      outputName: sec6_json.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1240.5708067929702
+      'y': 1101.7466149127877
+    dragging: false
+  - id: YwQd93y06M82hwpkBW2N9
+    type: out
+    position:
+      x: 762.5708067929702
+      'y': 1023.7466149127877
+    data:
+      id: YwQd93y06M82hwpkBW2N9
+      title: Save File
+      outputName: sec6_bullets.txt
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 762.5708067929702
+      'y': 1023.7466149127877
+    dragging: false
 edges:
+  - source: 5QMlrPLTVB8_pJduN_y8F
+    sourceHandle: b
+    target: pCLCPgk4A4c356U_m1Y97
+    targetHandle: t
+    id: VVdC7_
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: YwQd93y06M82hwpkBW2N9
+    targetHandle: t
+    id: 5ilrUf
   - source: 6HRLbEep5aYPmBacd7A6H
     sourceHandle: r
     target: 5QMlrPLTVB8_pJduN_y8F
