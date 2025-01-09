@@ -321,7 +321,7 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 490
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 728.2447999762047
@@ -450,11 +450,11 @@ nodes:
       title: New Code
       module: merge_json7.py
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       flowState: *ref_1
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1976.746586626622
       'y': 629.9063749510883
