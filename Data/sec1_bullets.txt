@@ -6,15 +6,15 @@ The Gross Regional Product (GRP) is a key economic indicator that measures the e
 2. **2020**: The GRP slightly increased to approximately $244.82 billion, despite the economic challenges posed by the COVID-19 pandemic.
 3. **2021**: The GRP saw a significant increase to approximately $268.87 billion, indicating a strong economic recovery.
 4. **2022**: The GRP continued to grow, reaching approximately $296.68 billion.
-5. **2023**: The GRP further increased to approximately $308.71 billion, reflecting sustained economic growth.
+5. **2023**: The GRP further increased to approximately $308.71 billion, reflecting continued economic expansion.
 
-### Per Capita GRP Analysis
+### Per Capita GRP Analysis (2019-2023)
 
 1. **2019**: The per capita GRP was approximately $73,347.
 2. **2020**: The per capita GRP increased to approximately $74,278.
 3. **2021**: The per capita GRP rose significantly to approximately $82,100.
 4. **2022**: The per capita GRP further increased to approximately $90,557.
-5. **2023**: The per capita GRP reached approximately $94,916.
+5. **2023**: The per capita GRP reached approximately $94,916, indicating a consistent rise in economic productivity per person.
 
 ### Industry Contributions to GRP (2023)
 
@@ -31,4 +31,4 @@ The Gross Regional Product (GRP) is a key economic indicator that measures the e
 
 ### Summary
 
-San Diego County's economy has shown resilience and growth from 2019 to 2023, with a steady increase in both total and per capita GRP. The government sector remains the largest contributor to the GRP, followed by professional services, manufacturing, and health care. The data indicates a diversified economy with significant contributions from various sectors, supporting sustained economic growth in the region.
+San Diego County's economy has shown resilience and growth from 2019 to 2023, with a steady increase in both total and per capita GRP. The government sector remains the largest contributor to the GRP, followed by professional services, manufacturing, and health care. The consistent rise in per capita GRP suggests improvements in productivity and economic well-being for the residents of San Diego County.
