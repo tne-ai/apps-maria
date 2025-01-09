@@ -24,11 +24,8 @@ prompt: |-
   However, if the request specifies a the count of items, show all those rows. For example, to respond to 'Show me the 20 top-selling style-colors in June, show data for all the 20 style-colors
 
   # *Chart data* 
-  You MUST NOT generate a chart that will result in a bar graph with a single line. For example, if the table data that you receive is just a single value, you MUST leave the chartData field of the item template blank. 
-  Ensure you generate valid rgba values, according to the following:
-  ```
-  supported inputs are (r, g, b) and (r, g, b, a) 0-1 float tuples; '#rrggbb', '#rrggbbaa', '#rgb', '#rgba' strings; named color strings; string reprs of 0-1 floats for grayscale values; 'C0', 'C1', ... strings for colors of the color cycle; and pairs combining one of the above with an alpha value
-  ```
+  You MUST NOT generate a chart that will result in a bar graph with a single line. For example, if the table data that you receive is just a single value, you MUST leave the chartData field of the item template blank. When creating x axis labels, ensure each label is short enough where the labels will not overlap when rendering the graph.
+
   # *Things you must keep in mind*
   - The JSON dictionary with those elements should be your only response.
   - Work step by step.
