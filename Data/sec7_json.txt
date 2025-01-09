@@ -1,7 +1,7 @@
 {
     "title": "San Diego Industry Clusters Report 2019-2023",
-    "bodyText": "The report analyzes industry clusters in San Diego and San Diego County from 2019 to 2023, focusing on job changes, percentage changes, and location quotients (LQ). Key findings include a modest job increase in the Information sector in San Diego, a decline in jobs in the Arts, Entertainment, and Recreation sector in both regions, and significant job growth in Transportation and Warehousing in San Diego County. The Government sector in San Diego County saw a small job increase with stable LQ.",
-    "tableData": "| Industry | 2019 Jobs | 2023 Jobs | Change in Jobs | Percentage Change | 2019 LQ | 2023 LQ | LQ Change |\n|----------|-----------|-----------|----------------|-------------------|---------|---------|-----------|\n| Information (NAICS 51) | 30,385 | 31,146 | 761 | 2.5% | 0.9 | 0.8 | -0.1 |\n| Arts, Entertainment, and Recreation (NAICS 71) | 56,872 | 53,662 | -3,210 | -5.6% | 1.2 | 1.2 | 0.0 |\n| Accommodation and Food Services (NAICS 72) | 183,576 | 182,210 | -1,366 | -0.7% | 1.2 | 1.1 | -0.1 |\n| Transportation and Warehousing (NAICS 48) | 63,862 | 76,523 | 12,661 | 19.8% | 0.5 | 0.5 | 0.0 |\n| Government (NAICS 90) | 335,797 | 340,217 | 4,420 | 1.3% | 1.3 | 1.3 | 0.0 |",
+    "bodyText": "The report analyzes industry clusters in San Diego and San Diego County from 2019 to 2023, focusing on job changes, percentage changes, and location quotients. Key findings include a modest job increase in the Information sector in San Diego, a decline in jobs in the Arts, Entertainment, and Recreation sector in both regions, and significant job growth in Transportation and Warehousing in San Diego County. The Government sector in San Diego County saw a small job increase with stable location quotients.",
+    "tableData": "Industry | 2019 Jobs | 2023 Jobs | Change in Jobs | Percentage Change | 2019 Location Quotient | 2023 Location Quotient | Change in Location Quotient\n--- | --- | --- | --- | --- | --- | --- | ---\nInformation (NAICS 51) | 30,385 | 31,146 | 761 | 2.5% | 0.9 | 0.8 | -0.1\nArts, Entertainment, and Recreation (NAICS 71) | 56,872 | 53,662 | -3,210 | -5.6% | 1.2 | 1.2 | 0.0\nAccommodation and Food Services (NAICS 72) | 183,576 | 182,210 | -1,366 | -0.7% | 1.2 | 1.1 | -0.1\nTransportation and Warehousing (NAICS 48) | 63,862 | 76,523 | 12,661 | 19.8% | 0.5 | 0.5 | 0.0\nGovernment (NAICS 90) | 335,797 | 340,217 | 4,420 | 1.3% | 1.3 | 1.3 | 0.0",
     "chartData": {
         "type": "bar",
         "data": {
@@ -33,8 +33,8 @@
             }
         }
     },
-    "subhead": "San Diego's industry clusters from 2019 to 2023 show varied job changes and stable location quotients, with notable growth in Transportation and Warehousing.",
-    "details": "The analysis uses job data from 2019 and 2023 for San Diego and San Diego County industries. Calculations include job changes, percentage changes, and location quotient (LQ) changes. For example, the Information sector in San Diego had a job increase of 761, a 2.5% rise, and an LQ decrease of 0.1. The Transportation and Warehousing sector in San Diego County saw a 19.8% job increase with a stable LQ.",
-    "recommendations": "Consider strategies to support declining sectors like Arts, Entertainment, and Recreation. Leverage growth in Transportation and Warehousing to boost economic development.",
-    "request_and_response_issues": "The data does not specify the reasons behind job changes or LQ variations, limiting the ability to provide deeper insights into industry dynamics."
+    "subhead": "San Diego's industry clusters from 2019 to 2023 show varied job changes, with notable growth in Transportation and Warehousing and declines in Arts and Accommodation sectors.",
+    "details": "The analysis uses job data from 2019 and 2023 for San Diego and San Diego County, focusing on changes in job numbers, percentage changes, and location quotients. Calculations include job change (2023 jobs - 2019 jobs), percentage change ((job change / 2019 jobs) * 100), and change in location quotient (2023 location quotient - 2019 location quotient).",
+    "recommendations": "Consider strategies to support declining sectors like Arts and Accommodation, and leverage growth in Transportation and Warehousing for economic development.",
+    "request_and_response_issues": "The data provided is limited to a few industries and does not cover all sectors comprehensively. Further data may be needed for a complete industry analysis."
 }
