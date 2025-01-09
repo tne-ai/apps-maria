@@ -1,0 +1,36 @@
+{
+    "title": "San Diego Industry Impact: Earnings and Jobs Analysis",
+    "bodyText": "The Industry Impact report for San Diego, CA, analyzes mean earnings and job data across various industries. Key findings show that the Utilities industry leads in mean earnings per worker at $211,444.85, while Professional, Scientific, and Technical Services have the highest number of jobs at 158,554. Other notable industries include Health Care, Accommodation, and Government, indicating a robust economic environment with strong growth potential.",
+    "tableData": "| Industry                                    | Mean Earnings | Growth Rate | Number of Jobs |\n|---------------------------------------------|---------------|-------------|----------------|\n| Utilities                                   | $211,444.85   | 140.15%     | N/A            |\n| Professional, Scientific, and Technical     | $135,544.26   | 117.19%     | 158,554        |\n| Management of Companies and Enterprises     | $148,422.67   | 101.97%     | N/A            |\n| Information                                 | $139,498.45   | 76.34%      | N/A            |\n| Manufacturing                               | $125,586.41   | 117.45%     | N/A            |\n| Health Care and Social Assistance           | N/A           | N/A         | 127,749        |\n| Accommodation and Food Services             | N/A           | N/A         | 91,600         |\n| Retail Trade                                | N/A           | N/A         | 74,674         |\n| Government                                  | N/A           | N/A         | 156,140        |",
+    "chartData": {
+        "type": "bar",
+        "data": {
+            "labels": ["Utilities", "Prof. Services", "Management", "Information", "Manufacturing"],
+            "datasets": [
+                {
+                    "label": "Mean Earnings",
+                    "data": [211444.85, 135544.26, 148422.67, 139498.45, 125586.41],
+                    "backgroundColor": "rgba(75, 192, 192, 0.2)",
+                    "borderColor": "rgba(75, 192, 192, 1)",
+                    "borderWidth": 1
+                }
+            ]
+        },
+        "options": {
+            "scales": {
+                "y": {
+                    "beginAtZero": true
+                }
+            },
+            "plugins": {
+                "legend": {
+                    "display": false
+                }
+            }
+        }
+    },
+    "subhead": "San Diego's economy shows high earnings in Utilities and strong job numbers in Professional Services, Healthcare, and Government, indicating robust growth potential.",
+    "details": "The analysis used data from `sec8-4_San Diego_mean_earn_data.csv` for mean earnings and `sec8-3_San Diego_jobs_ind_data.csv` for job numbers. Mean earnings were highest in Utilities at $211,444.85 with a 140.15% growth rate. Professional Services had the most jobs at 158,554. Calculations involved direct extraction of mean earnings and job counts from the datasets.",
+    "recommendations": "Consider investing in industries with high growth rates and earnings potential, such as Utilities and Professional Services. Explore opportunities in sectors with significant job numbers like Healthcare and Government.",
+    "request_and_response_issues": "The request did not specify the time period for the data analysis, which could affect the interpretation of growth rates and job numbers. Additionally, some industries lacked complete data for both earnings and job numbers, limiting comprehensive analysis."
+}
