@@ -1,7 +1,6 @@
 {'document_filename': '<a relevant filename for the document, with a .docx file extension>', 
  'doc_title': '<a relevant title for the document>',
  'header_text': '<a relevant header for the document>',
- 'footer_text': '<a relevant footer for the document>',
  'sections': [<a list of document body sections. A document body section should be a json of this exact form: 
   {
     'content': '<the content of the section. This will either be raw text, chart data, or table data>',
