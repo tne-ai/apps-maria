@@ -1,0 +1,39 @@
+json
+{
+    "title": "San Diego Industry Clusters Report Summary",
+    "bodyText": "The report analyzes industry clusters in San Diego and San Diego County, focusing on job changes, percentage changes, and location quotients from 2019 to 2023. Key findings include modest job growth in the Information industry in San Diego, a decline in the Arts, Entertainment, and Recreation industry, and significant growth in the Transportation and Warehousing industry in San Diego County. Location quotients remained relatively stable across most industries, indicating consistent industry concentrations compared to national averages.",
+    "tableData": "| Industry | 2019 Jobs | 2023 Jobs | 2019-2023 Change | 2019-2023 % Change | 2019 LQ | 2023 LQ | 2019-2023 LQ Change |\n|----------|-----------|-----------|------------------|--------------------|---------|---------|---------------------|\n| Information (NAICS 51) | 30,385 | 31,146 | 761 | 2.5% | 0.9 | 0.8 | -0.1 |\n| Arts, Entertainment, and Recreation (NAICS 71) | 56,872 | 53,662 | -3,210 | -5.6% | 1.2 | 1.2 | -0.1 |\n| Accommodation and Food Services (NAICS 72) | 183,576 | 182,210 | -1,366 | -0.7% | 1.2 | 1.1 | -0.0 |\n| Transportation and Warehousing (NAICS 48) | 63,862 | 76,523 | 12,661 | 19.8% | 0.5 | 0.5 | -0.0 |\n| Government (NAICS 90) | 335,797 | 340,217 | 4,420 | 1.3% | 1.3 | 1.3 | 0.0 |",
+    "chartData": {
+        "type": "bar",
+        "data": {
+            "labels": ["Info", "Arts", "Accom", "Transp", "Gov"],
+            "datasets": [{
+                "label": "2019-2023 % Change",
+                "data": [2.5, -5.6, -0.7, 19.8, 1.3],
+                "backgroundColor": "rgba(75, 192, 192, 0.2)",
+                "borderColor": "rgba(75, 192, 192, 1)",
+                "borderWidth": 1
+            }]
+        },
+        "options": {
+            "scales": {
+                "y": {
+                    "beginAtZero": true
+                }
+            },
+            "plugins": {
+                "legend": {
+                    "display": false
+                }
+            },
+            "title": {
+                "display": true,
+                "text": "Job Percentage Change 2019-2023"
+            }
+        }
+    },
+    "subhead": "San Diego's industry clusters show varied job changes from 2019 to 2023, with notable growth in Transportation and Warehousing and declines in Arts and Recreation.",
+    "details": "The analysis uses data from San Diego and San Diego County, focusing on job numbers, percentage changes, and location quotients (LQ) for industries. The Information industry in San Diego saw a 2.5% job increase, while Arts, Entertainment, and Recreation declined by 5.6%. Transportation and Warehousing in the county grew by 19.8%. Location quotients indicate industry concentration relative to national averages, with most industries showing stable LQs.",
+    "recommendations": "Consider strategies to support declining industries like Arts and Recreation. Leverage growth in Transportation and Warehousing to boost economic development.",
+    "request_and_response_issues": "The data provided is limited to a few industries and does not cover all sectors comprehensively. Further analysis could include more industries for a complete overview."
+}
