@@ -1,0 +1,28 @@
+The Capital section of the Economic Scan Report focuses on analyzing interest rates and inflation rates at the national level. The data provided includes 30-Year, 10-Year, and 1-Year interest rates, as well as the inflation rate, from November 2023 to October 2024.
+
+### Interest Rates Analysis:
+
+1. **30-Year Interest Rate:**
+   - The 30-Year interest rate fluctuated between 4.04% and 4.66% over the period.
+   - The highest rate was recorded in April 2024 at 4.66%, while the lowest was in September 2024 at 4.04%.
+   - The rate showed a general trend of slight fluctuations without a clear upward or downward trajectory.
+
+2. **10-Year Interest Rate:**
+   - The 10-Year interest rate ranged from 3.72% to 4.54%.
+   - The peak was in April 2024 at 4.54%, and the lowest was in September 2024 at 3.72%.
+   - Similar to the 30-Year rate, the 10-Year rate exhibited fluctuations but remained relatively stable.
+
+3. **1-Year Interest Rate:**
+   - The 1-Year interest rate varied more significantly, ranging from 4.03% to 5.28%.
+   - The highest rate was observed in November 2023 at 5.28%, and the lowest in September 2024 at 4.03%.
+   - The 1-Year rate showed a decreasing trend from its peak in November 2023 to September 2024.
+
+### Inflation Rate Analysis:
+
+- The inflation rate decreased from 3.47% in November 2023 to 2.65% in September 2024.
+- The highest inflation rate during this period was 3.47% in November 2023, and the lowest was 2.65% in September 2024.
+- The data indicates a general downward trend in inflation over the period.
+
+### Summary:
+
+Overall, the interest rates for different durations showed fluctuations with no significant long-term trend, while the inflation rate demonstrated a clear downward trend over the analyzed period. This suggests a potential easing of inflationary pressures, which could influence future monetary policy decisions.
