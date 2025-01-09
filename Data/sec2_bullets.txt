@@ -1,0 +1,40 @@
+The Jobs Report for San Diego County, CA, focuses on two main areas: Unemployment and Industry Job Postings. Let's break down each section based on the provided data.
+
+### Unemployment
+
+#### San Diego County Unemployment Rate (2023-2024)
+- **September 2024**: 4.55%
+- **August 2024**: 5.05%
+- **July 2024**: 4.91%
+- **June 2024**: 4.48%
+- **May 2024**: 3.65%
+- **April 2024**: 4.13%
+- **March 2024**: 4.43%
+- **February 2024**: 4.77%
+- **January 2024**: 4.75%
+- **December 2023**: 4.28%
+- **November 2023**: 4.23%
+- **October 2023**: 4.17%
+
+The unemployment rate in San Diego County has shown fluctuations over the past year, with a peak in August 2024 at 5.05% and a low in May 2024 at 3.65%. The rate has generally been higher in 2024 compared to the end of 2023.
+
+#### Comparison with Peers
+- **Maricopa County, AZ**: September 2024 unemployment rate at 3.36%
+- **Miami-Dade County, FL**: September 2024 unemployment rate at 2.05%
+- **Wayne County, MI**: September 2024 unemployment rate at 5.18%
+
+San Diego County's unemployment rate in September 2024 (4.55%) is higher than Maricopa County and Miami-Dade County but slightly lower than Wayne County.
+
+### Industry Job Postings
+
+#### San Diego County Job Postings (2023-2024)
+- **Health Care and Social Assistance**: 52,862 unique postings, -24.16% change from previous year
+- **Admin/Support/Waste Mgmt and Remediation Svcs**: 50,026 unique postings, -34.86% change
+- **Professional, Scientific, and Technical Services**: 44,158 unique postings, -25.67% change
+- **Manufacturing**: 30,688 unique postings, -29.44% change
+- **Retail Trade**: 30,326 unique postings, -20.51% change
+
+The job postings in San Diego County have generally decreased across various industries compared to the previous year. The largest decline is seen in the Finance and Insurance sector with a -33.64% change, while the smallest decline is in Agriculture, Forestry, Fishing, and Hunting with a -3.98% change.
+
+### Summary
+San Diego County has experienced a fluctuating unemployment rate over the past year, with a noticeable increase in 2024 compared to late 2023. The county's unemployment rate is higher than some peer counties but lower than others. Job postings have decreased across most industries, indicating a potential slowdown in hiring or a shift in labor market dynamics. The Health Care and Social Assistance sector remains the largest in terms of job postings, despite a significant year-over-year decline.
